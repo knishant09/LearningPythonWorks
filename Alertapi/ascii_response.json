@@ -1,0 +1,415 @@
+{
+    "created": [
+        {
+            "name": "0",
+            "id": 377
+        },
+        {
+            "name": "1",
+            "id": 378
+        },
+        {
+            "name": "2",
+            "id": 379
+        },
+        {
+            "name": "3",
+            "id": 380
+        },
+        {
+            "name": "4",
+            "id": 381
+        },
+        {
+            "name": "5",
+            "id": 382
+        },
+        {
+            "name": "6",
+            "id": 383
+        },
+        {
+            "name": "7",
+            "id": 384
+        },
+        {
+            "name": "8",
+            "id": 385
+        },
+        {
+            "name": "9",
+            "id": 386
+        },
+        {
+            "name": "A",
+            "id": 387
+        },
+        {
+            "name": "B",
+            "id": 388
+        },
+        {
+            "name": "C",
+            "id": 389
+        },
+        {
+            "name": "D",
+            "id": 390
+        },
+        {
+            "name": "E",
+            "id": 391
+        },
+        {
+            "name": "F",
+            "id": 392
+        },
+        {
+            "name": "G",
+            "id": 393
+        },
+        {
+            "name": "H",
+            "id": 394
+        },
+        {
+            "name": "I",
+            "id": 395
+        },
+        {
+            "name": "J",
+            "id": 396
+        },
+        {
+            "name": "K",
+            "id": 397
+        },
+        {
+            "name": "L",
+            "id": 398
+        },
+        {
+            "name": "M",
+            "id": 399
+        },
+        {
+            "name": "N",
+            "id": 400
+        },
+        {
+            "name": "O",
+            "id": 401
+        },
+        {
+            "name": "P",
+            "id": 402
+        },
+        {
+            "name": "Q",
+            "id": 403
+        },
+        {
+            "name": "R",
+            "id": 404
+        },
+        {
+            "name": "S",
+            "id": 405
+        },
+        {
+            "name": "T",
+            "id": 406
+        },
+        {
+            "name": "U",
+            "id": 407
+        },
+        {
+            "name": "V",
+            "id": 408
+        },
+        {
+            "name": "W",
+            "id": 409
+        },
+        {
+            "name": "X",
+            "id": 410
+        },
+        {
+            "name": "Y",
+            "id": 411
+        },
+        {
+            "name": "Z",
+            "id": 412
+        },
+        {
+            "name": "[",
+            "id": 413
+        },
+        {
+            "name": "\\",
+            "id": 414
+        },
+        {
+            "name": "]",
+            "id": 415
+        },
+        {
+            "name": "`",
+            "id": 416
+        },
+        {
+            "name": "a",
+            "id": 417
+        },
+        {
+            "name": "b",
+            "id": 418
+        },
+        {
+            "name": "c",
+            "id": 419
+        },
+        {
+            "name": "d",
+            "id": 420
+        },
+        {
+            "name": "e",
+            "id": 421
+        },
+        {
+            "name": "f",
+            "id": 422
+        },
+        {
+            "name": "g",
+            "id": 423
+        },
+        {
+            "name": "h",
+            "id": 424
+        },
+        {
+            "name": "i",
+            "id": 425
+        },
+        {
+            "name": "j",
+            "id": 426
+        },
+        {
+            "name": "k",
+            "id": 427
+        },
+        {
+            "name": "l",
+            "id": 428
+        },
+        {
+            "name": "m",
+            "id": 429
+        },
+        {
+            "name": "n",
+            "id": 430
+        },
+        {
+            "name": "o",
+            "id": 431
+        },
+        {
+            "name": "p",
+            "id": 432
+        },
+        {
+            "name": "q",
+            "id": 433
+        },
+        {
+            "name": "r",
+            "id": 434
+        },
+        {
+            "name": "s",
+            "id": 435
+        },
+        {
+            "name": "t",
+            "id": 436
+        },
+        {
+            "name": "u",
+            "id": 437
+        },
+        {
+            "name": "v",
+            "id": 438
+        },
+        {
+            "name": "w",
+            "id": 439
+        },
+        {
+            "name": "x",
+            "id": 440
+        },
+        {
+            "name": "y",
+            "id": 441
+        },
+        {
+            "name": "z",
+            "id": 442
+        }
+    ],
+    "failed": [
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "@"
+        },
+        {
+            "reason": "Alert definition with name:[^] already exists.",
+            "code": "A1020016",
+            "name": "^"
+        },
+        {
+            "reason": "Alert definition with name:[_] already exists.",
+            "code": "A1020016",
+            "name": "_"
+        },
+        {
+            "reason": "Alert definition with name:[ ] already exists.",
+            "code": "A1020016",
+            "name": " "
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "!"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "\""
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "#"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "$"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "%"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "&"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "'"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "("
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": ")"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "*"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "+"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": ","
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "-"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "."
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "/"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": ":"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": ";"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "{"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "<"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "|"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "="
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "}"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": ">"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "~"
+        },
+        {
+            "reason": "Invalid {name} specified.",
+            "code": "A1020006",
+            "name": "?"
+        }
+    ]
+}

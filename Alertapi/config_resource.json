@@ -1,0 +1,1752 @@
+[
+    {
+        "HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidStorageModel": "nameAlias,name"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidStorage": "nameAlias,name,svpIP,modelName,vendorName,svpMicroVersion,cacheSizeMB,noOfPg,noOfLdev,numberOfPhyLdevs,totalPhyCapacity,totalFreePhyCapacity,allocatedPhyCapacity,unAllocatedPhyCapacity,poolVolPhyCapacity,numberOfPools,numberOfVvols,totalVirtualCapacity,totalAllocatedVirtualCapacity,totalUnAllocatedVirtualCapacity,numberOfPoolVols,serialNumber,arrayType,description,productName,agentVersion,productCode,lastRefreshed,lastConfigurationChanged,hardwareRevision,controllerVersion,numberOfControllers,openTotalCapacity,openAllocatedCapacity,openFreeCapacity,mfTotalCapacity,mfHiHsmCapacity,mfOnDemandCapacity,mfAllocatedCapacity,mfUnallocatedCapacity,hihsmCapacityInGB,hihsmCapacityInKB,openHiHsmCapacity,onDemandCapacityInGB,openOnDemandCapacity,openAllocatedActualCapacity,openUnallocatedCapacity,openUnallocatedActualCapacity,openReservedCapacity,openReservedCapacityGB,openReservedActualCapacity,largestFreeSpaceInGB,sharedMemoryInMB,numberOfSpareDrives,multipathSupport,numberOfAllocatedLUs,numberOfUnallocatedLUs,slprStatus,imTotalCapacity,imAllocatedCapacity,imFreeCapacity,imHiHsmCapacity,imOnDemandCapacity,numberOfOpenAllocatedLUs,numberOfOpenUnallocatedLUs,numberOfImAllocatedLUs,numberOfImUnallocatedLUs,numberOfMfLDEVs,numberOfAllocatedMfLDEVs,numberOfUnallocatedMfLDEVs,numberOfReservedLUs,numberOfOpenReservedLUs,numberOfImReservedLUs,capacityInGB,freeCapacityInGB,allocatedCapacityInGB,physicalCapacityInTB,totalFreeSpaceInGB,aggLdevCapacityInGB,aggLdevUsedCapacityInGB,aggPGFreeSpaceInGB,aggPGLargestFreeSpaceInGB,aggPGSizeInGB,unAllocatedCapacityInGB,otherCapacityGB,dkcModel,totalEfficiencyRatio,dataReductionRatio,softwareSavingRatio,softwareCompressionRatio,softwareDeduplicationRatio,softwarePatternMatchingRatio,fmdSavingRatio,fmdCompressionRatio,fmdPatternMatchingRatio,provisioningEfficiency,snapshotEfficiencyRatio,calculationStartTime,calculationEndTime"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidHG": "nameAlias,name,hgID,hgName,hostMode,hostModeOption"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidPort": "nameAlias,name,portType,type,attribute,speedInGB,loopId,fabricMode,topology,lunSecurity,slpr,wwn,phyPort"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidPortWWN": "nameAlias,name,hgId,hgName"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidPool": "nameAlias,name,poolStatus,usageRate,noOfVolumes,noOfVVols,currentSubscriptionPercent,numberOfPoolVolumes,numOfLdev,thresholdRate,poolTierCount,poolFunction,poolID,poolType,diskType,provisioningRatio,subscribedCapacity,raidLevel,numberOfTiers,rpm,clprNumber,totalCapacityInGB,availableCapacityInGB,usedCapacityInGB,usedCapacityInPercent,freeCapacityInPercent,poolCapacityExpansionRate,fmcPoolCapacitySaving,fmcPoolCapacitySavingRate,dataSaving,emulationType,userDataCapacity,poolSavingRatio,savingCapacity,dkcSavingCapacityInGB,dkcSavingRatio,dkcCompressionRatio,dkcDedupRatio,dkcCompressionCapacity,dkcDedupCapacity,dkcReclaimCapacity,dkcSystemCapacity,dkcPreProcCapacity,fmcCompressionRatio,fmcCompressionCapacity,fmcReclaimCapacity,fmcPhysicalCapacity,fmcUsedPhysicalCapacity,fmcLogicalCapacity,fmcUsedLogicalCapacity,warningThresholdRate,reservedCapacityInGB,autoExpansion,poolName,totalEfficiencyRatio,dataReductionRatio,softwareSavingRatio,softwareCompressionRatio,softwareDeduplicationRatio,softwarePatternMatchingRatio,fmdSavingRatio,fmdCompressionRatio,fmdPatternMatchingRatio,provisioningEfficiency,snapshotEfficiencyRatio,calculationStartTime,calculationEndTime"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidPoolTier": "nameAlias,name,tierType,fmcPhysicalTotalCapacity,fmcPhysicalUsedCapacity,fmcPoolTotalCapacity,fmcPoolUsedCapacity,fmcPoolCapacityUsageRate,fmcPoolCapacitySaving,fmcPoolCapacitySavingRate,fmcCapacityExpansionRate,fmcPoolFreeCapacity,displayDriveType"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidPG": "nameAlias,name,typeOfPG,numberOfLdevs,usageRate,availableCapacityGB,unAllocatedVolume,raidLevel,raidType,slpr,clpr,driveType,controllerID,chassis,substance,allocatedCapacity,hiHsmCapacity,onDemandCapacity,totalFreeSpace,largestFreeSpace,emulation,cuGroupNumber,openTotalCapacity,openAllocatedCapacity,openFreeCapacity,openHiHsmCapacity,openOnDemandCapacity,openAllocatedActualCapacity,openUnallocatedCapacity,openUnallocatedActualCapacity,openReservedCapacity,openReservedActualCapacity,imTotalCapacity,imAllocatedCapacity,imFreeCapacity,imHiHsmCapacity,imOnDemandCapacity,mfTotalCapacity,mfHiHsmCapacity,mfOnDemandCapacity,mfAllocatedCapacity,mfUnallocatedCapacity,volumeType,encrypted,protectionLevel,dpPoolID,formFactor,clprNumber,diskType,slprNumber,freeCapacityInGB,type,pgType,checkCapacityGB,emulationType,totalCapacityInGB,physicalCapacity,totalFreeSpaceInGB,largestFreeSpaceInGB,driveStatus,usedSpareDriveCount,usedEndurance,fmdBatteryLife,driveModel,isConcatenated,displayDriveType"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidClpr": "nameAlias,name,clprName,cacheMemoryCapacity,cacheMemoryUsedCapacity,writePendingDataCapacity,sidefileCapacity,usageRate,writePendingDataRate,sidefileUsageRate,cacheSizeMB"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidMP": "nameAlias,name,processorId"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidMpbClpr": "nameAlias,name"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidMPB": "nameAlias,name,mpbId,autoAssignment"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidLU": "nameAlias,name,hostMode,portName,hgID,lunId,num,ldev,cm,hostModeOption,hgName"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidLdev": "nameAlias,name,parityGroup,volumeType,ldevCapacityGB,ports,definedAlternatePaths,parentPoolId,associatedPoolId,volumeAttribute,externalVolId,ldevNaming,operatingRate,raidLevel,raidType,driveModel,driveCapacity,usedCapacityGB,mpb,ssid,tierAllocLevel,tierLevel,tierRelocation,driveCount,path,slpr,clpr,luUsedBlocks,sizeInKB,cylinders,lba,slotSizeInKB,isComposite,arrayGroup,chassis,devType,substance,onDemandDevice,isStandardLDEV,guardMode,diskType,hihsmReserved,hihsmOwnerID,cuGroupNumber,cacheResidencyMode,stripeSizeInKB,volumeKind,status,dpType,consumedSizeInKB,consumedSizeInGB,mfTrueCopyVolType,mfShadowImageVolType,mfUniversalReplicatorVolType,mfUrPoolID,dpPoolID,systemDisk,expandedInfoOnEmulation,encrypted,quorumDisk,dpTier0ConsumedCapacityInKB,dpTier1ConsumedCapacityInKB,dpTier2ConsumedCapacityInKB,externalTierRank,emulation,hRaidType,devNum,threshold,resourcePartitionUnitID,isExternal,ldevProperties,dataSaving,virtualSerialNumber,virtualDkcName,virtualLdevNumber,migrationStatus,migrationProgress,copyProperties,jnlId,headLdev,poolFreeCapacityRate,dedupMode,ldevProperty,dedupStore"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidLdevTier": "nameAlias,name,tierType,displayDriveType"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidOwner": "nameAlias,name,noOfLdev"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidPair": "nameAlias,name,copyType,pVol,pSerial,sVol,sSerial,volStatus,emulationType,copyPace,ctGroupId,jnlId,copyMode,fence,pMun,pPortId,pTargetId,pLun,sPortId,sTargetId,sLun,sMun,pvolArrayType,pvolPoolID,pvolMngAreaPoolID,svolArrayType,svolPoolID,svolMngAreaPoolID,replicationFunction,replicationSubFunction,copyTrackSize,splitTime,pvolDevNum,status,pDkcModel,sDkcModel"
+        }
+    },
+    {
+        "SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage": {
+            "raidPdev": "nameAlias,objectID,arrayGroup,model,capacityInKB,diskSize,row,column,depth,chassis,role,vendor,firmwareVersion,rpm,serialNumber,dkuType,diskType,denseNumber,densePosition,diskModelSize,encrypted,formFactor"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidChaEsw": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidCha": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidCHP": "nameAlias,name,processorId"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage": {
+            "raidDKA": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidDKP": "nameAlias,name,processorId"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidDkaEsw": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidMpbEsw": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidCacheEsw": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidEsw": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidMb": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage": {
+            "raidPortGroup": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage": {
+            "raidPortController": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage": {
+            "raidLdevHba": "nameAlias,name,wwn,upper,controlMode,priorityMode"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage": {
+            "raidPortHba": "nameAlias,name,wwn,portNumber,upper,spmName,controlMode,threshold,priorityMode,spmGroup"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidURJnl": "nameAlias,name"
+        }
+    },
+    {
+        "HitachiEnterpriseStorage|HPEnterpriseStorage": {
+            "raidAgentInstance": "nameAlias,name,protocol,raHost,portNumber,hostName,instanceName"
+        }
+    },
+    {
+        "AMS": {
+            "dfStorageModel": "nameAlias,name"
+        }
+    },
+    {
+        "AMS": {
+            "dfLU": "nameAlias,name,availableCapacityGB,usedCapacityGB,totalCapacityGB,LuCategory,LUType,raidLevel,status,currentCTL,defaultCTL,sizeInKB,cylinders,lba,slotSizeInKB,isComposite,arrayGroup,chassis,devType,volumeType,substance,path,onDemandDevice,isStandardLDEV,guardMode,diskType,hihsmReserved,hihsmOwnerID,slprNumber,cuGroupNumber,clprNumber,cacheResidencyMode,stripeSizeInKB,volumeKind,dpType,consumedSizeInKB,mfTrueCopyVolType,mfShadowImageVolType,mfUniversalReplicatorVolType,mfUrPoolID,dpPoolID,systemDisk,expandedInfoOnEmulation,encrypted,quorumDisk,dpTier0ConsumedCapacityInKB,dpTier1ConsumedCapacityInKB,dpTier2ConsumedCapacityInKB,tierLevel,tierRelocation,externalTierRank,emulation,hRaidType"
+        }
+    },
+    {
+        "AMS": {
+            "dfLun": "nameAlias,name,hlun"
+        }
+    },
+    {
+        "AMS": {
+            "dfOwner": "nameAlias,name,numberOfLU"
+        }
+    },
+    {
+        "AMS": {
+            "dfStorage": "nameAlias,name,vendor,modelName,numberOfLU,microProgramRevision,totalLuCapacityInGB,totalDriveCapacityInGB,serialNumber,arrayType,description,productName,agentVersion,allocatedCapacityInGB,productCode,lastRefreshed,lastConfigurationChanged,hardwareRevision,controllerVersion,numberOfControllers,totalFreePhyCapacity,cacheSizeMB,freeCapacityInKB,openTotalCapacity,openAllocatedCapacity,openFreeCapacity,mfTotalCapacity,mfHiHsmCapacity,mfOnDemandCapacity,mfAllocatedCapacity,mfUnallocatedCapacity,onDemandCapacityInGB,openOnDemandCapacity,openAllocatedActualCapacity,openUnallocatedCapacity,openUnallocatedActualCapacity,openReservedCapacity,openReservedCapacityGB,openReservedActualCapacity,largestFreeSpaceInGB,sharedMemoryInMB,numberOfSpareDrives,multipathSupport,numberOfAllocatedLUs,numberOfUnallocatedLUs,slprStatus,imTotalCapacity,imAllocatedCapacity,imFreeCapacity,imHiHsmCapacity,imOnDemandCapacity,numberOfOpenAllocatedLUs,numberOfOpenUnallocatedLUs,numberOfImAllocatedLUs,numberOfImUnallocatedLUs,numberOfMfLDEVs,numberOfAllocatedMfLDEVs,numberOfUnallocatedMfLDEVs,numberOfReservedLUs,numberOfOpenReservedLUs,numberOfImReservedLUs,capacityInGB,totalFreeSpaceInGB,unAllocatedCapacityInGB,otherCapacityGB"
+        }
+    },
+    {
+        "AMS": {
+            "dfHG": "nameAlias,name,HGName,HGNumber"
+        }
+    },
+    {
+        "AMS": {
+            "dfWWN": "nameAlias,name,PortWWN,Wname"
+        }
+    },
+    {
+        "AMS": {
+            "dfPort": "nameAlias,name,portName,nodeName,portID,address,referSpeed,setSpeed"
+        }
+    },
+    {
+        "AMS": {
+            "dfCachePart": "nameAlias,name"
+        }
+    },
+    {
+        "AMS": {
+            "dfProcessorCore": "nameAlias,name"
+        }
+    },
+    {
+        "AMS": {
+            "dfDrv": "nameAlias,name,serial,unit,HDU,vendor,product,revision,totalCapacityGB,capacity,driveType"
+        }
+    },
+    {
+        "AMS": {
+            "dfLoop": "nameAlias,name"
+        }
+    },
+    {
+        "AMS": {
+            "dfHDP": "nameAlias,name,RgCount,raidLevel,earlyAlert,depletionAlert,overProvisioningAlertNotice,overProvisioningEarlyAlert,overProvisioningDepletionAlert,parityHDUCount,stripe,pageSize,poolStatus,driveType,virtualLUCount,poolFunction,poolID,poolType,usageRate,numberOfTiers,provisioningRatio,subscribedCapacity,numberOfDPVols,rpm,overProvisioningRate,totalCapacityInGB,availableCapacityInGB,usedCapacityInGB,usedCapacityInPercent,freeCapacityInPercent"
+        }
+    },
+    {
+        "AMS": {
+            "dfRG": "nameAlias,name,raidLevel,startUnit,startHDU,parityHDUCount,parityCount,totalCapacityGB,usedCapacityGB,availableCapacityGB,RGType,RGValid,controllerID,chassis,substance,raidType,allocatedCapacity,hiHsmCapacity,onDemandCapacity,totalFreeSpace,largestFreeSpace,emulation,cuGroupNumber,cuInfo,openTotalCapacity,openAllocatedCapacity,openFreeCapacity,openHiHsmCapacity,openOnDemandCapacity,openAllocatedActualCapacity,openUnallocatedCapacity,openUnallocatedActualCapacity,openReservedCapacity,openReservedActualCapacity,imTotalCapacity,imAllocatedCapacity,imFreeCapacity,imHiHsmCapacity,imOnDemandCapacity,mfTotalCapacity,mfHiHsmCapacity,mfOnDemandCapacity,mfAllocatedCapacity,mfUnallocatedCapacity,volumeType,encrypted,protectionLevel,dpPoolID,formFactor,slprNumber,clprNumber,diskType,freeCapacity,type"
+        }
+    },
+    {
+        "AMS": {
+            "dfCtl": "nameAlias,name,controllerIP"
+        }
+    },
+    {
+        "AMS": {
+            "dfPair": "nameAlias,pvolArrayType,pvolDevNum,pvolPoolID,pvolMngAreaPoolID,svolArrayType,svolDevNum,svolPoolID,svolMngAreaPoolID,pvolPortID,svolPortID,svolSerialNumber,pvolSerialNumber,fenceLevel,replicationFunction,status,muNumber,replicationSubFunction,copyTrackSize,splitTime"
+        }
+    },
+    {
+        "AMS": {
+            "dfPdev": "nameAlias,model,capacityInKB,vendor,diskType,diskSize,serialNumber,arrayGroup,row,column,depth,chassis,role,firmwareVersion,rpm,dkuType,denseNumber,densePosition,diskModelSize,encrypted,formFactor"
+        }
+    },
+    {
+        "AMS": {
+            "dfPortGroup": "nameAlias,name"
+        }
+    },
+    {
+        "AMS": {
+            "dfPortController": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare": {
+            "h": "nameAlias,name,cpuMemorySize,cpuHz,cpuCores,cpuPackages,cpuThreads,numaEnabled,cpuTechnology,htEnabled,osName,osType,osVersion,osBuild,vendor,model,serialNumber,hardwareAcceleratedMove,hardwareAcceleratedInit,hardwareAcceleratedLocking,cpuAllocationLimit,cpuAllocationReservation,memoryAllocationLimit,memoryAllocationReservation,capacity,ipAddress"
+        }
+    },
+    {
+        "VMWare": {
+            "vm": "nameAlias,name,provisionedSpace,usedSpace,notSharedSpace,numCPU,memory,configStatus,dnsname,ipAddress,powerState,toolsStatus,cpuAllocationLimit,cpuAllocationReservation,memoryAllocationLimit,memoryAllocationReservation,virtualHardwareVersion,availability,iofeatures,guestFullName,hasCdrom,hasFloppy,guestHostName,uuid,instanceUuid"
+        }
+    },
+    {
+        "VMWare": {
+            "rp": "nameAlias,name,cpuAllocationLimit,cpuAllocationReservation,memoryAllocationLimit,memoryAllocationReservation"
+        }
+    },
+    {
+        "VMWare": {
+            "vmhba": "nameAlias,name,driver,model,portWWN,status,device"
+        }
+    },
+    {
+        "VMWare": {
+            "ds": "nameAlias,name,capacity,freeSpace,uncommitted,provisionedSpace,type,URL,sioc,capacityGB,freeSpaceGB,usedCapacityGB"
+        }
+    },
+    {
+        "VMWare": {
+            "dspart": "nameAlias,name,type"
+        }
+    },
+    {
+        "VMWare": {
+            "diskscsi": "nameAlias,data,dataASCII,namespace,namespaceId"
+        }
+    },
+    {
+        "VMWare": {
+            "vc": "nameAlias,name,fullName,version,ipAddress"
+        }
+    },
+    {
+        "VMWare": {
+            "dc": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare": {
+            "cr": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare": {
+            "ccr": "nameAlias,name,ha,drs,drsLevel,availableFailOverHosts,configuredFailOverHosts,availableSlots,failOverSlots,slotSize,drsFault"
+        }
+    },
+    {
+        "VMWare": {
+            "cpu": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare": {
+            "disk": "nameAlias,name,owner,canonicalName,mpPolicy,type,model,vendor,uuid,stdInquiry,scsiLevel,blocks,blockSize,vStorageSupport,accessType,storageBoxNum,storageBoxModel,manufacturer,revisionLevel,scsiSerialNum,deviceUnitSNum,logicalLdevNum,deviceUniqueId,capacity"
+        }
+    },
+    {
+        "VMWare": {
+            "lun": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare": {
+            "pn": "nameAlias,name,driver,speed,ipAddress,macAddress"
+        }
+    },
+    {
+        "VMWare": {
+            "vcpu": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare": {
+            "vdisk": "nameAlias,name,controller,eagerlyScrub,thinProvisioned,mode,capacityInKB,lun"
+        }
+    },
+    {
+        "VMWare": {
+            "diskpart": "nameAlias,name,mode,capacity"
+        }
+    },
+    {
+        "VMWare": {
+            "vn": "nameAlias,name,type,ipAddress,macAddress"
+        }
+    },
+    {
+        "VMWare": {
+            "pg": "nameAlias,name,vlanId,portType"
+        }
+    },
+    {
+        "VMWare": {
+            "vs": "nameAlias,name,numPorts"
+        }
+    },
+    {
+        "VMWare": {
+            "dvs": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare": {
+            "dvpg": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare": {
+            "basevdisk": "nameAlias,name,uuid"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "hba": "nameAlias,name,wwn"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "hbaPort": "nameAlias,name,wwpn"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "host": "nameAlias,name"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxStorage": "nameAlias,name,id,productModel,volumeCount,deviceCount,hostCount,diskCount,spareDiskCount,unconfiguredDiskCount,microcodeVersion,cacheSize,managementIpAddress,vendorName,usableCapacityInGB"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxFeDirector": "nameAlias,name,id,type,number,slot,status"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxBeDirector": "nameAlias,name,id,type,number,slot,status,volumeCount"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxDisk": "nameAlias,name,id,diskGroupNumber,diskGroupName,speedInRPM,capacityInMB,availableCapacityInMB,ratedSize,hyperCount,director,isSpareDisk,isFailedDisk,state"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxDeviceGroup": "nameAlias,name,groupName,type"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxStorageGroup": "nameAlias,name,groupName"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxCachePartition": "nameAlias,name,cachePartitionName"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxDiskGroup": "nameAlias,name,number,groupName,diskCount,speedInRPM"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxThinPool": "nameAlias,name,poolName,compressionRatio,utilization,type,volumeCount,configuration,state,enabledDevices,enabledCapacity,allocatedCapacityInGB,freeCapacityInGB"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxPort": "nameAlias,name,portName,nodeWWN,portWWN,fedName,portSpeed,status"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxVolume": "nameAlias,name,volName,status,configuration,capacityInMB,usedCapacityInMB"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxPortGroup": "nameAlias,name,groupName,portCount,viewCount,maxSpeedGBs"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxInitiatorGroup": "nameAlias,name,groupName"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxMaskingView": "nameAlias,name,viewName"
+        }
+    },
+    {
+        "VMAX": {
+            "vmaxInitiator": "nameAlias,name,wwn,nodeName,portName"
+        }
+    },
+    {
+        "IbmXiv": {
+            "ixStorage": "nameAlias,name,id,type,version,model,serialNumber,softCapacity,hardCapacity,maxPoolSize,freeHardCapacity,freeSoftCapacity,consumedCapacity,spareModules,spareDisks,targetSpareModules,targetSpareDisks,managementIpAddress,vendorName,usableCapacityInGB"
+        }
+    },
+    {
+        "IbmXiv": {
+            "ixHost": "nameAlias,name,type,fcPorts"
+        }
+    },
+    {
+        "IbmXiv": {
+            "ixPool": "nameAlias,name,totalCapacityGB,hardCapacity,snapshotCapacity,availableCapacity,usedVolumeCapacity,usedSnapshotCapacity,lockStatus"
+        }
+    },
+    {
+        "IbmXiv": {
+            "ixVolume": "nameAlias,name,totalCapacityGB,usedCapacityGB"
+        }
+    },
+    {
+        "IbmXiv": {
+            "ixDisk": "nameAlias,name,totalCapacityGB,size,model,serialNumber,firmware,status"
+        }
+    },
+    {
+        "IbmXiv": {
+            "ixLocalFcPort": "nameAlias,name,status,isFunctional,wwpn,id,state,linkType,errorCount,activeFirmware,currentRate"
+        }
+    },
+    {
+        "IbmXiv": {
+            "ixHostFcPort": "nameAlias,name"
+        }
+    },
+    {
+        "IbmXiv": {
+            "ixLun": "nameAlias,name,volume,host,size,serialNumber,locked"
+        }
+    },
+    {
+        "NetApp": {
+            "naSystem": "nameAlias,name, id, model, machineType, vendor, serialNumber, memorySize, numProcessors, cpuSerialNumber, cpuMicroCodeVersion, raidArraySupport, snapMirrorAvailable, mode, version,sizeTotal,managementIpAddress,usableCapacity,usedCapacityInGB,unConfiguredCapacity,provisionedCapacity"
+        }
+    },
+    {
+        "NetApp": {
+            "naAggregate": "nameAlias,name, node, uuid, type, raidSize, raidStatus, diskCount, volumeCount, plexCount, sizeTotal, sizeUsed, sizeAvailable, state, blockType"
+        }
+    },
+    {
+        "NetApp": {
+            "naVolume": "nameAlias,name, uuid, type, raidSize, raidStatus, capacity, usedCapacity, freeCapacity, state, quotaStatus, isRootVolume, cacheRemoteLocation, cloneParentVolumeName, cloneParentSnapshotName, options, sisState, sisStatus, sisType, sisLastOpBeginTimestamp, sisLastOpEndTimestamp, sisLastOpSize, sisSchedule, snaplockType, style, qosPolicyName, isClone, isDataCompactionEnabled, isCompressionEnabled, isInlineCompressionEnabled, isInlineDedupeEnabled"
+        }
+    },
+    {
+        "NetApp": {
+            "naLun": "nameAlias,name, path, type, uuid, serialNumber, blockSize, protocolType, size, usedSize, onlineStatus, initiator"
+        }
+    },
+    {
+        "NetApp": {
+            "naDisk": "nameAlias,name, uuid, pool, serialNumber, vendor, model, raidState, raidGroup, shelf, type, physicalSpace"
+        }
+    },
+    {
+        "NetApp": {
+            "naNfsShare": "nameAlias,name, actualPathName, readWriteAccess, readOnlyAccess, root"
+        }
+    },
+    {
+        "NetApp": {
+            "nfsShare": "nameAlias,name, actualPathName, readWriteAccess, readOnlyAccess, root, storageType"
+        }
+    },
+    {
+        "NetApp": {
+            "naCifsShare": "nameAlias,name, mountPoint, sharePermission"
+        }
+    },
+    {
+        "NetApp": {
+            "naPlex": "nameAlias,name"
+        }
+    },
+    {
+        "NetApp": {
+            "naQtree": "nameAlias,name, status, securityStyle, opLocks, fileCount, diskUsed, avgFileSize"
+        }
+    },
+    {
+        "NetApp": {
+            "naQuota": "nameAlias,name, type, fileLimit, fileUsed, diskLimit, diskUsed, userId, groupId, qtree"
+        }
+    },
+    {
+        "NetApp": {
+            "naProcessor": "nameAlias,name"
+        }
+    },
+    {
+        "NetApp": {
+            "naNfsv3": "nameAlias,name"
+        }
+    },
+    {
+        "NetApp": {
+            "naIfnet": "nameAlias,name,ipv4PrimAddrFamily,ipv4PrimAddress,ipv4PrimNetmask,ipv4PrimBroadcast,ipv4PrimCreator,ipv6PrimAddrFamily,ipv6PrimAddress,ipv6PrimNetmask,ipv6PrimBroadcast,ipv6PrimCreator,aliasAddrFamily, aliasAddress, aliasNetmask, aliasBroadcast, aliasCreator, macAddr, mtuSize, flowControl, isTrusted, isWinsEnabled, isNfoEnabled, isEnabled,node,role"
+        }
+    },
+    {
+        "NetApp": {
+            "naCifs": "nameAlias,name"
+        }
+    },
+    {
+        "NetApp": {
+            "naVserver": "nameAlias,name,type,ipSpace,allowedProtocol,maxVolume,state,rootVolume,quotaPolicy,snapshotPolicy,cluster"
+        }
+    },
+    {
+        "NetApp": {
+            "naLicense": "nameAlias,licenseName"
+        }
+    },
+    {
+        "NetApp": {
+            "naVFiler": "nameAlias,name, ipSpace, uuid, vStorePath, vStoreStatus, vStoreIsEtc, adminHost, netbiosServerName, netbiosDomainName, ipAddress, fileCount"
+        }
+    },
+    {
+        "NetApp": {
+            "naUser": "nameAlias,name, rid, group"
+        }
+    },
+    {
+        "NetApp": {
+            "naGroup": "nameAlias,name, rid, roles"
+        }
+    },
+    {
+        "NetApp": {
+            "naSnapshot": "nameAlias,name, usedBlockCumuPct, usedBlockPct, totalBlockCumuPct, totalBlockPct, accessTime, blockCount"
+        }
+    },
+    {
+        "NetApp": {
+            "naSnapMirror": "nameAlias,name, sourceLocation, destinationLocation, lagTime, mirrorTimeStamp, contents, status, state, baseSnapshot, lastTransferSize, lastTransferDuration, schedule"
+        }
+    },
+    {
+        "NetApp": {
+            "naSnapVault": "nameAlias,name, sourceLocation, destinationLocation, lagTime, snapshotName, status, state, schedule, retention"
+        }
+    },
+    {
+        "NetApp": {
+            "naInitiatorGroup": "nameAlias,name, osType, type,initiatorCount"
+        }
+    },
+    {
+        "NetApp": {
+            "naInitiator": "nameAlias,name,type"
+        }
+    },
+    {
+        "NetApp": {
+            "naPort": "nameAlias,name,wwn,nodeName"
+        }
+    },
+    {
+        "NetApp": {
+            "naLif": "nameAlias,name,address,currentNode,currentPort,homeNode,homePort,role,uuid"
+        }
+    },
+    {
+        "NetApp": {
+            "naCluster": "nameAlias,name,ipAddress,usableCapacity,usedCapacityInGB,unConfiguredCapacity,provisionedCapacity"
+        }
+    },
+    {
+        "HDvM": {
+            "hdvmLG": "nameAlias,objectID,name,description,logicalPath,resourceType,specificationType,capacityInKB,numOfHosts,numOfLus,lastRefreshed,statusOfRefreshing,numOfLusWithDuplication"
+        }
+    },
+    {
+        "HDvM": {
+            "hdvmHost": "nameAlias,objectID,name,hostID,ipAddress,ipv6Address,hostType,capacityInKB,sysplexID,statusOfDBUpdating,virtualizationServerVersion,cluster,fileServerType,numOfLus"
+        }
+    },
+    {
+        "HDvM": {
+            "hdvmWWN": "nameAlias,name,wwn,nickname"
+        }
+    },
+    {
+        "HDvM": {
+            "hdvmHostLU": "nameAlias,objectID,name,devNum,capacityInKB,emulation,raidType,devType,chassis,arrayGroup,isComposite,path,dpType,dpPoolID,threshold,externalTierRank"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocade": "nameAlias,name,ip,fbName"
+        }
+    },
+    {
+        "BrocadeSANSwitch": {
+            "fabBrocadeDataCenter": "name"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocadeFCFabric": "nameAlias,name,virtualFabricId,fabricName"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocadeSwitch": "nameAlias,name,ip,firmwareVersion,wwn,serialNumber,vendor,model,portCapacity,installedPortsCount,activePortsCount,assignedPortsCount,consumedPortsPercent,subscriptionRate,agMode,destinationSwitchWwn,destinationPortWwn,physicalSwitchWwn,domainId,virtualFabricId,manufacturer,status,type,id,domain,portCount"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocadeSwitchPort": "nameAlias,name,portNumber,wwn,serialNumber,vendor,portType,speedInGB,remotePortWwn,remoteNodeWwn,status,npivEnabled,npivCapable,slotNumber,userPortNumber,id,index,maxSpeedInGB,bufferAllocated,licensed,state"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocadeTrunk": "nameAlias,name,memberPortList,masterPortWwn"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "trunk": "nameAlias,name"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocadeZoneSet": "nameAlias,name"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocadeZone": "nameAlias,name"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocadeZoneMember": "nameAlias,name,wwn"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocadeSwitchEndPort": "nameAlias,name,deviceWwn,type,deviceType,logical,symbolicName,vendor"
+        }
+    },
+    {
+        "BFA|BrocadeSANSwitch": {
+            "fabBrocadeSwitchNpvEndPort": "nameAlias,name,deviceWwn,type,deviceType,logical,symbolicName,vendor"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch": {
+            "switchPort": "nameAlias,name"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch": {
+            "zoneMember": "nameAlias,name,type"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch": {
+            "zone": "nameAlias,name"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch": {
+            "npvSp": "nameAlias,name"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch": {
+            "npvHbaPort": "nameAlias,name"
+        }
+    },
+    {
+        "CFA": {
+            "fabCisco": "nameAlias,name,ipAddress,version"
+        }
+    },
+    {
+        "CiscoSANSwitch": {
+            "fabCiscoDataCenter": "nameAlias,name"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoVsan": "nameAlias,name,vsanId,wwn,status"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoZoneSet": "nameAlias,name,wwn,vsanId"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoZone": "nameAlias,name,zonesetName,vsanId"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoZoneMember": "nameAlias,name,vsanId"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoSwitch": "nameAlias,name,ipAddress,wwn,vsanId,ieName,npvStatus,manufacturer,model,serialNumber,status,vendor,version,type,assetId,cleiCode"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch": {
+            "switchPort": "nameAlias,name"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "portChannel": "nameAlias,name"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch": {
+            "zoneMember": "nameAlias,name,type"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch": {
+            "zone": "nameAlias,name"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoSwitchPort": "nameAlias,name,switchName,portNumber,portType,wwn,endPointWwn,status,speedInGbps,fcId,vsanId,portChannelName,peerPortWwn,peerPortName,peerSwitchIp,profileId,profileInterface,peerPortIpAddress,peerTcpPort,portIpAddress"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch": {
+            "npvSp": "nameAlias,name"
+        }
+    },
+    {
+        "CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch": {
+            "npvHbaPort": "nameAlias,name"
+        }
+    },
+    {
+        "CiscoSANSwitch": {
+            "fabCiscoPortChannel": "nameAlias,name,portChannelId,switchName,portType,wwn,status,speedInGbps,peerPortChannelId,peerSwitchIp,vsanId,peerPortWwn"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoSwitchEndPort": "nameAlias,name,enclosure,fcId,wwn,fcPortName,fcWwn,portName,portType,speedInGbps,nodeName,nodeWwn,switchIP,switchName,vsanId,vendor,fc4TypesFeatures"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoSwitchNpvEndPort": "nameAlias,name,enclosure,fcId,wwn,fcPortName,fcWwn,portName,portType,speedInGbps,nodeName,nodeWwn,switchIP,switchName,vsanId,vendor,fc4TypesFeatures"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoSwitchNWCard": "nameAlias,name,serialNumber,status,model,assetId,hardwareType,hardwareRevision,softwareRevision"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoSwitchFan": "nameAlias,name,serialNumber,status,assetId,model,hardwareType,hardwareRevision,softwareRevision"
+        }
+    },
+    {
+        "CFA|CiscoSANSwitch": {
+            "fabCiscoSwitchPowerSupply": "nameAlias,name,serialNumber,status,assetId,model,hardwareType,hardwareRevision,powerUnit,softwareRevision"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileSystem": "nameAlias,name,ipAddress,type,serialNumber,version,hostName,productName,usableCapacityInGB"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileStoragePool": "nameAlias,name,poolName,totalCapacityInGB,usedCapacityInGB,freeCapacityInGB,diskType,description,inUse,isThinProvisioned,isDynamic,isUserDefined,capacityUtilization"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileFileSystem": "nameAlias,name,fsName,id,inUse,totalCapacityInGB,usedCapacityInGB,freeCapacityInGB,deduplicationFlag,highWaterMark,isThinProvisioned,maxCapacity,type,mountPermission,movers,capacityUtilization,dedupeState,dedupeStatus,lastScanTime,noOfFilesScanned,noOfFileDedupe,saveSpacedGB,originalDataSizeGB,savvolTotalGB,savvolAvailableGB,savvolUsedGB,savvolUtilization"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileVolume": "nameAlias,name,id,inUse,type,isMetaInUse,totalCapacityInGB,usedCapacityInGB,freeCapacityInGB"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileDataMover": "nameAlias,name,dmName,id,status,model,version,type,cpuSpeed,memory,isCifsStarted,standby,standbyFor,uptime"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileStorageSystem": "nameAlias,name,displayName,serialNumber,writeCacheSize,type,model,modelType,deviceCount,diskCount,apiVersion,flareVersion,navisphereVersion"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileCifsShare": "nameAlias,name,path,type"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileCifsServer": "nameAlias,name,netbiosName,domain,broadcast,ipAddress,vdmName,dmName"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileNfsExport": "nameAlias,name,path"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileDisk": "nameAlias,name,inUse,sizeInGB,type"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileNetworkDevice": "nameAlias,name,interfaceName,ipAddress,netmask,broadcast,macAddress,status"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileVirtualDataMover": "nameAlias,name,vdmName,id,status,interfaceName,interfaceIP,dmName"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileReplicate": "nameAlias,name,replicationName,id,role,type,peer,lastSyncTime,maxOutOfSyncTime,replicationTransferRate,replicationWriteRate,replicationReadRate,networkStatus,sourceDataMover,sourceFileSystem,sourceInterface,sourceStatus,destinationDataMover,destinationFileSystem,destinationInterface,destinationStatus"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileCava": "nameAlias,name,cavaName,state,dmName,ipAddress"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileCheckpoint": "nameAlias,name,checkpointName,id,type,creationTime,associateFileSystem,baselineCkpt,contentSizeMB,usedOnSavvol,savvolTotalGB,savvolAvailableGB,savvolUsedGB,savvolUtilization"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileQuota": "nameAlias,name,quotaName,type,associateFileSystem,associateFileSystemID,path,blockHardLimit,blockSoftLimit,blockUsage,blockGracePeriodInSec,inodeHardLimit,inodeSoftLimit,inodeUsage,inodeGracePeriodInSec"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileCifsUser": "nameAlias,name,cifsUserName,dmName,systemName"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileCifsClient": "nameAlias,name,cifsClientName,dmName,systemName"
+        }
+    },
+    {
+        "VNXFile": {
+            "vnxFileNfsClient": "nameAlias,name,nfsClientName,dmName,systemName"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockSystem": "nameAlias,name,agentRevision,model,modelType,promRevision,cabinet,revision,usableCapacityInGB"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockProcessor": "nameAlias,name,ipAddress,subnetMask,gatewayAddress,linkStatus,capableSpeed,readCacheState,writeCacheState,systemBuffer,physicalMemSize,readCacheSize,writeCacheSizeInMB"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockPool": "nameAlias,name,id,raidType,fullThreshold,diskType,status,state,totalRawCapacityInGB,totalUserCapacity,totalUsedCapacity,totalFreeCapacity,totalSubscribedCapacity"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockRaidGroup": "nameAlias,name,type,state,maxDiskCount,maxLunCount,totalRawCapacityInGB,totalLogicalCapacity,totalFreeCapacity"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockDisk": "nameAlias,name,vendorId,productId,type,state,hotSpare,serialNumber,capacityInGB,driveType,currentSpeed"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockLun": "nameAlias,name,raidType,state,capacityInGB,owner,isThinLUN,usedCapacityInGB"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockPort": "nameAlias,name,id,moduleId,role,usage,type,state,subState,isPersisted"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockPortWwn": "nameAlias,name"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockSg": "nameAlias,name,wwnHostCount,lunCount,spPort,capacityInGB,id"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockHostWwn": "nameAlias,name,serverName,serverIpAddr,os,protocol"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockHbaPort": "nameAlias,name,wwn,spPort,protocol,loggedIn"
+        }
+    },
+    {
+        "VNXBlock": {
+            "vnxBlockHost": "nameAlias,name,serverIpAddr,os,protocol"
+        }
+    },
+    {
+        "Windows": {
+            "hvVM": "nameAlias,name,hvState,hvCreateTime,hvUpTime,hvHostName,hvMemory,osName"
+        }
+    },
+    {
+        "Windows": {
+            "hvVHD": "nameAlias,name,hvPath,hvVhdType,hvMaxSize,hvCurrentSize"
+        }
+    },
+    {
+        "Windows": {
+            "hvVirtualIDEController": "nameAlias,name,hvMaxNumberControlled,deviceId"
+        }
+    },
+    {
+        "Windows": {
+            "hvVirtualSCSIController": "nameAlias,name,hvMaxNumberControlled,deviceId"
+        }
+    },
+    {
+        "Windows": {
+            "hvVirtualProcessor": "nameAlias,name,hvDeviceId"
+        }
+    },
+    {
+        "Windows": {
+            "hvLogicalProcessor": "nameAlias,name,wprocessormanufacturer"
+        }
+    },
+    {
+        "Windows": {
+            "hvVirtualNetworkAdapter": "nameAlias,name,wnamacAddress,ipAddress"
+        }
+    },
+    {
+        "Windows": {
+            "hvVirtualNetworkSwitch": "nameAlias,hvInternalName,name"
+        }
+    },
+    {
+        "Windows": {
+            "hvIDEController": "nameAlias,name,hvMaxNumberControlled"
+        }
+    },
+    {
+        "Windows": {
+            "hvSCSIController": "nameAlias,name,hvMaxNumberControlled"
+        }
+    },
+    {
+        "Windows": {
+            "hvNumaNode": "nameAlias,name"
+        }
+    },
+    {
+        "Windows": {
+            "WHost": "nameAlias,name,wos,wvirtualMemory,wosVersion,wtotalPhysicalMemory,isHyperV,dnsname,hostName,ipAddress"
+        }
+    },
+    {
+        "Windows": {
+            "WLogicalDisk": "nameAlias,name,wlddescription,wldfileSystem,wldsize,wldfreeSpace,wldvolumeSerialNumber"
+        }
+    },
+    {
+        "Windows": {
+            "WPhysicalDisk": "nameAlias,name,wpdinterfaceType,wpdsize,wpdindex,wpdmodel,wpdmediaType,wpdnumberOfPartitions,wpdscsiPort,wpdscsiTargetId,wpdpnpDeviceId,lunId,arraySerialNum,busId,targetId"
+        }
+    },
+    {
+        "Windows": {
+            "WProcessor": "nameAlias,name,wprocessormanufacturer,wprocessormaxclockspeed,wprocessornormcpuspeed,wprocessorstatus,wprocessorversion"
+        }
+    },
+    {
+        "Windows": {
+            "WNetworkAdapter": "nameAlias,name,wnamacAddress,wnamanufacturer,wnaproductName,wnaserviceName,wnastatus,wnamaxSpeed,wnaspeed,ipAddress"
+        }
+    },
+    {
+        "Windows": {
+            "WProcess": "nameAlias,name,wmachine,wprocessName,wpid,wowner"
+        }
+    },
+    {
+        "Windows": {
+            "WUser": "nameAlias,name"
+        }
+    },
+    {
+        "Windows": {
+            "WTerminalServices": "nameAlias,name"
+        }
+    },
+    {
+        "Windows": {
+            "WIDEController": "nameAlias,name,hvMaxNumberControlled"
+        }
+    },
+    {
+        "Windows": {
+            "WSCSIController": "nameAlias,name,hvMaxNumberControlled"
+        }
+    },
+    {
+        "Windows": {
+            "WHBA": "nameAlias,name,wwn,portWWN"
+        }
+    },
+    {
+        "Windows": {
+            "WHBAPort": "nameAlias,name,wwpn"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "hba": "nameAlias,name,wwn"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "hbaPort": "nameAlias,name,wwpn"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "host": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "guestOS": "nameAlias,name"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasSystem": "nameAlias,name,uuid,clusterSize,mode,sever_lc,warning_lc,timezone,dls,usableCapacityInGB"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasNode": "nameAlias,name,id,serialNumber,model,ipAddress,hardware,softwareVersion"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasFCPort": "nameAlias,name"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasEthernetPort": "nameAlias,name"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasEVS": "nameAlias,name,Type,ipAddresses"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasFS": "nameAlias,name,id,permanent_id,capacityInGB,used_capacity,block_size,confinedInGB,snapshot_size,state,flag,volNo,snapshotsSumInGB,logicalCapacityInGB,dedupeSpaceInGB,dedupe,dedupeEnabled,thinProvisioningEnabled,freeCapacityInGB"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasHDPPool": "nameAlias,name,freeCapacityInGB,serialNumber"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasShare": "nameAlias,name,path,type,fs_label,fs_size,fs_free_size,formatted,mounted,failed,access_snapshots,display_snapshots,tx_setting"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasVV": "nameAlias,name,email,root,usage_bytes,file_count,fsName,quotaEnabled"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasQuota": "nameAlias,name,viVol,group,user,type,usage,usage_limit,usage_warn,usage_critical,usage_reset,file_count,file_count_limit,file_count_warning,file_count_critical,file_count_reset"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasStoragePool": "nameAlias,name,free_pct,capacityInGB,used_capacity"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasSystemDevice": "nameAlias,name,device_id,preferred_host_port,preferred_controller,preferred_target_path,capacityInGB,sd_label,rack,superflush,lun,current_host_port,pool_owner,role,serial_num,luid,blocksize,used_in_span,tier,ctrlr_port,dev_name,sub_model,type_make,type_model,type_rev,hdp_pool"
+        }
+    },
+    {
+        "HNAS": {
+            "hnasNodeSystemDevice": "nameAlias,name"
+        }
+    },
+    {
+        "HCP": {
+            "hcpSystem": "nameAlias,name, version, serialNumber, totalCapacityInGB, protectedVolumeCapacity, storageActiveLicensedCapacity, objectCount, indexedObjectCount, storageType, replicationEnabled, searchEnabled, currentMQEIndexSize, spindownStorageCapacity, indexedVolumeCapacity, indexingTotalIndexVolumesCapacity, sharedVolumeCapacity, networkManagementEnabled"
+        }
+    },
+    {
+        "HCP": {
+            "hcpNode": "nameAlias,name, ipAddress, totalCapacityInGB, usedCapacityInGB, unusedCapacityInGB, status, type, hardwareType, sanStatus, restartValue, shutdownValue, dateTime, nicDegradedStatus, nicFailureStatus, bootTime, timeSource"
+        }
+    },
+    {
+        "HCP": {
+            "hcpStorageVolume": "nameAlias,name, nodeNumber, totalCapacityInGB, volumeLabel, status, flagsEnabled, usedCapacityInGB, unusedCapacityInGB "
+        }
+    },
+    {
+        "HCP": {
+            "hcpStoragePool": "nameAlias,name, poolName, poolType, poolStatus"
+        }
+    },
+    {
+        "HCP": {
+            "hcpTenant": "nameAlias,name, allowSearch, allowVersioning, allowRetentionModeSelection, allowReplication, hardQuotaLimit, softQuotaLimit, allocatedQuota, namespaceQuota, description, physicalBytesUsed, dataNetwork, addressCountry, contactFirstName,        addressZipPostalCode, managementNetwork, authentication, contactLastName, phone, addressLineOne, phoneExtension, addressCity, addressLineTwo, emailAddress, addressStateProvince, logicalBytesUsed, indexedObjectCount, objectCount, nonReplicatedDpl1Namespace"
+        }
+    },
+    {
+        "HCP": {
+            "hcpTenantUser": "nameAlias,name,fullName,isActive,roles,allowNamespaceManagement"
+        }
+    },
+    {
+        "HCP": {
+            "hcpNamespace": "nameAlias,name, allowSearch, allowIndexing, allowReplication, hardQuotaLimit, softQuotaLimit, storageUsedCapacity, freeCapacityInGB"
+        }
+    },
+    {
+        "HCP": {
+            "hcpSwitch": "nameAlias,name, type, ipAddress, status"
+        }
+    },
+    {
+        "HCP": {
+            "hcpHostDevice": "nameAlias,name, status, description, type"
+        }
+    },
+    {
+        "HCP": {
+            "hcpStorage": "nameAlias,name, description, allocatedSize, usedSize, type"
+        }
+    },
+    {
+        "HCP": {
+            "hcpNetworkInterface": "nameAlias,name, ifPhysAddress, ifType, ifOperStatus, ifDescr, speedInGbps"
+        }
+    },
+    {
+        "PureStorage": {
+            "psStorage": "nameAlias,name,id,purityRevision,purityVersion,totalCapacityInGB,volumeCapacity,snapshotCapacity,sharedSpace,systemSpace,usedCapacityInGB,capacityUsage,dataReductionRatio,totalReductionRatio,thinProvisioningRatio,model"
+        }
+    },
+    {
+        "PureStorage": {
+            "psController": "nameAlias,name,mode,model,purityVersion,status"
+        }
+    },
+    {
+        "PureStorage": {
+            "psConnectedArray": "nameAlias,name,purityVersion,virtualAddress,raplicationAddress,connectionType,connectionStatus"
+        }
+    },
+    {
+        "PureStorage": {
+            "psVolume": "nameAlias,name,serialNumber,creationTime,source,totalCapacityInGB,volumeCapacity,snapshotCapacity,sharedSpace,systemSpace,usedCapacityInGB,capacityUsage,dataReductionRatio,totalReductionRatio,thinProvisioningRatio"
+        }
+    },
+    {
+        "PureStorage": {
+            "psHost": "nameAlias,name,hgroup,source,totalCapacityInGB,volumeCapacity,snapshotCapacity,usedCapacityInGB,capacityUsage,dataReductionRatio,totalReductionRatio,thinProvisioningRatio"
+        }
+    },
+    {
+        "PureStorage": {
+            "psHostGroup": "nameAlias,name,totalCapacityInGB,volumeCapacity,snapshotCapacity,usedCapacityInGB,capacityUsage,dataReductionRatio,totalReductionRatio,thinProvisioningRatio"
+        }
+    },
+    {
+        "PureStorage": {
+            "psLun": "nameAlias,name,lunNumber"
+        }
+    },
+    {
+        "PureStorage": {
+            "psHostPort": "nameAlias,name,wwn"
+        }
+    },
+    {
+        "PureStorage": {
+            "psStoragePort": "nameAlias,name,wwn,slotNumber,speedInGB,status"
+        }
+    },
+    {
+        "PureStorage": {
+            "psPG": "nameAlias,name,replicateEnabled,replicateFrequency,usedCapacityInGB"
+        }
+    },
+    {
+        "PureStorage": {
+            "psDrive": "nameAlias,name,totalCapacityInGB,type,status,lastFailureTime,degraded"
+        }
+    },
+    {
+        "PureStorage": {
+            "psNetwork": "nameAlias,name,enabled,gateway,hwaddr,maxTransmissionUnit,speedInGB"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOCluster": "nameAlias,name,index,totalPhysicalCapacity,usedCapacityInGB,usedLogicalSpace,thinProvisioningRatio,dedupRatio, dataReductionRatio,compressionFactor,noOfSSDs,noOfVols,noOfBricks,noOfNodes,noOfIBSwitches,sysSWVersion  ,sysHealthState,noOfDPGS,noOfTargets,noOfTargetGroups,noOfXenvs,noOfInitiators"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOXbrick": "nameAlias,name,state,noOfNodes,noOfSSDs"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOStorageController": "nameAlias,name,osVersion,nodeMgrAddr,biosFWVersion,serialNumber,state"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIODataProtectionGroup": "nameAlias,name,noOfNodes,noOfSSDs,protectionState,userDataSSDSpace,usedUserDataSSDSpace"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOVolume": "nameAlias,name,creationTime,usedLogicalSpace,logicalBlockSize,noOfLUNMapped,volSize,volType,volAccess"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOInitiator": "nameAlias,name,portAddress,portType,os,noOfTargets,connectionState"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOInitiatorGroup": "nameAlias,name,noOfinitiators,noOfVols"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOSSD": "nameAlias,name,ssdUsedSpace,ssdSize,slotNum,ssdFailureReason,model,noOfBadSectors,firmwareVersion,percentEnduranceRemaining"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOInfiniBandSwitch": "nameAlias,name,model,fan1RPM,fan2RPM,fan3RPM,fan4RPM,fwVersion,serialNumber,noOfPorts"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOTarget": "nameAlias,name,portAddress,portSpeed,portState,portType,firmwareVersion,mtu"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOTargetGroup": "nameAlias,name,objSeverity,tgID"
+        }
+    },
+    {
+        "XtremIO": {
+            "xtremIOXenv": "nameAlias,name,objSeverity,numOfMdls,xenvState"
+        }
+    },
+    {
+        "Linux": {
+            "lHost": "nameAlias,name,osVersion,ipAddress,osName,osKernel,linuxMemoryInGB,diskCount,diskSizeInGB"
+        }
+    },
+    {
+        "Linux": {
+            "lHostCPU": "nameAlias,name,vendorId,cpuFamily,modelType,modelName,stepping,cpuMHz,cacheSize,physicalId, siblings, coreId, cpuCores, apicId, microcode, initialApicid,fpu,fpuException,cpuIdLevel,wp,flags,bogomips,clflushSize,cacheAlignment,addressSizes,powerManagement"
+        }
+    },
+    {
+        "Linux": {
+            "lHostDisk": "nameAlias,name,model,vendor,diskSizeInGB,wwid,logicalLdevNumber,sectorsRead,sectorsWrite"
+        }
+    },
+    {
+        "Linux": {
+            "lHostIfc": "nameAlias,name,inetAddr,hwAddr,inet6Addr,scope,mtu,metric,status,aliasInetAddress,aliasInet6Address"
+        }
+    },
+    {
+        "Linux": {
+            "lHostFileSystemDevice": "nameAlias,name,fsType,fsPath,statFsTotalBlocks,statFsTotalAvailable,statFsBlockSize"
+        }
+    },
+    {
+        "Linux": {
+            "lHostVolumeGroup": "nameAlias,name,vgStatus,vgAccess,vgSize,maxLv,openLv,curLv,maxPv,actPv,curPv,allocPE,freePE,totalPE,peSize,allocPeSize,freePeSize,uuid"
+        }
+    },
+    {
+        "Linux": {
+            "lHostLogicalVolume": "nameAlias,name,volumeGroup,logicalVolumeStatus,physicalVolume,logicalExtentTo,logicalExtentFrom,logicalVolumeWriteAccess,logicalVolumeSize,logicalVolumeUuid"
+        }
+    },
+    {
+        "Linux": {
+            "lHostPhysicalVolume": "nameAlias,name,size,free,uuid,volumeGroup"
+        }
+    },
+    {
+        "Linux": {
+            "lHostHba": "nameAlias,name,serialNum,modelDesc,modelName,fwVersion,driverVersion,manufacturer,isNpivEnabled"
+        }
+    },
+    {
+        "Linux": {
+            "lHostHbaPort": "nameAlias,name,alias,portWwn,nodeWwn,portSpeed"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "hba": "nameAlias,name,wwn"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "hbaPort": "nameAlias,name,wwpn"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "host": "nameAlias,name"
+        }
+    },
+    {
+        "VMWare|Windows|Linux": {
+            "guestOS": "nameAlias,name"
+        }
+    },
+    {
+        "": {
+            "__probe": "__name,__resType, __datacenter, __location, __custattr01, __custattr02"
+        }
+    },
+    {
+        "AMS|HitachiEnterpriseStorage": {
+            "model": "nameAlias,name,id"
+        }
+    },
+    {
+        "AMS|HitachiEnterpriseStorage": {
+            "poolGroup": "nameAlias,name,id"
+        }
+    },
+    {
+        "AMS|HitachiEnterpriseStorage": {
+            "ldevGroup": "nameAlias,name,id"
+        }
+    },
+    {
+        "AMS|HitachiEnterpriseStorage": {
+            "ownerGroup": "nameAlias,name,id"
+        }
+    },
+    {
+        "AMS|HitachiEnterpriseStorage": {
+            "portGroup": "nameAlias,name,id"
+        }
+    },
+    {
+        "AMS|HitachiEnterpriseStorage": {
+            "region": "nameAlias,name,id"
+        }
+    },
+    {
+        "AMS|HitachiEnterpriseStorage": {
+            "dataCenter": "nameAlias,name,id"
+        }
+    },
+    {
+        "SAPNetWeaver": {
+            "sapInstance": "nameAlias,name,ipAddress,sid,clientId"
+        }
+    },
+    {
+        "SAPNetWeaver": {
+            "sapAppServer": "nameAlias,name"
+        }
+    },
+    {
+        "SAPNetWeaver": {
+            "sapHost": "nameAlias,name,totalCpu,totalLogicalCpu,sapTotalMemory,totalSwapMemory"
+        }
+    },
+    {
+        "SAPNetWeaver": {
+            "sapDatabase": "nameAlias,name"
+        }
+    },
+    {
+        "SAPNetWeaver": {
+            "sapFileSystem": "nameAlias,name"
+        }
+    },
+    {
+        "SAPNetWeaver": {
+            "sapBuffer": "nameAlias,name"
+        }
+    },
+    {
+        "SAPNetWeaver": {
+            "sapBgJob": "nameAlias,name"
+        }
+    },
+    {
+        "SAPNetWeaver": {
+            "sapNamedUsers": "nameAlias,name"
+        }
+    },
+    {
+        "SAPHANA": {
+            "hanaInstance": "nameAlias,name,hanaDbName, hanaVersion, hanaInstanceID, hanaInstanceNumber"
+        }
+    },
+    {
+        "SAPHANA": {
+            "hanaHost": "nameAlias,name,hanaHostName,hanaHostNames,hanaHwManufacturer,hanaMemPhysical, hanaMemSwap,hanaMemTopology, hanaAllocationLimit, hanaCpuCores, hanaPublicName, hanaDomainName, hanaIpAddresses, hanaCpuClock, hanaCpuModel, hanaCpuManufacturer, hanaCpuThreads, hanaOsName, hanaPlatform, hanaOsKernalVersion, hanaTimeZone, hanaOsUser"
+        }
+    },
+    {
+        "SAPHANA": {
+            "hanaDisk": "nameAlias,name,hanaDiskID, hanaDiskType, hanaDiskSize, hanaFsType, hanaDiskPath"
+        }
+    },
+    {
+        "SAPHANA": {
+            "hanaService": "nameAlias,name,hanaServiceName, hanaServicePort, hanaServiceSqlPort, hanaServiceProcessId, hanaServiceCoordinatorType, hanaServiceActiveStatus, hanaServiceStartTime"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleDB": "nameAlias,dbID, name, version,isRacSystem"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleInstance": "nameAlias,name, instanceID, version, status, hostName, instanceRole, totalCpuCount,isRacSystem"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleBufferPool": "nameAlias,name, poolID, bufferBlockSize, currentBuffersCount"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleLibraryCache": "nameAlias,name"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleSystemEvent": "nameAlias,name, eventID"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleSystemParameter": "nameAlias,name, paramHash, type, value,displayValue, isDefault, isSESModifiable, isSYSModifiable, isInstanceModifiable, isModified, isAdjusted, isDeprecated, isBasic, paramNum,updateComment"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleWaitStats": "nameAlias,name"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleDataFile": "nameAlias,name,fileID, fileSize, dbFileBlockSize"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleDBLock": "nameAlias,name, lockType, lockMode"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleDBLatch": "nameAlias,name"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleSegmentStatistics": "nameAlias,name,statisticName,objectName,object#,statistic#"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleSessionEvent": "nameAlias,name,eventID,sessionSID,serial"
+        }
+    },
+    {
+        "Oracle": {
+            "oracleSession": "nameAlias,name,sessionSID,serial,userName,command,lockWait,status,machineName,programName,sessionType,sqlAddress,sqlHashValue,sqlExecStartDate,sqlExecID,blockingSessionStatus,blockingInstance,blockingSession,seqID,eventID,eventName,p1ParameterText,p1Parameter,p2ParameterText,p2Parameter,p3ParameterText,p3Parameter,waitClass,sessionState"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parStorage": "nameAlias,name,id,modelName,serialNumber,totalNodes,masterNode,onlineNodes,totalCapacityInGB,allocatedCapacityInGB,freeCapacityInGB,failedCapacityInGB,chunkletSize,osVersion,allocatedVVCapacityInGB,allocatedSystemCapacityInGB,allocatedTotalCPGCapacityInGB,allocatedCPGUserCapacityInGB,allocatedCPGSnapshotCapacityInGB,allocatedCPGAdminCapacityInGB,allocatedTotalNonCPGCapacityInGB,allocatedNonCPGUserCapacityInGB,allocatedNonCPGSnapshotCapacityInGB,allocatedNonCPGAdminCapacityInGB,allocatedSysSpareTotalCapacityInGB,allocatedSysSpareUsedCapacityInGB,allocatedSysInternalCapacityInGB,freeInitializedCapacityInGB,fcTotalCapacityInGB,nlTotalCapacityInGB,ssdTotalCapacityInGB,rawSpaceAlertFC,rawSpaceAlertNL,rawSpaceAlertSSD,timezone,compaction,deduplication"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parController": "nameAlias,name,id,status,isMaster,isClustered,controlMemoryInGB,dataMemoryInGB,cacheAvailable"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parPhysicalDrive": "nameAlias,name,id,type,status,modelName,serialNumber,protocol,rpm,wwn,totalCapacityInGB,freeCapacityInGB,usedVolumeCapacity,spareCapacityInGB,unavailableCapacityInGB,failedCapacityInGB,capacityInGB,totalChunklet,primaryPath0,secondaryPath0,primaryPath1,secondaryPath1,prefferedNodeOrder"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parLogicalDrive": "nameAlias,id,name,raidType,ownerNode,backupNode,totalSizeInGB,usedSizeInGB,isMappedVV,status,totalRawSizeInGB,rowSize,stepSizeInKB,setSize,keepPreserved,devType,rpm"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parCPG": "nameAlias,id,name,totalVV,thinlyProvisionedVV,thinlyDedupedVV,warningThreshold,totalUserSpaceInGB,usedUserSpaceInGB,totalRawUserSpaceInGB,usedRawUserSpaceInGB,totalSnapshotSpaceInGB,usedSnapshotSpaceInGB,totalRawSnapshotSpaceInGB,usedRawSnapshotSpaceInGB,totalAdminSpaceInGB,usedAdminSpaceInGB,totalRawAdminSpaceInGB,usedRawAdminSpaceInGB,compaction,deduplication,dataReduce,overprovision,snapshotDataWarningGB,snapshotDataLimitGB,snapshotDataIncrementGB,snapshotAdminWarningGB,snapshotAdminLimitGB,snapshotAdminIncrementGB,sharedSpaceInGB,freeSpaceInGB,totalSpaceInGB,totalRawSpaceInGB,freeRawSpaceInGB"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parVolume": "nameAlias,id,udid,name,wwn,provisioningType,copyType,copyOfVV,physicalParentId,parentId,baseVVId,snapshotCPG,userCPG,readOnlyAccess,domain,status,reservedSnapshotSpaceInGB,rawReservedSnapshotSpaceInGB,usedSnapshotSpaceInGB,freeSnapshotSpaceInGB,reservedUserSpaceInGB,rawReservedUserSpaceInGB,usedUserSpaceInGB,freeUserSpaceInGB,reservedAdminSpaceInGB,rawReservedAdminSpaceInGB,usedAdminSpaceInGB,freeAdminSpaceInGB,virtualSizeInGB,totalReservedSpaceInGB,totalUsedSizeinGB,staleSSPolicy,oneHostPolicy,zeroDetectPolicy,systemPolicy,cachingPolicy,snapshotSpaceAllocLimit,snapshotSpaceAllocWarning,usrSpaceAllocLimit,usrSpaceAllocWarning,compaction,deduplication,compression,hostWrtSpaceInGB"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parVolumeSet": "nameAlias,id,name"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parHostSet": "nameAlias,id,name"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parVLun": "nameAlias,name,lun,targetGroupID,type,status"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parVLunPath": "nameAlias,name"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parHostPort": "nameAlias,name,wwn"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parHost": "nameAlias,id,name,ipAddress,os,modelName,personaName,personaID"
+        }
+    },
+    {
+        "HPE3PAR": {
+            "hp3parStoragePort": "nameAlias,name,label,mode,linkstate,nodeWWN,wwn,connectionType,protocolType,cfgRate,maxRate,rate"
+        }
+    },
+    {
+        "AMS|NetApp|VNXBlock|IbmXiv|VMAX|HitachiEnterpriseStorage|HPEnterpriseStorage|XtremIO|PureStorage|HPE3PAR": {
+            "sp": "nameAlias,name,wwn"
+        }
+    },
+    {
+        "VFP": {
+            "vfpCluster": "name"
+        }
+    },
+    {
+        "VFP": {
+            "vfpNode": "name,fosversion,sysName"
+        }
+    },
+    {
+        "VFP": {
+            "vfpInterface": "name,ifnetNumber,ifName"
+        }
+    },
+    {
+        "VFP": {
+            "vfpHostStorage": "name,hostStorageIndex,logicalAreaName,bKSize"
+        }
+    },
+    {
+        "VFP": {
+            "vfpDisk": "name,dskIndex,dskPath,dskDevice,minimumErrCapacity,minimumErrCapacityPercent"
+        }
+    },
+    {
+        "VFP": {
+            "vfpIODevice": "name,diskIODevice"
+        }
+    },
+    {
+        "VFP": {
+            "vfpFileSystem": "name,fileSysName"
+        }
+    },
+    {
+        "VFP": {
+            "vfpLu": "name,fileSysName,deviceInfo,luSerial,dataPool,fileSystemLUInfoDevice"
+        }
+    },
+    {
+        "VFP": {
+            "vfpHostDevice": "name,hostDeviceName"
+        }
+    },
+    {
+        "VFP": {
+            "vfpSnapshot": "name,syncFileSystem"
+        }
+    },
+    {
+        "HitachiReplication": {
+            "pair": "name,pairedVolName,localOrRemote,tID,mu,primaryOrSecondary,pairLdev,extConnectionMode,extSerial,extLdev,groupName,fence,volStatus,mode,ctGroupId,activePaths,copyMode,lun,serial,ldev,jnlId,ldevFormat"
+        }
+    }
+]

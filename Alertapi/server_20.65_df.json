@@ -1,0 +1,5136 @@
+[
+    {
+        "dfLU": {
+            "usage": []
+        }
+    },
+    {
+        "dfLU": {
+            "stripe": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "replicationFunction": []
+        }
+    },
+    {
+        "dfLU": {
+            "migrationProgress": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGbps": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGbps": []
+        }
+    },
+    {
+        "dfLU": {
+            "poolStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataSaving": []
+        }
+    },
+    {
+        "dfLU": {
+            "driveStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "migrationStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "npivEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "npivCapable": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "npvStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "powerUnit": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "npvStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "powerUnit": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "isFailedDisk": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "portSpeed": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "LuCategory": [
+                "Virtual"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "lba": []
+        }
+    },
+    {
+        "dfLU": {
+            "isComposite": []
+        }
+    },
+    {
+        "dfLU": {
+            "substance": []
+        }
+    },
+    {
+        "dfLU": {
+            "path": []
+        }
+    },
+    {
+        "dfLU": {
+            "isStandardLDEV": []
+        }
+    },
+    {
+        "dfLU": {
+            "hihsmReserved": []
+        }
+    },
+    {
+        "dfLU": {
+            "slprNumber": []
+        }
+    },
+    {
+        "dfLU": {
+            "clprNumber": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeKind": []
+        }
+    },
+    {
+        "dfLU": {
+            "systemDisk": []
+        }
+    },
+    {
+        "dfLU": {
+            "expandedInfoOnEmulation": []
+        }
+    },
+    {
+        "dfLU": {
+            "encrypted": []
+        }
+    },
+    {
+        "dfLU": {
+            "quorumDisk": []
+        }
+    },
+    {
+        "dfLU": {
+            "tierLevel": []
+        }
+    },
+    {
+        "dfLU": {
+            "tierRelocation": []
+        }
+    },
+    {
+        "dfLU": {
+            "externalTierRank": []
+        }
+    },
+    {
+        "dfLU": {
+            "emulation": []
+        }
+    },
+    {
+        "dfLU": {
+            "hlun": []
+        }
+    },
+    {
+        "dfLU": {
+            "vendor": []
+        }
+    },
+    {
+        "dfLU": {
+            "microProgramRevision": []
+        }
+    },
+    {
+        "dfLU": {
+            "productCode": []
+        }
+    },
+    {
+        "dfLU": {
+            "lastRefreshed": []
+        }
+    },
+    {
+        "dfLU": {
+            "lastConfigurationChanged": []
+        }
+    },
+    {
+        "dfLU": {
+            "hardwareRevision": []
+        }
+    },
+    {
+        "dfLU": {
+            "multipathSupport": []
+        }
+    },
+    {
+        "dfLU": {
+            "slprStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "setSpeed": []
+        }
+    },
+    {
+        "dfLU": {
+            "revision": []
+        }
+    },
+    {
+        "dfLU": {
+            "overProvisioningAlertNotice": []
+        }
+    },
+    {
+        "dfLU": {
+            "poolStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "poolFunction": []
+        }
+    },
+    {
+        "dfLU": {
+            "rpm": []
+        }
+    },
+    {
+        "dfLU": {
+            "substance": []
+        }
+    },
+    {
+        "dfLU": {
+            "emulation": []
+        }
+    },
+    {
+        "dfLU": {
+            "encrypted": []
+        }
+    },
+    {
+        "dfLU": {
+            "formFactor": []
+        }
+    },
+    {
+        "dfLU": {
+            "slprNumber": []
+        }
+    },
+    {
+        "dfLU": {
+            "clprNumber": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "replicationSubFunction": []
+        }
+    },
+    {
+        "dfLU": {
+            "row": []
+        }
+    },
+    {
+        "dfLU": {
+            "role": []
+        }
+    },
+    {
+        "dfLU": {
+            "rpm": []
+        }
+    },
+    {
+        "dfLU": {
+            "encrypted": []
+        }
+    },
+    {
+        "dfLU": {
+            "formFactor": []
+        }
+    },
+    {
+        "dfLU": {
+            "inUse": []
+        }
+    },
+    {
+        "dfLU": {
+            "isThinProvisioned": []
+        }
+    },
+    {
+        "dfLU": {
+            "isDynamic": []
+        }
+    },
+    {
+        "dfLU": {
+            "isUserDefined": []
+        }
+    },
+    {
+        "dfLU": {
+            "inUse": []
+        }
+    },
+    {
+        "dfLU": {
+            "isThinProvisioned": []
+        }
+    },
+    {
+        "dfLU": {
+            "mountPermission": []
+        }
+    },
+    {
+        "dfLU": {
+            "dedupeState": []
+        }
+    },
+    {
+        "dfLU": {
+            "dedupeStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "inUse": []
+        }
+    },
+    {
+        "dfLU": {
+            "isMetaInUse": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "isCifsStarted": []
+        }
+    },
+    {
+        "dfLU": {
+            "inUse": []
+        }
+    },
+    {
+        "dfLU": {
+            "netmask": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "role": []
+        }
+    },
+    {
+        "dfLU": {
+            "networkStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "sourceInterface": []
+        }
+    },
+    {
+        "dfLU": {
+            "sourceStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "subnetMask": []
+        }
+    },
+    {
+        "dfLU": {
+            "linkStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "capableSpeed": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "isThinLUN": []
+        }
+    },
+    {
+        "dfLU": {
+            "usage": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "subState": []
+        }
+    },
+    {
+        "dfLU": {
+            "isPersisted": []
+        }
+    },
+    {
+        "dfLU": {
+            "loggedIn": []
+        }
+    },
+    {
+        "dfLU": {
+            "hardware": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "flag": []
+        }
+    },
+    {
+        "dfLU": {
+            "dedupeEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "formatted": []
+        }
+    },
+    {
+        "dfLU": {
+            "mounted": []
+        }
+    },
+    {
+        "dfLU": {
+            "failed": []
+        }
+    },
+    {
+        "dfLU": {
+            "tx_setting": []
+        }
+    },
+    {
+        "dfLU": {
+            "root": []
+        }
+    },
+    {
+        "dfLU": {
+            "quotaEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "preferred_controller": []
+        }
+    },
+    {
+        "dfLU": {
+            "preferred_target_path": []
+        }
+    },
+    {
+        "dfLU": {
+            "superflush": []
+        }
+    },
+    {
+        "dfLU": {
+            "pool_owner": []
+        }
+    },
+    {
+        "dfLU": {
+            "role": []
+        }
+    },
+    {
+        "dfLU": {
+            "sysHealthState": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "protectionState": []
+        }
+    },
+    {
+        "dfLU": {
+            "os": []
+        }
+    },
+    {
+        "dfLU": {
+            "connectionState": []
+        }
+    },
+    {
+        "dfLU": {
+            "ssdFailureReason": []
+        }
+    },
+    {
+        "dfLU": {
+            "portSpeed": []
+        }
+    },
+    {
+        "dfLU": {
+            "portState": []
+        }
+    },
+    {
+        "dfLU": {
+            "objSeverity": []
+        }
+    },
+    {
+        "dfLU": {
+            "objSeverity": []
+        }
+    },
+    {
+        "dfLU": {
+            "xenvState": []
+        }
+    },
+    {
+        "dfLU": {
+            "fcPorts": []
+        }
+    },
+    {
+        "dfLU": {
+            "lockStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "firmware": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "isFunctional": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "activeFirmware": []
+        }
+    },
+    {
+        "dfLU": {
+            "volume": []
+        }
+    },
+    {
+        "dfLU": {
+            "locked": []
+        }
+    },
+    {
+        "dfLU": {
+            "scope": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "vgStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "logicalVolumeStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapMirrorAvailable": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "quotaStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "sisState": []
+        }
+    },
+    {
+        "dfLU": {
+            "sisStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "sisSchedule": []
+        }
+    },
+    {
+        "dfLU": {
+            "isDataCompactionEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "isCompressionEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "isInlineCompressionEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "isInlineDedupeEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "onlineStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "flowControl": []
+        }
+    },
+    {
+        "dfLU": {
+            "isTrusted": []
+        }
+    },
+    {
+        "dfLU": {
+            "isWinsEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "isNfoEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "isEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "state": []
+        }
+    },
+    {
+        "dfLU": {
+            "numaEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "htEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "configStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "powerState": []
+        }
+    },
+    {
+        "dfLU": {
+            "toolsStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "iofeatures": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "sioc": []
+        }
+    },
+    {
+        "dfLU": {
+            "ha": []
+        }
+    },
+    {
+        "dfLU": {
+            "drs": []
+        }
+    },
+    {
+        "dfLU": {
+            "drsLevel": []
+        }
+    },
+    {
+        "dfLU": {
+            "revisionLevel": []
+        }
+    },
+    {
+        "dfLU": {
+            "driver": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioned": []
+        }
+    },
+    {
+        "dfLU": {
+            "hvState": []
+        }
+    },
+    {
+        "dfLU": {
+            "wprocessormaxclockspeed": []
+        }
+    },
+    {
+        "dfLU": {
+            "wprocessorstatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "wnastatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "wnamaxSpeed": []
+        }
+    },
+    {
+        "dfLU": {
+            "wnaspeed": []
+        }
+    },
+    {
+        "dfLU": {
+            "wowner": []
+        }
+    },
+    {
+        "dfLU": {
+            "isNpivEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "portSpeed": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "connectionStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "connectionStatus": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "replicateEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "replicateEnabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "replicateFrequency": []
+        }
+    },
+    {
+        "dfLU": {
+            "replicateFrequency": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "enabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "enabled": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "isMaster": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "isMappedVV": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "keepPreserved": []
+        }
+    },
+    {
+        "dfLU": {
+            "overprovision": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCPG": []
+        }
+    },
+    {
+        "dfLU": {
+            "userCPG": []
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "status": [
+                "Normal"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "linkstate": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalFreeSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "openReservedCapacityGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "unAllocatedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "otherCapacityGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalEfficiencyRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "softwareSavingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "softwareCompressionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "softwareDeduplicationRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "softwarePatternMatchingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmdSavingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmdCompressionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmdPatternMatchingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "provisioningEfficiency": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotEfficiencyRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "usageRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "thresholdRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "provisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "subscribedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "availableCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInPercent": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInPercent": []
+        }
+    },
+    {
+        "dfLU": {
+            "poolCapacityExpansionRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPoolCapacitySaving": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPoolCapacitySavingRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "userDataCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "poolSavingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "savingCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "dkcSavingCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "dkcSavingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dkcCompressionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dkcDedupRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dkcCompressionCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "dkcDedupCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "dkcReclaimCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "dkcSystemCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "dkcPreProcCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcCompressionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcCompressionCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcReclaimCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPhysicalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcUsedPhysicalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcLogicalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcUsedLogicalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "warningThresholdRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "reservedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalEfficiencyRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "softwareSavingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "softwareCompressionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "softwareDeduplicationRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "softwarePatternMatchingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmdSavingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmdCompressionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmdPatternMatchingRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "provisioningEfficiency": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotEfficiencyRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPhysicalTotalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPhysicalUsedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPoolTotalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPoolUsedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPoolCapacityUsageRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPoolCapacitySaving": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPoolCapacitySavingRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcCapacityExpansionRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmcPoolFreeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "checkCapacityGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "physicalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalFreeSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "largestFreeSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedSpareDriveCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedEndurance": []
+        }
+    },
+    {
+        "dfLU": {
+            "fmdBatteryLife": []
+        }
+    },
+    {
+        "dfLU": {
+            "cacheSizeMB": []
+        }
+    },
+    {
+        "dfLU": {
+            "ldevCapacityGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityGB": [
+                "0.0",
+                "6.0",
+                "1.0",
+                "10.0",
+                "1.47",
+                "12.0",
+                "694.0",
+                "100.0",
+                "1018.0",
+                "569.0",
+                "79.0",
+                "42.0",
+                "0.03",
+                "8.0",
+                "24.0",
+                "224.0",
+                "30.0",
+                "26.0",
+                "36.0",
+                "400.0",
+                "200.0",
+                "11.0",
+                "991.0",
+                "2768.0",
+                "126.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "poolFreeCapacityRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "portCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "installedPortsCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "activePortsCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "assignedPortsCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "consumedPortsPercent": []
+        }
+    },
+    {
+        "dfLU": {
+            "subscriptionRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGbps": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGbps": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGbps": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "hostCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "diskCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "spareDiskCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "unconfiguredDiskCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "cacheSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "usableCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInRPM": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInMB": []
+        }
+    },
+    {
+        "dfLU": {
+            "availableCapacityInMB": []
+        }
+    },
+    {
+        "dfLU": {
+            "ratedSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "hyperCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "diskCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInRPM": []
+        }
+    },
+    {
+        "dfLU": {
+            "compressionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "utilization": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "enabledCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInMB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInMB": []
+        }
+    },
+    {
+        "dfLU": {
+            "portCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "viewCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "maxSpeedGBs": []
+        }
+    },
+    {
+        "dfLU": {
+            "availableCapacityGB": [
+                "20.0",
+                "1.47",
+                "1.0",
+                "1.43",
+                "7.0",
+                "0.0",
+                "10.0",
+                "5.0",
+                "0.47",
+                "59.0",
+                "70.0",
+                "330.0",
+                "2.0",
+                "6.0",
+                "69.0",
+                "455.0",
+                "171.0",
+                "208.0",
+                "0.05",
+                "0.03",
+                "16.0",
+                "47.0",
+                "76.0",
+                "26.0",
+                "4.0",
+                "124.0",
+                "164.0",
+                "0.5",
+                "49.0",
+                "33.0",
+                "304.0",
+                "174.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityGB": [
+                "0.0",
+                "6.0",
+                "1.0",
+                "10.0",
+                "1.47",
+                "12.0",
+                "694.0",
+                "100.0",
+                "1018.0",
+                "569.0",
+                "79.0",
+                "42.0",
+                "0.03",
+                "8.0",
+                "24.0",
+                "224.0",
+                "30.0",
+                "26.0",
+                "36.0",
+                "400.0",
+                "200.0",
+                "11.0",
+                "991.0",
+                "2768.0",
+                "126.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityGB": [
+                "20.0",
+                "1.47",
+                "7.0",
+                "1.43",
+                "8.0",
+                "1.0",
+                "17.0",
+                "59.0",
+                "70.0",
+                "1024.0",
+                "100.0",
+                "2.0",
+                "250.0",
+                "0.05",
+                "0.03",
+                "0.47",
+                "5.0",
+                "55.0",
+                "30.0",
+                "150.0",
+                "10.0",
+                "200.0",
+                "400.0",
+                "0.5",
+                "60.0",
+                "3072.0",
+                "300.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "sizeInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "slotSizeInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "stripeSizeInKB": [
+                "256"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "consumedSizeInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "dpTier0ConsumedCapacityInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "dpTier1ConsumedCapacityInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "dpTier2ConsumedCapacityInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfLU": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfLU": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalLuCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalDriveCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfControllers": []
+        }
+    },
+    {
+        "dfLU": {
+            "cacheSizeMB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "openTotalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openAllocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openFreeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfTotalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfHiHsmCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfOnDemandCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfAllocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfUnallocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "onDemandCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "openOnDemandCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openAllocatedActualCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openUnallocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openUnallocatedActualCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openReservedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openReservedCapacityGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "openReservedActualCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "largestFreeSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "sharedMemoryInMB": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfSpareDrives": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfAllocatedLUs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfUnallocatedLUs": []
+        }
+    },
+    {
+        "dfLU": {
+            "imTotalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "imAllocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "imFreeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "imHiHsmCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "imOnDemandCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfOpenAllocatedLUs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfOpenUnallocatedLUs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfImAllocatedLUs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfImUnallocatedLUs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfMfLDEVs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfAllocatedMfLDEVs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfUnallocatedMfLDEVs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfReservedLUs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfOpenReservedLUs": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfImReservedLUs": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "unAllocatedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "otherCapacityGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalFreePhyCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalFreeSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "HGNumber": []
+        }
+    },
+    {
+        "dfLU": {
+            "referSpeed": []
+        }
+    },
+    {
+        "dfLU": {
+            "unit": []
+        }
+    },
+    {
+        "dfLU": {
+            "HDU": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityGB": [
+                "20.0",
+                "1.47",
+                "7.0",
+                "1.43",
+                "8.0",
+                "1.0",
+                "17.0",
+                "59.0",
+                "70.0",
+                "1024.0",
+                "100.0",
+                "2.0",
+                "250.0",
+                "0.05",
+                "0.03",
+                "0.47",
+                "5.0",
+                "55.0",
+                "30.0",
+                "150.0",
+                "10.0",
+                "200.0",
+                "400.0",
+                "0.5",
+                "60.0",
+                "3072.0",
+                "300.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "capacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "RgCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "earlyAlert": []
+        }
+    },
+    {
+        "dfLU": {
+            "overProvisioningEarlyAlert": []
+        }
+    },
+    {
+        "dfLU": {
+            "overProvisioningDepletionAlert": []
+        }
+    },
+    {
+        "dfLU": {
+            "parityHDUCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "pageSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "virtualLUCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "usageRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfTiers": []
+        }
+    },
+    {
+        "dfLU": {
+            "provisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "subscribedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "numberOfDPVols": []
+        }
+    },
+    {
+        "dfLU": {
+            "overProvisioningRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "availableCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInPercent": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInPercent": []
+        }
+    },
+    {
+        "dfLU": {
+            "startUnit": []
+        }
+    },
+    {
+        "dfLU": {
+            "startHDU": []
+        }
+    },
+    {
+        "dfLU": {
+            "parityHDUCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "parityCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityGB": [
+                "20.0",
+                "1.47",
+                "7.0",
+                "1.43",
+                "8.0",
+                "1.0",
+                "17.0",
+                "59.0",
+                "70.0",
+                "1024.0",
+                "100.0",
+                "2.0",
+                "250.0",
+                "0.05",
+                "0.03",
+                "0.47",
+                "5.0",
+                "55.0",
+                "30.0",
+                "150.0",
+                "10.0",
+                "200.0",
+                "400.0",
+                "0.5",
+                "60.0",
+                "3072.0",
+                "300.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityGB": [
+                "0.0",
+                "6.0",
+                "1.0",
+                "10.0",
+                "1.47",
+                "12.0",
+                "694.0",
+                "100.0",
+                "1018.0",
+                "569.0",
+                "79.0",
+                "42.0",
+                "0.03",
+                "8.0",
+                "24.0",
+                "224.0",
+                "30.0",
+                "26.0",
+                "36.0",
+                "400.0",
+                "200.0",
+                "11.0",
+                "991.0",
+                "2768.0",
+                "126.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "availableCapacityGB": [
+                "20.0",
+                "1.47",
+                "1.0",
+                "1.43",
+                "7.0",
+                "0.0",
+                "10.0",
+                "5.0",
+                "0.47",
+                "59.0",
+                "70.0",
+                "330.0",
+                "2.0",
+                "6.0",
+                "69.0",
+                "455.0",
+                "171.0",
+                "208.0",
+                "0.05",
+                "0.03",
+                "16.0",
+                "47.0",
+                "76.0",
+                "26.0",
+                "4.0",
+                "124.0",
+                "164.0",
+                "0.5",
+                "49.0",
+                "33.0",
+                "304.0",
+                "174.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "hiHsmCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "onDemandCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalFreeSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "largestFreeSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "openTotalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openAllocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openFreeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openHiHsmCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openOnDemandCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openAllocatedActualCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openUnallocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openUnallocatedActualCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openReservedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "openReservedActualCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "imTotalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "imAllocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "imFreeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "imHiHsmCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "imOnDemandCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfTotalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfHiHsmCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfOnDemandCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfAllocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "mfUnallocatedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "protectionLevel": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "pvolDevNum": []
+        }
+    },
+    {
+        "dfLU": {
+            "svolDevNum": []
+        }
+    },
+    {
+        "dfLU": {
+            "fenceLevel": []
+        }
+    },
+    {
+        "dfLU": {
+            "muNumber": []
+        }
+    },
+    {
+        "dfLU": {
+            "copyTrackSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "diskSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "usableCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUtilization": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "highWaterMark": []
+        }
+    },
+    {
+        "dfLU": {
+            "maxCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUtilization": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfFilesScanned": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfFileDedupe": []
+        }
+    },
+    {
+        "dfLU": {
+            "saveSpacedGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "originalDataSizeGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "savvolTotalGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "savvolAvailableGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "savvolUsedGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "savvolUtilization": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "memory": []
+        }
+    },
+    {
+        "dfLU": {
+            "writeCacheSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "diskCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "sizeInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "replicationTransferRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "replicationWriteRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "replicationReadRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "contentSizeMB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedOnSavvol": []
+        }
+    },
+    {
+        "dfLU": {
+            "savvolTotalGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "savvolAvailableGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "savvolUsedGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "savvolUtilization": []
+        }
+    },
+    {
+        "dfLU": {
+            "inodeHardLimit": []
+        }
+    },
+    {
+        "dfLU": {
+            "inodeSoftLimit": []
+        }
+    },
+    {
+        "dfLU": {
+            "inodeUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "inodeGracePeriodInSec": []
+        }
+    },
+    {
+        "dfLU": {
+            "usableCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "readCacheState": []
+        }
+    },
+    {
+        "dfLU": {
+            "writeCacheState": []
+        }
+    },
+    {
+        "dfLU": {
+            "physicalMemSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "readCacheSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "writeCacheSizeInMB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalRawCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalUserCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalUsedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalFreeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalSubscribedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "maxDiskCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "maxLunCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalRawCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalLogicalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalFreeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "lunCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "sever_lc": []
+        }
+    },
+    {
+        "dfLU": {
+            "warning_lc": []
+        }
+    },
+    {
+        "dfLU": {
+            "usableCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "used_capacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "confinedInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshot_size": []
+        }
+    },
+    {
+        "dfLU": {
+            "volNo": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotsSumInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "logicalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "dedupeSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "dedupe": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "fs_size": []
+        }
+    },
+    {
+        "dfLU": {
+            "fs_free_size": []
+        }
+    },
+    {
+        "dfLU": {
+            "usage_bytes": []
+        }
+    },
+    {
+        "dfLU": {
+            "file_count": []
+        }
+    },
+    {
+        "dfLU": {
+            "usage_limit": []
+        }
+    },
+    {
+        "dfLU": {
+            "usage_warn": []
+        }
+    },
+    {
+        "dfLU": {
+            "usage_critical": []
+        }
+    },
+    {
+        "dfLU": {
+            "usage_reset": []
+        }
+    },
+    {
+        "dfLU": {
+            "file_count": []
+        }
+    },
+    {
+        "dfLU": {
+            "file_count_limit": []
+        }
+    },
+    {
+        "dfLU": {
+            "file_count_warning": []
+        }
+    },
+    {
+        "dfLU": {
+            "file_count_critical": []
+        }
+    },
+    {
+        "dfLU": {
+            "file_count_reset": []
+        }
+    },
+    {
+        "dfLU": {
+            "free_pct": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "used_capacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "preferred_host_port": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "rack": []
+        }
+    },
+    {
+        "dfLU": {
+            "lun": []
+        }
+    },
+    {
+        "dfLU": {
+            "used_in_span": []
+        }
+    },
+    {
+        "dfLU": {
+            "tier": []
+        }
+    },
+    {
+        "dfLU": {
+            "hdp_pool": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalPhysicalCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedLogicalSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dedupRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "compressionFactor": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfSSDs": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfVols": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfBricks": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfNodes": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfIBSwitches": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfDPGS": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfTargets": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfXenvs": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfInitiators": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfNodes": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfSSDs": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfNodes": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfSSDs": []
+        }
+    },
+    {
+        "dfLU": {
+            "userDataSSDSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedUserDataSSDSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedLogicalSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfLUNMapped": []
+        }
+    },
+    {
+        "dfLU": {
+            "volSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfTargets": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfinitiators": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfVols": []
+        }
+    },
+    {
+        "dfLU": {
+            "ssdUsedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "ssdSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "slotNum": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfBadSectors": []
+        }
+    },
+    {
+        "dfLU": {
+            "percentEnduranceRemaining": []
+        }
+    },
+    {
+        "dfLU": {
+            "fan1RPM": []
+        }
+    },
+    {
+        "dfLU": {
+            "fan2RPM": []
+        }
+    },
+    {
+        "dfLU": {
+            "fan3RPM": []
+        }
+    },
+    {
+        "dfLU": {
+            "fan4RPM": []
+        }
+    },
+    {
+        "dfLU": {
+            "noOfPorts": []
+        }
+    },
+    {
+        "dfLU": {
+            "mtu": []
+        }
+    },
+    {
+        "dfLU": {
+            "numOfMdls": []
+        }
+    },
+    {
+        "dfLU": {
+            "softCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "hardCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "maxPoolSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeHardCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeSoftCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "consumedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "spareModules": []
+        }
+    },
+    {
+        "dfLU": {
+            "spareDisks": []
+        }
+    },
+    {
+        "dfLU": {
+            "targetSpareModules": []
+        }
+    },
+    {
+        "dfLU": {
+            "targetSpareDisks": []
+        }
+    },
+    {
+        "dfLU": {
+            "usableCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityGB": [
+                "20.0",
+                "1.47",
+                "7.0",
+                "1.43",
+                "8.0",
+                "1.0",
+                "17.0",
+                "59.0",
+                "70.0",
+                "1024.0",
+                "100.0",
+                "2.0",
+                "250.0",
+                "0.05",
+                "0.03",
+                "0.47",
+                "5.0",
+                "55.0",
+                "30.0",
+                "150.0",
+                "10.0",
+                "200.0",
+                "400.0",
+                "0.5",
+                "60.0",
+                "3072.0",
+                "300.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "hardCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "availableCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedVolumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedSnapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityGB": [
+                "20.0",
+                "1.47",
+                "7.0",
+                "1.43",
+                "8.0",
+                "1.0",
+                "17.0",
+                "59.0",
+                "70.0",
+                "1024.0",
+                "100.0",
+                "2.0",
+                "250.0",
+                "0.05",
+                "0.03",
+                "0.47",
+                "5.0",
+                "55.0",
+                "30.0",
+                "150.0",
+                "10.0",
+                "200.0",
+                "400.0",
+                "0.5",
+                "60.0",
+                "3072.0",
+                "300.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityGB": [
+                "0.0",
+                "6.0",
+                "1.0",
+                "10.0",
+                "1.47",
+                "12.0",
+                "694.0",
+                "100.0",
+                "1018.0",
+                "569.0",
+                "79.0",
+                "42.0",
+                "0.03",
+                "8.0",
+                "24.0",
+                "224.0",
+                "30.0",
+                "26.0",
+                "36.0",
+                "400.0",
+                "200.0",
+                "11.0",
+                "991.0",
+                "2768.0",
+                "126.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityGB": [
+                "20.0",
+                "1.47",
+                "7.0",
+                "1.43",
+                "8.0",
+                "1.0",
+                "17.0",
+                "59.0",
+                "70.0",
+                "1024.0",
+                "100.0",
+                "2.0",
+                "250.0",
+                "0.05",
+                "0.03",
+                "0.47",
+                "5.0",
+                "55.0",
+                "30.0",
+                "150.0",
+                "10.0",
+                "200.0",
+                "400.0",
+                "0.5",
+                "60.0",
+                "3072.0",
+                "300.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "size": []
+        }
+    },
+    {
+        "dfLU": {
+            "errorCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "size": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "sharedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "sharedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "sharedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "systemSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "systemSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "systemSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "diskCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "sectorsRead": []
+        }
+    },
+    {
+        "dfLU": {
+            "sectorsWrite": []
+        }
+    },
+    {
+        "dfLU": {
+            "mtu": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "sharedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "sharedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "systemSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "systemSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "statFsTotalAvailable": []
+        }
+    },
+    {
+        "dfLU": {
+            "statFsTotalBlocks": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "vgSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocPE": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityUsage": []
+        }
+    },
+    {
+        "dfLU": {
+            "freePE": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalPE": []
+        }
+    },
+    {
+        "dfLU": {
+            "peSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocPeSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "freePeSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "logicalVolumeSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "size": []
+        }
+    },
+    {
+        "dfLU": {
+            "maxTransmissionUnit": []
+        }
+    },
+    {
+        "dfLU": {
+            "maxTransmissionUnit": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "speedInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "memorySize": []
+        }
+    },
+    {
+        "dfLU": {
+            "sizeTotal": []
+        }
+    },
+    {
+        "dfLU": {
+            "usableCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "unConfiguredCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "provisionedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "diskCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "volumeCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "plexCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "sizeTotal": []
+        }
+    },
+    {
+        "dfLU": {
+            "sizeUsed": []
+        }
+    },
+    {
+        "dfLU": {
+            "sizeAvailable": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "sisLastOpSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "size": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "physicalSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "fileCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "diskUsed": []
+        }
+    },
+    {
+        "dfLU": {
+            "mtuSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedBlockCumuPct": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedBlockPct": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalBlockCumuPct": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalBlockPct": []
+        }
+    },
+    {
+        "dfLU": {
+            "lagTime": []
+        }
+    },
+    {
+        "dfLU": {
+            "lastTransferSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "lastTransferDuration": []
+        }
+    },
+    {
+        "dfLU": {
+            "lagTime": []
+        }
+    },
+    {
+        "dfLU": {
+            "initiatorCount": []
+        }
+    },
+    {
+        "dfLU": {
+            "usableCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "unConfiguredCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "provisionedCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "hardwareAcceleratedMove": []
+        }
+    },
+    {
+        "dfLU": {
+            "hardwareAcceleratedInit": []
+        }
+    },
+    {
+        "dfLU": {
+            "hardwareAcceleratedLocking": []
+        }
+    },
+    {
+        "dfLU": {
+            "memoryAllocationLimit": []
+        }
+    },
+    {
+        "dfLU": {
+            "memoryAllocationReservation": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "provisionedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "notSharedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "memory": []
+        }
+    },
+    {
+        "dfLU": {
+            "memoryAllocationLimit": []
+        }
+    },
+    {
+        "dfLU": {
+            "memoryAllocationReservation": []
+        }
+    },
+    {
+        "dfLU": {
+            "memoryAllocationLimit": []
+        }
+    },
+    {
+        "dfLU": {
+            "memoryAllocationReservation": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "uncommitted": []
+        }
+    },
+    {
+        "dfLU": {
+            "provisionedSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeSpaceGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedCapacityGB": [
+                "0.0",
+                "6.0",
+                "1.0",
+                "10.0",
+                "1.47",
+                "12.0",
+                "694.0",
+                "100.0",
+                "1018.0",
+                "569.0",
+                "79.0",
+                "42.0",
+                "0.03",
+                "8.0",
+                "24.0",
+                "224.0",
+                "30.0",
+                "26.0",
+                "36.0",
+                "400.0",
+                "200.0",
+                "11.0",
+                "991.0",
+                "2768.0",
+                "126.0"
+            ]
+        }
+    },
+    {
+        "dfLU": {
+            "availableFailOverHosts": []
+        }
+    },
+    {
+        "dfLU": {
+            "configuredFailOverHosts": []
+        }
+    },
+    {
+        "dfLU": {
+            "failOverSlots": []
+        }
+    },
+    {
+        "dfLU": {
+            "drsFault": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "speed": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "numPorts": []
+        }
+    },
+    {
+        "dfLU": {
+            "hvMemory": []
+        }
+    },
+    {
+        "dfLU": {
+            "hvMaxSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "hvMaxNumberControlled": []
+        }
+    },
+    {
+        "dfLU": {
+            "hvMaxNumberControlled": []
+        }
+    },
+    {
+        "dfLU": {
+            "hvMaxNumberControlled": []
+        }
+    },
+    {
+        "dfLU": {
+            "hvMaxNumberControlled": []
+        }
+    },
+    {
+        "dfLU": {
+            "wvirtualMemory": []
+        }
+    },
+    {
+        "dfLU": {
+            "wtotalPhysicalMemory": []
+        }
+    },
+    {
+        "dfLU": {
+            "wldsize": []
+        }
+    },
+    {
+        "dfLU": {
+            "wldfreeSpace": []
+        }
+    },
+    {
+        "dfLU": {
+            "wpdsize": []
+        }
+    },
+    {
+        "dfLU": {
+            "wpdindex": []
+        }
+    },
+    {
+        "dfLU": {
+            "wpdnumberOfPartitions": []
+        }
+    },
+    {
+        "dfLU": {
+            "wpdscsiPort": []
+        }
+    },
+    {
+        "dfLU": {
+            "hvMaxNumberControlled": []
+        }
+    },
+    {
+        "dfLU": {
+            "hvMaxNumberControlled": []
+        }
+    },
+    {
+        "dfLU": {
+            "linuxMemoryInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "free": []
+        }
+    },
+    {
+        "dfLU": {
+            "diskSizeInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "cacheSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "diskSizeInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReductionRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinProvisioningRatio": []
+        }
+    },
+    {
+        "dfLU": {
+            "masterNode": []
+        }
+    },
+    {
+        "dfLU": {
+            "onlineNodes": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "failedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "chunkletSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedVVCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedSystemCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedTotalCPGCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedCPGUserCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedCPGSnapshotCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedCPGAdminCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedTotalNonCPGCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedNonCPGUserCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedNonCPGSnapshotCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedNonCPGAdminCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedSysSpareTotalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedSysSpareUsedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "allocatedSysInternalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeInitializedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "fcTotalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "nlTotalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "ssdTotalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "rawSpaceAlertFC": []
+        }
+    },
+    {
+        "dfLU": {
+            "rawSpaceAlertNL": []
+        }
+    },
+    {
+        "dfLU": {
+            "rawSpaceAlertSSD": []
+        }
+    },
+    {
+        "dfLU": {
+            "compaction": []
+        }
+    },
+    {
+        "dfLU": {
+            "controlMemoryInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataMemoryInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "cacheAvailable": []
+        }
+    },
+    {
+        "dfLU": {
+            "rpm": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedVolumeCapacity": []
+        }
+    },
+    {
+        "dfLU": {
+            "spareCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "unavailableCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "failedCapacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "capacityInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalChunklet": []
+        }
+    },
+    {
+        "dfLU": {
+            "prefferedNodeOrder": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalSizeInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedSizeInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalRawSizeInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "rowSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "stepSizeInKB": []
+        }
+    },
+    {
+        "dfLU": {
+            "setSize": []
+        }
+    },
+    {
+        "dfLU": {
+            "rpm": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalVV": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinlyProvisionedVV": []
+        }
+    },
+    {
+        "dfLU": {
+            "thinlyDedupedVV": []
+        }
+    },
+    {
+        "dfLU": {
+            "warningThreshold": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalUserSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedUserSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalRawUserSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedRawUserSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalSnapshotSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedSnapshotSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalRawSnapshotSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedRawSnapshotSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalAdminSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedAdminSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalRawAdminSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedRawAdminSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "compaction": []
+        }
+    },
+    {
+        "dfLU": {
+            "dataReduce": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotDataWarningGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotDataLimitGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotDataIncrementGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotAdminWarningGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotAdminLimitGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotAdminIncrementGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "sharedSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalRawSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeRawSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "reservedSnapshotSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "rawReservedSnapshotSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedSnapshotSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeSnapshotSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "reservedUserSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "rawReservedUserSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedUserSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeUserSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "reservedAdminSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "rawReservedAdminSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "usedAdminSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "freeAdminSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "virtualSizeInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalReservedSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "totalUsedSizeinGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotSpaceAllocLimit": []
+        }
+    },
+    {
+        "dfLU": {
+            "snapshotSpaceAllocWarning": []
+        }
+    },
+    {
+        "dfLU": {
+            "usrSpaceAllocLimit": []
+        }
+    },
+    {
+        "dfLU": {
+            "usrSpaceAllocWarning": []
+        }
+    },
+    {
+        "dfLU": {
+            "compaction": []
+        }
+    },
+    {
+        "dfLU": {
+            "compression": []
+        }
+    },
+    {
+        "dfLU": {
+            "hostWrtSpaceInGB": []
+        }
+    },
+    {
+        "dfLU": {
+            "maxRate": []
+        }
+    },
+    {
+        "dfLU": {
+            "rate": []
+        }
+    }
+]

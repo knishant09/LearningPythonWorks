@@ -1,0 +1,1903 @@
+[
+    {
+        "name": " ",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "!",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "\"",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "#",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "$",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "%",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "&",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "'",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "(",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ")",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "*",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "+",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ",",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "-",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ".",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "/",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "0",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "1",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "2",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "3",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "4",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "5",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "6",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "7",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "8",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "9",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ":",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ";",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "<",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "=",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ">",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "?",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "@",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "A",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "B",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "C",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "D",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "E",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "F",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "G",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "H",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "I",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "J",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "K",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "L",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "M",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "N",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "O",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "P",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "Q",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "R",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "S",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "T",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "U",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "V",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "W",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "X",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "Y",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "Z",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "[",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "\\",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "]",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "^",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "_",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "`",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "a",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "b",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "c",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "d",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "e",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "f",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "g",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "h",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "i",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "j",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "k",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "l",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "m",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "n",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "o",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "p",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "q",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "r",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "s",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "t",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "u",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "v",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "w",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "x",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "y",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "z",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "{",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "|",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "}",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "~",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    }
+][
+    {
+        "name": " ",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "!",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "\"",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "#",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "$",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "%",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "&",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "'",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "(",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ")",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "*",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "+",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ",",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "-",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ".",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "/",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "0",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "1",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "2",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "3",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "4",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "5",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "6",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "7",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "8",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "9",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ":",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ";",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "<",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "=",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": ">",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "?",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "@",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "A",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "B",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "C",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "D",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "E",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "F",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "G",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "H",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "I",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "J",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "K",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "L",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "M",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "N",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "O",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "P",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "Q",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "R",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "S",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "T",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "U",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "V",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "W",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "X",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "Y",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "Z",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "[",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "\\",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "]",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "^",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "_",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "`",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "a",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "b",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "c",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "d",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "e",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "f",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "g",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "h",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "i",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "j",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "k",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "l",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "m",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "n",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "o",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "p",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "q",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "r",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "s",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "t",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "u",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "v",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "w",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "x",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "y",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "z",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "{",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "|",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "}",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    },
+    {
+        "name": "~",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ]
+    }
+]

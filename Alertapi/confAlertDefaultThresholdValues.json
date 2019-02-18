@@ -1,0 +1,91 @@
+[ {
+  "resType" : "raidPool",
+  "attrList" : [ {
+    "attrId" : "poolStatus",
+    "preDefinedValues" : [ "Normal", "Warning", "Blocked", "Early Alert Over", "Depletion Alert Over", "Capacity Depleted" ]
+  }, {
+    "attrId" : "dataSaving",
+    "preDefinedValues" : [ "Disabled", "Compression", "Compression and Deduplication" ]
+  } ]
+}, {
+  "resType" : "raidPG",
+  "attrList" : [ {
+    "attrId" : "driveStatus",
+    "preDefinedValues" : [ "Bad Condition", "Copying", "Using Spare", "Normal", "Unknown" ]
+  } ]
+}, {
+  "resType" : "raidLdev",
+  "attrList" : [ {
+    "attrId" : "migrationStatus",
+    "preDefinedValues" : [ "Simplex", "Suspend", "Run" ]
+  } ]
+}, {
+  "resType" : "raidPair",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "PSUE", "PSUS", "PFUS", "PFUL", "RCPY", "COPY", "PAIR" ]
+  } ]
+}, {
+  "resType" : "h",
+  "attrList" : [ {
+    "attrId" : "numaEnabled",
+    "preDefinedValues" : [ "true", "false" ]
+  }, {
+    "attrId" : "htEnabled",
+    "preDefinedValues" : [ "true", "false" ]
+  } ]
+}, {
+  "resType" : "vdisk",
+  "attrList" : [ {
+    "attrId" : "thinProvisioned",
+    "preDefinedValues" : [ "true", "false" ]
+  } ]
+}, {
+  "resType" : "vmaxFeDirector",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "Online", "Offline" ]
+  } ]
+}, {
+  "resType" : "vmaxBeDirector",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "Online", "Offline" ]
+  } ]
+}, {
+  "resType" : "vmaxThinPool",
+  "attrList" : [ {
+    "attrId" : "state",
+    "preDefinedValues" : [ "Enabled", "Disabled" ]
+  } ]
+}, {
+  "resType" : "naVolume",
+  "attrList" : [ {
+    "attrId" : "isDataCompactionEnabled",
+    "preDefinedValues" : [ "true", "false" ]
+  }, {
+    "attrId" : "isCompressionEnabled",
+    "preDefinedValues" : [ "true", "false" ]
+  }, {
+    "attrId" : "isInlineCompressionEnabled",
+    "preDefinedValues" : [ "true", "false" ]
+  }, {
+    "attrId" : "isInlineDedupeEnabled",
+    "preDefinedValues" : [ "true", "false" ]
+  } ]
+}, {
+  "resType" : "fabBrocadeSwitchPort",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "Enabled", "Disabled" ]
+  }, {
+    "attrId" : "npivEnabled",
+    "preDefinedValues" : [ "True", "False" ]
+  }, {
+    "attrId" : "npivCapable",
+    "preDefinedValues" : [ "True", "False" ]
+  }, {
+    "attrId" : "state",
+    "preDefinedValues" : [ "Online", "Offline" ]
+  } ]
+} ]
