@@ -1,0 +1,752 @@
+<ResourceDefList>
+<ResourceDef alias="false" configAttributes="nameAlias,name" directRelations="" displayName="Raid Storage Model" displayNamePattern="" logicalCategory="" numSortOptions="" requiredProbe="HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidStorageModel">    
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,svpIP,modelName,vendorName,svpMicroVersion,cacheSizeMB,noOfPg,noOfLdev,numberOfPhyLdevs,totalPhyCapacity,totalFreePhyCapacity,allocatedPhyCapacity,unAllocatedPhyCapacity,poolVolPhyCapacity,numberOfPools,numberOfVvols,totalVirtualCapacity,totalAllocatedVirtualCapacity,totalUnAllocatedVirtualCapacity,numberOfPoolVols,serialNumber,arrayType,description,productName,agentVersion,productCode,lastRefreshed,lastConfigurationChanged,hardwareRevision,controllerVersion,numberOfControllers,openTotalCapacity,openAllocatedCapacity,openFreeCapacity,mfTotalCapacity,mfHiHsmCapacity,mfOnDemandCapacity,mfAllocatedCapacity,mfUnallocatedCapacity,hihsmCapacityInGB,hihsmCapacityInKB,openHiHsmCapacity,onDemandCapacityInGB,openOnDemandCapacity,openAllocatedActualCapacity,openUnallocatedCapacity,openUnallocatedActualCapacity,openReservedCapacity,openReservedCapacityGB,openReservedActualCapacity,largestFreeSpaceInGB,sharedMemoryInMB,numberOfSpareDrives,multipathSupport,numberOfAllocatedLUs,numberOfUnallocatedLUs,slprStatus,imTotalCapacity,imAllocatedCapacity,imFreeCapacity,imHiHsmCapacity,imOnDemandCapacity,numberOfOpenAllocatedLUs,numberOfOpenUnallocatedLUs,numberOfImAllocatedLUs,numberOfImUnallocatedLUs,numberOfMfLDEVs,numberOfAllocatedMfLDEVs,numberOfUnallocatedMfLDEVs,numberOfReservedLUs,numberOfOpenReservedLUs,numberOfImReservedLUs,capacityInGB,freeCapacityInGB,allocatedCapacityInGB,physicalCapacityInTB,totalFreeSpaceInGB,aggLdevCapacityInGB,aggLdevUsedCapacityInGB,aggPGFreeSpaceInGB,aggPGLargestFreeSpaceInGB,aggPGSizeInGB,unAllocatedCapacityInGB,otherCapacityGB,dkcModel,totalEfficiencyRatio,dataReductionRatio,softwareSavingRatio,softwareCompressionRatio,softwareDeduplicationRatio,softwarePatternMatchingRatio,fmdSavingRatio,fmdCompressionRatio,fmdPatternMatchingRatio,provisioningEfficiency,snapshotEfficiencyRatio,calculationStartTime,calculationEndTime" directRelations="raidStorageModel" displayName="RAID Storage" numSortOptions="10" perfAttributes="writePendingRate,utilization,writePending,cacheUsage,sideFileUsage,chaCachePathUsageRate,dkaCachePathUsageRate,syn_raidLdev_responseTime, syn_raidLdev_readResponseTime, syn_raidLdev_writeResponseTime, syn_raidLdev_readTransRate, syn_raidLdev_transferRate, syn_raidLdev_writeTransRate, syn_raidLdev_maxReadResponseTime, syn_raidLdev_maxWriteResponseTime, syn_raidLdev_maxResponseTime, syn_raidLdev_randomReadTransRate, syn_raidLdev_randomWriteTransRate, syn_raidLdev_seqReadTransRate, syn_raidLdev_seqWriteTransRate,  syn_raidLdev_randomReadIOPS, syn_raidLdev_seqReadIOPS, syn_raidLdev_randomWriteIOPS, syn_raidLdev_seqWriteIOPS,  syn_raidLdev_totalIOPS, syn_raidLdev_readIOPS, syn_raidLdev_writeIOPS, syn_raidMP_utilization, syn_raidClpr_utilization, syn_raidClpr_writePendingRate, syn_raidLdev_writeMiss, syn_raidLdev_readMiss, syn_raidLdev_readHit, syn_raidLdev_writeHit, syn_raidPort_transferRate,syn_raidPort_totalIOPS,transferRate,readTransRate,writeTransRate,totalIOPS,readIOPS,writeIOPS,readHit" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidStorage">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hgID,hgName,hostMode,hostModeOption" directRelations="raidStorage,raidPort" displayName="RAID Host Group" displayNamePattern="\d+-CL\w-\w-(.*)" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidHG">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,portType,type,attribute,speedInGB,loopId,fabricMode,topology,lunSecurity,slpr,wwn,phyPort" directRelations="raidStorage,sp,raidCha,raidCHP" displayName="RAID Port" displayNamePattern="\d+-(.*)" perfAttributes="totalIOPS,maxIOPS,transferRate,maxTransferRate,responseTime,initiatorTotalIOPS,initiatorTransferRate,initiatorResponseTime" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidPort">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hgId,hgName" directRelations="raidStorage,raidPort,raidHG,hbaPort" displayName="RAID Port WWN" displayNamePattern="\d+-CL\w-\w-(.*)" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidPortWWN">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,poolStatus,usageRate,noOfVolumes,noOfVVols,currentSubscriptionPercent,numberOfPoolVolumes,numOfLdev,thresholdRate,poolTierCount,poolFunction,poolID,poolType,diskType,provisioningRatio,subscribedCapacity,raidLevel,numberOfTiers,rpm,clprNumber,totalCapacityInGB,availableCapacityInGB,usedCapacityInGB,usedCapacityInPercent,freeCapacityInPercent,poolCapacityExpansionRate,fmcPoolCapacitySaving,fmcPoolCapacitySavingRate,dataSaving,emulationType,userDataCapacity,poolSavingRatio,savingCapacity,dkcSavingCapacityInGB,dkcSavingRatio,dkcCompressionRatio,dkcDedupRatio,dkcCompressionCapacity,dkcDedupCapacity,dkcReclaimCapacity,dkcSystemCapacity,dkcPreProcCapacity,fmcCompressionRatio,fmcCompressionCapacity,fmcReclaimCapacity,fmcPhysicalCapacity,fmcUsedPhysicalCapacity,fmcLogicalCapacity,fmcUsedLogicalCapacity,warningThresholdRate,reservedCapacityInGB,autoExpansion,poolName,totalEfficiencyRatio,dataReductionRatio,softwareSavingRatio,softwareCompressionRatio,softwareDeduplicationRatio,softwarePatternMatchingRatio,fmdSavingRatio,fmdCompressionRatio,fmdPatternMatchingRatio,provisioningEfficiency,snapshotEfficiencyRatio,calculationStartTime,calculationEndTime" directRelations="raidStorage,raidClpr" displayName="RAID Pool" displayNamePattern="\d+-(\d+)" numSortOptions="10" perfAttributes="tierRelocationProgressRate,totalPoolCapacityMB,poolCapacityGB,touchedCapacityInGB,unTouchedCapacityInGB,subRate,managedCapacityInGB,physicalcapacityInGB,percentUsageRate,percentUsedCapacity,transferRate,readTransRate,writeTransRate,readIOPS,writeIOPS,totalIOPS,readResponseTime,writeResponseTime,responseTime,readKBPIO,writeKBPIO,percentReadIOPS,syn_raidLdev_responseTime, syn_raidLdev_totalIOPS, syn_raidLdev_readIOPS, syn_raidLdev_writeIOPS, syn_raidLdev_readResponseTime, syn_raidLdev_writeResponseTime, syn_raidLdev_readTransRate, syn_raidLdev_transferRate, syn_raidLdev_writeTransRate, syn_raidLdev_maxReadResponseTime, syn_raidLdev_maxWriteResponseTime, syn_raidLdev_maxResponseTime, syn_raidLdev_randomReadIOPS, syn_raidLdev_seqReadIOPS, syn_raidLdev_randomWriteIOPS, syn_raidLdev_seqWriteIOPS, syn_raidLdev_randomReadTransRate, syn_raidLdev_randomWriteTransRate, syn_raidLdev_seqReadTransRate, syn_raidLdev_seqWriteTransRate,dkcSavingCapacity,physicalCapacityUsed,physicalCapacityFree,percentWriteIOPS,physicalCapacityUsageRate,movedPages" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" scalarForecastAttributes="usedCapacityInGB" type="raidPool">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,tierType,fmcPhysicalTotalCapacity,fmcPhysicalUsedCapacity,fmcPoolTotalCapacity,fmcPoolUsedCapacity,fmcPoolCapacityUsageRate,fmcPoolCapacitySaving,fmcPoolCapacitySavingRate,fmcCapacityExpansionRate,fmcPoolFreeCapacity,displayDriveType" directRelations="raidStorage,raidPool" displayName="RAID Pool Tier" perfAttributes="lowerLimitIOPH,deltaValueIOPH,tierUsedCapacityMB,tierTotalCapacityMB,tierTotalCapacity,performanceWorkingRatio,tierIOPS,spaceUsageRate,movingPagesAfter,pagePromoted,pageDemoted,movedPages,tierUsedCapacity,tierFreeCapacity,spaceUsageRateInPool" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidPoolTier">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,typeOfPG,numberOfLdevs,usageRate,availableCapacityGB,unAllocatedVolume,raidLevel,raidType,slpr,clpr,driveType,controllerID,chassis,substance,allocatedCapacity,hiHsmCapacity,onDemandCapacity,totalFreeSpace,largestFreeSpace,emulation,cuGroupNumber,openTotalCapacity,openAllocatedCapacity,openFreeCapacity,openHiHsmCapacity,openOnDemandCapacity,openAllocatedActualCapacity,openUnallocatedCapacity,openUnallocatedActualCapacity,openReservedCapacity,openReservedActualCapacity,imTotalCapacity,imAllocatedCapacity,imFreeCapacity,imHiHsmCapacity,imOnDemandCapacity,mfTotalCapacity,mfHiHsmCapacity,mfOnDemandCapacity,mfAllocatedCapacity,mfUnallocatedCapacity,volumeType,encrypted,protectionLevel,dpPoolID,formFactor,clprNumber,diskType,slprNumber,freeCapacityInGB,type,pgType,checkCapacityGB,emulationType,totalCapacityInGB,physicalCapacity,totalFreeSpaceInGB,largestFreeSpaceInGB,driveStatus,usedSpareDriveCount,usedEndurance,fmdBatteryLife,driveModel,isConcatenated,displayDriveType" directRelations="raidStorage,raidPG" displayName="RAID Parity Group" displayNamePattern="\d+-(E?\d+-\d+)" numSortOptions="10,E|-| |\[|\]" perfAttributes="syn_raidLdev_utilization, syn_raidLdev_responseTime, syn_raidLdev_readHit, syn_raidLdev_totalIOPS, syn_raidLdev_readIOPS, syn_raidLdev_readTransRate, syn_raidLdev_transferRate, syn_raidLdev_writeIOPS, syn_raidLdev_writeTransRate, syn_raidLdev_maxReadResponseTime, syn_raidLdev_maxWriteResponseTime, syn_raidLdev_maxResponseTime, syn_raidLdev_readResponseTime, syn_raidLdev_writeResponseTime, syn_raidLdev_randomReadIOPS, syn_raidLdev_seqReadIOPS, syn_raidLdev_randomWriteIOPS, syn_raidLdev_seqWriteIOPS, syn_raidLdev_randomReadTransRate, syn_raidLdev_randomWriteTransRate, syn_raidLdev_seqReadTransRate, syn_raidLdev_seqWriteTransRate,utilization,maxUtilization,transferRate,readTransRate,writeTransRate,percentReadIOPS,readHit,totalIOPS,readIOPS,writeIOPS,readResponseTime,writeResponseTime,randomReadIOPS,seqReadIOPS,randomWriteIOPS,seqWriteIOPS,randomIOPS,seqIOPS,randomTransRate,seqTransRate,readKBPIO,writeKBPIO,percentWriteIOPS" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidPG">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,clprName,cacheMemoryCapacity,cacheMemoryUsedCapacity,writePendingDataCapacity,sidefileCapacity,usageRate,writePendingDataRate,sidefileUsageRate,cacheSizeMB" directRelations="raidStorage" displayName="RAID CLPR" perfAttributes="utilization,writePendingRate,sideFileUsageRate,cacheUsage,writePending,sideFileUsage,syn_raidLdev_writeMiss, syn_raidLdev_readMiss, syn_raidLdev_readHit, syn_raidLdev_writeHit,maxWritePendingRate,cacheSizeGB,maxSideFileUsageRate" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidClpr">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,processorId" directRelations="raidStorage,raidMPB" displayName="RAID MP" displayNamePattern="\d+-(.*)" perfAttributes="utilization" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidMP">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage,raidMPB,raidClpr" displayName="RAID MPB CLPR" displayNamePattern="\d+-(.*)" perfAttributes="writePendingRate,utilization" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidMpbClpr">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,mpbId,autoAssignment" directRelations="raidStorage" displayName="RAID MPB" displayNamePattern="\d+-(.*)" perfAttributes="utilization,maxUtilization,syn_raidLdev_totalIOPS, syn_raidLdev_readIOPS, syn_raidLdev_readTransRate, syn_raidLdev_transferRate, syn_raidLdev_writeIOPS, syn_raidLdev_readResponseTime, syn_raidLdev_writeResponseTime, syn_raidLdev_responseTime,  syn_raidLdev_maxReadResponseTime, syn_raidLdev_maxWriteResponseTime, syn_raidLdev_maxResponseTime,syn_raidLdev_writeTransRate,  syn_raidLdev_randomReadIOPS, syn_raidLdev_seqReadIOPS, syn_raidLdev_randomWriteIOPS, syn_raidLdev_seqWriteIOPS, syn_raidLdev_randomReadTransRate, syn_raidLdev_randomWriteTransRate, syn_raidLdev_seqReadTransRate, syn_raidLdev_seqWriteTransRate, syn_raidLdev_writeMiss, syn_raidLdev_readMiss, syn_raidLdev_readHit, syn_raidLdev_writeHit" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidMPB">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hostMode,portName,hgID,lunId,num,ldev,cm,hostModeOption,hgName" directRelations="raidStorage,raidPort,raidHG,raidLdev" displayName="RAID LU" displayNamePattern="\d+-CL\w-\w-\w+-([\dA-Z]+)" numSortOptions="16" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidLU">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,parityGroup,volumeType,ldevCapacityGB,ports,definedAlternatePaths,parentPoolId,associatedPoolId,volumeAttribute,externalVolId,ldevNaming,operatingRate,raidLevel,raidType,driveModel,driveCapacity,usedCapacityGB,mpb,ssid,tierAllocLevel,tierLevel,tierRelocation,driveCount,path,slpr,clpr,luUsedBlocks,sizeInKB,cylinders,lba,slotSizeInKB,isComposite,arrayGroup,chassis,devType,substance,onDemandDevice,isStandardLDEV,guardMode,diskType,hihsmReserved,hihsmOwnerID,cuGroupNumber,cacheResidencyMode,stripeSizeInKB,volumeKind,status,dpType,consumedSizeInKB,consumedSizeInGB,mfTrueCopyVolType,mfShadowImageVolType,mfUniversalReplicatorVolType,mfUrPoolID,dpPoolID,systemDisk,expandedInfoOnEmulation,encrypted,quorumDisk,dpTier0ConsumedCapacityInKB,dpTier1ConsumedCapacityInKB,dpTier2ConsumedCapacityInKB,externalTierRank,emulation,hRaidType,devNum,threshold,resourcePartitionUnitID,isExternal,ldevProperties,dataSaving,virtualSerialNumber,virtualDkcName,virtualLdevNumber,migrationStatus,migrationProgress,copyProperties,jnlId,headLdev,poolFreeCapacityRate,dedupMode,ldevProperty,dedupStore" directRelations="raidStorage,raidPG,raidPort,raidPool,raidMPB,raidOwner,raidClpr,raidURJnl" displayName="RAID LDEV" displayNamePattern="\d+-([\w:]+)" perfAttributes="totalIOPS,readHit, readMiss,readHitCount,writeHitCount,writeHit, writeMiss, readIOPS,randomReadHit,randomReadIOPS,randomWriteIOPS,seqReadHit,seqReadIOPS,seqWriteIOPS,writeIOPS,backTrans,chToDrTransfer,randomDrToChTransfer,seqDrToChTransfer,readTransRate,transferRate,writeTransRate,randomReadTransRate,randomWriteTransRate,seqReadTransRate,seqWriteTransRate,readResponseTime,responseTime,writeResponseTime,utilization,randomIOPS,readHitIOPS,readMissIOPS,percentReadIOPS,percentWriteIOPS,readKBPIO,writeKBPIO,randomReadKBPIO,randomWriteKBPIO,seqReadKBPIO,seqWriteKBPIO,percentUsageRate,touchedCapacityInGB,unTouchedCapacityInGB,vvolCapacityInGB,queueSize,avgReadByte,avgWriteByte,readIOCount,writeIOCount,ldevMpbUtilization" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidLdev">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,tierType,displayDriveType" directRelations="raidStorage,raidLdev,raidPoolTier" displayName="RAID LDEV TIER" perfAttributes="tierUsedCapacity,tierIOPS,tierIopsPerGB" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidLdevTier">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,noOfLdev" directRelations="raidStorage,raidMPB,raidPort,raidPG,raidPool,raidClpr,raidHG" displayName="RAID Owner" displayNamePattern="\d+-(.*)" perfAttributes="syn_raidLdev_responseTime, syn_raidLdev_totalIOPS, syn_raidLdev_readTransRate, syn_raidLdev_readHit, syn_raidLdev_readIOPS, syn_raidLdev_transferRate, syn_raidLdev_writeIOPS, syn_raidLdev_writeTransRate, syn_raidLdev_writeResponseTime, syn_raidLdev_readResponseTime, syn_raidLdev_randomReadIOPS, syn_raidLdev_seqReadIOPS, syn_raidLdev_randomWriteIOPS, syn_raidLdev_seqWriteIOPS, syn_raidLdev_maxReadResponseTime, syn_raidLdev_maxWriteResponseTime, syn_raidLdev_maxResponseTime, syn_raidLdev_randomReadTransRate, syn_raidLdev_randomWriteTransRate, syn_raidLdev_seqReadTransRate, syn_raidLdev_seqWriteTransRate" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidOwner">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,copyType,pVol,pSerial,sVol,sSerial,volStatus,emulationType,copyPace,ctGroupId,jnlId,copyMode,fence,pMun,pPortId,pTargetId,pLun,sPortId,sTargetId,sLun,sMun,pvolArrayType,pvolPoolID,pvolMngAreaPoolID,svolArrayType,svolPoolID,svolMngAreaPoolID,replicationFunction,replicationSubFunction,copyTrackSize,splitTime,pvolDevNum,status,pDkcModel,sDkcModel" directRelations="raidStorage,raidLdev" displayName="RAID PAIR" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidPair"> 
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,objectID,arrayGroup,model,capacityInKB,diskSize,row,column,depth,chassis,role,vendor,firmwareVersion,rpm,serialNumber,dkuType,diskType,denseNumber,densePosition,diskModelSize,encrypted,formFactor" directRelations="raidStorage" displayName="RAID PDEV" requiredProbe="SVP|HitachiEnterpriseStorage|HitachiRMLIB|HPEnterpriseStorage" type="raidPdev">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage,raidCha" displayName="RAID CHA ESW" perfAttributes="accessPathUsage" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidChaEsw">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage" displayName="RAID CHA" perfAttributes="totalIOPS,transferRate" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidCha">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,processorId" directRelations="raidStorage,raidCha" displayName="RAID CHP" perfAttributes="utilization,maxUtilization" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidCHP">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage" displayName="RAID DKA" requiredProbe="HitachiEnterpriseStorage" type="raidDKA">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,processorId" directRelations="raidStorage,raidDKA" displayName="RAID DKP" perfAttributes="utilization,maxUtilization" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidDKP">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage,raidDKA" displayName="RAID DKA ESW" perfAttributes="accessPathUsage" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidDkaEsw">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage,raidMPB" displayName="RAID MPB ESW" perfAttributes="accessPathUsage" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidMpbEsw">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage,raidEsw" displayName="RAID Cache ESW" perfAttributes="accessPathUsage" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidCacheEsw">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage" displayName="RAID ESW" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidEsw">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage" displayName="RAID Cache Path" perfAttributes="accessPathUsage" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidMb">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage,raidLdev" displayName="Port Group" requiredProbe="HitachiEnterpriseStorage" type="raidPortGroup">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage,raidPort,raidCha" displayName="Port Controller" requiredProbe="HitachiEnterpriseStorage" type="raidPortController">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn,upper,controlMode,priorityMode" directRelations="raidStorage,raidPortWWN,raidLdev" displayName="RAID LDEV HBA" requiredProbe="HitachiEnterpriseStorage" type="raidLdevHba">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn,portNumber,upper,spmName,controlMode,threshold,priorityMode,spmGroup" directRelations="raidStorage,raidPort,raidPortWWN" displayName="RAID PORT HBA" requiredProbe="HitachiEnterpriseStorage" type="raidPortHba">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="raidStorage" displayName="RAID Journal" perfAttributes="writeTransRate" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidURJnl">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,protocol,raHost,portNumber,hostName,instanceName" directRelations="raidStorage" displayName="RAID Agent Instance" requiredProbe="HitachiEnterpriseStorage|HPEnterpriseStorage" type="raidAgentInstance">
+	</ResourceDef>
+<ResourceDef alias="false" configAttributes="nameAlias,name" directRelations="" displayName="AMS Storage Model" displayNamePattern="" logicalCategory="" numSortOptions="" requiredProbe="AMS" type="dfStorageModel">
+		<PerfGroups/>
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,availableCapacityGB,usedCapacityGB,totalCapacityGB,LuCategory,LUType,raidLevel,status,currentCTL,defaultCTL,sizeInKB,cylinders,lba,slotSizeInKB,isComposite,arrayGroup,chassis,devType,volumeType,substance,path,onDemandDevice,isStandardLDEV,guardMode,diskType,hihsmReserved,hihsmOwnerID,slprNumber,cuGroupNumber,clprNumber,cacheResidencyMode,stripeSizeInKB,volumeKind,dpType,consumedSizeInKB,mfTrueCopyVolType,mfShadowImageVolType,mfUniversalReplicatorVolType,mfUrPoolID,dpPoolID,systemDisk,expandedInfoOnEmulation,encrypted,quorumDisk,dpTier0ConsumedCapacityInKB,dpTier1ConsumedCapacityInKB,dpTier2ConsumedCapacityInKB,tierLevel,tierRelocation,externalTierRank,emulation,hRaidType" directRelations="dfStorage,dfRG,dfHDP" displayName="AMS LU" perfAttributes="ctl0IOPS,ctl1IOPS,ctl0ReadIOPS,ctl1ReadIOPS,ctl0WriteIOPS,ctl1WriteIOPS,ctl0RandomReadIOPS,ctl1RandomReadIOPS,ctl0RandomWriteIOPS,ctl1RandomWriteIOPS,ctl0SequentialReadIOPS,ctl1SequentialReadIOPS,ctl0SequentialWriteIOPS,ctl1SequentialWriteIOPS,ctl0ReadHit,ctl1ReadHit,ctl0WriteHit,ctl1WriteHit,ctl0TransRate,ctl1TransRate,ctl0ReadTransRate,ctl1ReadTransRate,ctl0WriteTransRate,ctl1WriteTransRate,ctl0RandomReadTransRate,ctl1RandomReadTransRate,ctl0RandomWriteTransRate,ctl1RandomWriteTransRate,ctl0SequentialReadTransRate,ctl1SequentialReadTransRate,ctl0SequentialWriteTransRate,ctl1SequentialWriteTransRate,ctl0ReadKBPIO,ctl1ReadKBPIO,ctl0WriteKBPIO,ctl1WriteKBPIO,ctl0PercentReadIOPS,ctl1PercentReadIOPS,ctl0PercentWriteIOPS,ctl1PercentWriteIOPS,ctl0AvgReadBytes,ctl1AvgReadBytes,ctl0AvgWriteBytes,ctl1AvgWriteBytes,ctl0QueueLength,ctl1QueueLength,ctl0RandomReadKBPIO,ctl1RandomReadKBPIO,ctl0RandomWriteKBPIO,ctl1RandomWriteKBPIO,ctl0SequentialReadKBPIO,ctl1SequentialReadKBPIO,ctl0SequentialWriteKBPIO,ctl1SequentialWriteKBPIO,ctl0ReadMiss,ctl1ReadMiss,ctl0WriteMiss,ctl1WriteMiss,ctl0ReadHitIOPS,ctl1ReadHitIOPS,ctl0ReadMissIOPS,ctl1ReadMissIOPS,ctl0ReadCMDCount,ctl1ReadCMDCount,ctl0WriteCMDCount,ctl1WriteCMDCount,ctl0ReadCache,ctl1ReadCache,ctl0WriteCache,ctl1WriteCache,ctl0ReadTransSize,ctl1ReadTransSize,ctl0WriteTransSize,ctl1WriteTransSize,ctl0ReadCMDHitCount,ctl1ReadCMDHitCount,ctl0ReadCMDHitTime,ctl1ReadCMDHitTime,ctl0ReadCMDHitMaxTime,ctl1ReadCMDHitMaxTime,ctl0WriteCMDHitCount,ctl1WriteCMDHitCount,ctl0WriteCMDHitTime,ctl1WriteCMDHitTime,ctl0WriteCMDHitMaxTime,ctl1WriteCMDHitMaxTime,ctl0TagCount,ctl1TagCount,ctl0AverageTagCount,ctl1AverageTagCount,ctl0ReadResponseTime,ctl1ReadResponseTime,ctl0WriteResponseTime,ctl1WriteResponseTime" requiredProbe="AMS" type="dfLU">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hlun" directRelations="dfHG,dfPort,dfLU" displayName="AMS LUN" requiredProbe="AMS" type="dfLun">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,numberOfLU" directRelations="dfStorage,dfHDP,dfRG,dfLU,dfHG" displayName="AMS Owner" requiredProbe="AMS" type="dfOwner">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,vendor,modelName,numberOfLU,microProgramRevision,totalLuCapacityInGB,totalDriveCapacityInGB,serialNumber,arrayType,description,productName,agentVersion,allocatedCapacityInGB,productCode,lastRefreshed,lastConfigurationChanged,hardwareRevision,controllerVersion,numberOfControllers,totalFreePhyCapacity,cacheSizeMB,freeCapacityInKB,openTotalCapacity,openAllocatedCapacity,openFreeCapacity,mfTotalCapacity,mfHiHsmCapacity,mfOnDemandCapacity,mfAllocatedCapacity,mfUnallocatedCapacity,onDemandCapacityInGB,openOnDemandCapacity,openAllocatedActualCapacity,openUnallocatedCapacity,openUnallocatedActualCapacity,openReservedCapacity,openReservedCapacityGB,openReservedActualCapacity,largestFreeSpaceInGB,sharedMemoryInMB,numberOfSpareDrives,multipathSupport,numberOfAllocatedLUs,numberOfUnallocatedLUs,slprStatus,imTotalCapacity,imAllocatedCapacity,imFreeCapacity,imHiHsmCapacity,imOnDemandCapacity,numberOfOpenAllocatedLUs,numberOfOpenUnallocatedLUs,numberOfImAllocatedLUs,numberOfImUnallocatedLUs,numberOfMfLDEVs,numberOfAllocatedMfLDEVs,numberOfUnallocatedMfLDEVs,numberOfReservedLUs,numberOfOpenReservedLUs,numberOfImReservedLUs,capacityInGB,totalFreeSpaceInGB,unAllocatedCapacityInGB,otherCapacityGB" directRelations="dfStorageModel" displayName="AMS Storage System" requiredProbe="AMS" type="dfStorage">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,HGName,HGNumber" directRelations="dfStorage,dfLun,dfPort" displayName="AMS Host Group" requiredProbe="AMS" type="dfHG">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,PortWWN,Wname" directRelations="dfPort,dfHG,hbaPort" displayName="AMS WWN" requiredProbe="AMS" type="dfWWN">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,portName,nodeName,portID,address,referSpeed,setSpeed" directRelations="dfStorage,dfCtl,dfLU,sp" displayName="AMS Port" perfAttributes="ctl0IOPS,ctl1IOPS,ctl0ReadIOPS,ctl1ReadIOPS,ctl0WriteIOPS,ctl1WriteIOPS,ctl0RandomReadIOPS,ctl1RandomReadIOPS,ctl0RandomWriteIOPS,ctl1RandomWriteIOPS,ctl0SequentialReadIOPS,ctl1SequentialReadIOPS,ctl0SequentialWriteIOPS,ctl1SequentialWriteIOPS,ctl0ReadHit,ctl1ReadHit,ctl0WriteHit,ctl1WriteHit,ctl0TransRate,ctl1TransRate,ctl0ReadTransRate,ctl1ReadTransRate,ctl0WriteTransRate,ctl1WriteTransRate,ctl0RandomReadTransRate,ctl1RandomReadTransRate,ctl0RandomWriteTransRate,ctl1RandomWriteTransRate,ctl0SequentialReadTransRate,ctl1SequentialReadTransRate,ctl0SequentialWriteTransRate,ctl1SequentialWriteTransRate,ctl0ReadCMDCount,ctl1ReadCMDCount,ctl0WriteCMDCount,ctl1WriteCMDCount,ctl0ReadCMDHitCount,ctl1ReadCMDHitCount,ctl0WriteCMDHitCount,ctl1WriteCMDHitCount,ctl0ReadTransSize,ctl1ReadTransSize,ctl0WriteTransSize,ctl1WriteTransSize,ctl0PercentReadIOPS,ctl1PercentReadIOPS,ctl0AvgWriteBytes,ctl1AvgWriteBytes" requiredProbe="AMS" type="dfPort">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="dfStorage,dfCtl" displayName="AMS Cache Partition" perfAttributes="ctl0WritePendingRate,ctl1WritePendingRate,ctl0CleanQueueUsageRate,ctl1CleanQueueUsageRate,ctl0MiddleQueueUsageRate,ctl1MiddleQueueUsageRate,ctl0PhysicalQueueUsageRate,ctl1PhysicalQueueUsageRate,ctl0TotalQueueUsageRate,ctl1TotalQueueUsageRate" requiredProbe="AMS" type="dfCachePart">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="dfStorage,dfCtl" displayName="AMS Processor Core" perfAttributes="ctl0Usage,ctl1Usage,ctl0HostCacheBusUsage,ctl1HostCacheBusUsage,ctl0DriveCacheBusUsage,ctl1DriveCacheBusUsage,ctl0ProcessorCacheBusUsage,ctl1ProcessorCacheBusUsage,ctl0CacheDRRBusUsage,ctl1CacheDRRBusUsage,ctl0DualBusUsage,ctl1DualBusUsage,ctl0TotalBusUsage,ctl1TotalBusUsage" requiredProbe="AMS" type="dfProcessorCore">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,serial,unit,HDU,vendor,product,revision,totalCapacityGB,capacity,driveType" directRelations="dfStorage" displayName="AMS Drive" perfAttributes="ctl0IOPS,ctl1IOPS,ctl0ReadIOPS,ctl1ReadIOPS,ctl0WriteIOPS,ctl1WriteIOPS,ctl0RandomReadIOPS,ctl1RandomReadIOPS,ctl0RandomWriteIOPS,ctl1RandomWriteIOPS,ctl0SequentialReadIOPS,ctl1SequentialReadIOPS,ctl0SequentialWriteIOPS,ctl1SequentialWriteIOPS,ctl0TransRate,ctl1TransRate,ctl0ReadTransRate,ctl1ReadTransRate,ctl0WriteTransRate,ctl1WriteTransRate,ctl0OnlineVerifyRate,ctl1OnlineVerifyRate,ctl0ReadCMDCount,ctl1ReadCMDCount,ctl0WriteCMDCount,ctl1WriteCMDCount,ctl0ReadTransSize,ctl1ReadTransSize,ctl0WriteTransSize,ctl1WriteTransSize,ctl0OnlineVerifyCMDCount,ctl1OnlineVerifyCMDCount,ctl0OperatingRate,ctl1OperatingRate,ctl0TagCount,ctl1TagCount,ctl0UnloadTime,ctl1UnloadTime,ctl0AverageTagCount,ctl1AverageTagCount" requiredProbe="AMS" type="dfDrv">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="dfStorage,dfCtl" displayName="AMS Backend Paths" perfAttributes="ctl0IOPS,ctl1IOPS,ctl0ReadIOPS,ctl1ReadIOPS,ctl0WriteIOPS,ctl1WriteIOPS,ctl0TransRate,ctl1TransRate,ctl0ReadTransRate,ctl1ReadTransRate,ctl0WriteTransRate,ctl1WriteTransRate,ctl0OnlineVerifyRate,ctl1OnlineVerifyRate,ctl0ReadCMDCount,ctl1ReadCMDCount,ctl0WriteCMDCount,ctl1WriteCMDCount,ctl0ReadTransSize,ctl1ReadTransSize,ctl0WriteTransSize,ctl1WriteTransSize,ctl0OnlineVerifyCMDCount,ctl1OnlineVerifyCMDCount" requiredProbe="AMS" type="dfLoop">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,RgCount,raidLevel,earlyAlert,depletionAlert,overProvisioningAlertNotice,overProvisioningEarlyAlert,overProvisioningDepletionAlert,parityHDUCount,stripe,pageSize,poolStatus,driveType,virtualLUCount,poolFunction,poolID,poolType,usageRate,numberOfTiers,provisioningRatio,subscribedCapacity,numberOfDPVols,rpm,overProvisioningRate,totalCapacityInGB,availableCapacityInGB,usedCapacityInGB,usedCapacityInPercent,freeCapacityInPercent" directRelations="dfStorage,dfRG" displayName="AMS DP Pool" perfAttributes="ctl0IOPS,ctl1IOPS,ctl0ReadIOPS,ctl1ReadIOPS,ctl0WriteIOPS,ctl1WriteIOPS,ctl0RandomReadIOPS,ctl1RandomReadIOPS,ctl0RandomWriteIOPS,ctl1RandomWriteIOPS,ctl0SequentialReadIOPS,ctl1SequentialReadIOPS,ctl0SequentialWriteIOPS,ctl1SequentialWriteIOPS,ctl0ReadHit,ctl1ReadHit,ctl0WriteHit,ctl1WriteHit,ctl0TransRate,ctl1TransRate,ctl0ReadTransRate,ctl1ReadTransRate,ctl0WriteTransRate,ctl1WriteTransRate,ctl0RandomReadTransRate,ctl1RandomReadTransRate,ctl0RandomWriteTransRate,ctl1RandomWriteTransRate,ctl0SequentialReadTransRate,ctl1SequentialReadTransRate,ctl0SequentialWriteTransRate,ctl1SequentialWriteTransRate,ctl0ReadCMDCount,ctl1ReadCMDCount,ctl0WriteCMDCount,ctl1WriteCMDCount,ctl0ReadCMDHitCount,ctl1ReadCMDHitCount,ctl0WriteCMDHitCount,ctl1WriteCMDHitCount,ctl0ReadTransSize,ctl1ReadTransSize,ctl0WriteTransSize,ctl1WriteTransSize,ctl0TotalIOPS,ctl1TotalIOPS,ctl0TotalReadIOPS,ctl1TotalReadIOPS,ctl0TotalWriteIOPS,ctl1TotalWriteIOPS,ctl0TotalReadHit,ctl1TotalReadHit,ctl0TotalWriteHit,ctl1TotalWriteHit,ctl0TotalTransfer,ctl1TotalTransfer,ctl0TotalReadTransfer,ctl1TotalReadTransfer,ctl0TotalWriteTransfer,ctl1TotalWriteTransfer,ctl0TotalTagCount,ctl1TotalTagCount,ctl0ReadResponseTime,ctl1ReadResponseTime,ctl0WriteResponseTime,ctl1WriteResponseTime,ctl0Utilization,ctl1Utilization,ctl0ReadKBPIO,ctl1ReadKBPIO,ctl0WriteKBPIO,ctl1WriteKBPIO,ctl0ReadMiss,ctl1ReadMiss,ctl0WriteMiss,ctl1WriteMiss,ctl0ReadHitIOPS,ctl1ReadHitIOPS,ctl0WriteHitIOPS,ctl1WriteHitIOPS,ctl0RandomReadKBPIO,ctl1RandomReadKBPIO,ctl0RandomWriteKBPIO,ctl1RandomWriteKBPIO,ctl0SequentialReadKBPIO,ctl1SequentialReadKBPIO,ctl0SequentialWriteKBPIO,ctl1SequentialWriteKBPIO,ctl0AvgReadBytes,ctl1AvgReadBytes,ctl0AvgWriteBytes,ctl1AvgWriteBytes,ctl0PercentReadIOPS,ctl1PercentReadIOPS,ctl0PercentWriteIOPS,ctl1PercentWriteIOPS" requiredProbe="AMS" type="dfHDP">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,raidLevel,startUnit,startHDU,parityHDUCount,parityCount,totalCapacityGB,usedCapacityGB,availableCapacityGB,RGType,RGValid,controllerID,chassis,substance,raidType,allocatedCapacity,hiHsmCapacity,onDemandCapacity,totalFreeSpace,largestFreeSpace,emulation,cuGroupNumber,cuInfo,openTotalCapacity,openAllocatedCapacity,openFreeCapacity,openHiHsmCapacity,openOnDemandCapacity,openAllocatedActualCapacity,openUnallocatedCapacity,openUnallocatedActualCapacity,openReservedCapacity,openReservedActualCapacity,imTotalCapacity,imAllocatedCapacity,imFreeCapacity,imHiHsmCapacity,imOnDemandCapacity,mfTotalCapacity,mfHiHsmCapacity,mfOnDemandCapacity,mfAllocatedCapacity,mfUnallocatedCapacity,volumeType,encrypted,protectionLevel,dpPoolID,formFactor,slprNumber,clprNumber,diskType,freeCapacity,type" directRelations="dfStorage,dfDrv" displayName="AMS RAID Group" perfAttributes="ctl0IOPS,ctl1IOPS,ctl0ReadIOPS,ctl1ReadIOPS,ctl0WriteIOPS,ctl1WriteIOPS,ctl0RandomReadIOPS,ctl1RandomReadIOPS,ctl0RandomWriteIOPS,ctl1RandomWriteIOPS,ctl0SequentialReadIOPS,ctl1SequentialReadIOPS,ctl0SequentialWriteIOPS,ctl1SequentialWriteIOPS,ctl0ReadHit,ctl1ReadHit,ctl0WriteHit,ctl1WriteHit,ctl0TransRate,ctl1TransRate,ctl0ReadTransRate,ctl1ReadTransRate,ctl0WriteTransRate,ctl1WriteTransRate,ctl0RandomReadTransRate,ctl1RandomReadTransRate,ctl0RandomWriteTransRate,ctl1RandomWriteTransRate,ctl0SequentialReadTransRate,ctl1SequentialReadTransRate,ctl0SequentialWriteTransRate,ctl1SequentialWriteTransRate,ctl0ReadCMDCount,ctl1ReadCMDCount,ctl0WriteCMDCount,ctl1WriteCMDCount,ctl0ReadCMDHitCount,ctl1ReadCMDHitCount,ctl0WriteCMDHitCount,ctl1WriteCMDHitCount,ctl0ReadTransSize,ctl1ReadTransSize,ctl0WriteTransSize,ctl1WriteTransSize,ctl0TotalIOPS,ctl1TotalIOPS,ctl0TotalReadIOPS,ctl1TotalReadIOPS,ctl0TotalWriteIOPS,ctl1TotalWriteIOPS,ctl0TotalReadHit,ctl1TotalReadHit,ctl0TotalWriteHit,ctl1TotalWriteHit,ctl0TotalTransfer,ctl1TotalTransfer,ctl0TotalReadTransfer,ctl1TotalReadTransfer,ctl0TotalWriteTransfer,ctl1TotalWriteTransfer,ctl0TotalTagCount,ctl1TotalTagCount,ctl0ReadResponseTime,ctl1ReadResponseTime,ctl0WriteResponseTime,ctl1WriteResponseTime,ctl0Utilization,ctl1Utilization,ctl0ReadKBPIO,ctl1ReadKBPIO,ctl0WriteKBPIO,ctl1WriteKBPIO,ctl0AvgReadBytes,ctl1AvgReadBytes" requiredProbe="AMS" type="dfRG">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,controllerIP" directRelations="dfStorage" displayName="AMS Controller" perfAttributes="ctl0WritePendingRate,ctl1WritePendingRate,ctl0CleanQueueUsageRate,ctl1CleanQueueUsageRate,ctl0MiddleQueueUsageRate,ctl1MiddleQueueUsageRate,ctl0PhysicalQueueUsageRate,ctl1PhysicalQueueUsageRate,ctl0TotalQueueUsageRate,ctl1TotalQueueUsageRate" requiredProbe="AMS" type="dfCtl">	
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,pvolArrayType,pvolDevNum,pvolPoolID,pvolMngAreaPoolID,svolArrayType,svolDevNum,svolPoolID,svolMngAreaPoolID,pvolPortID,svolPortID,svolSerialNumber,pvolSerialNumber,fenceLevel,replicationFunction,status,muNumber,replicationSubFunction,copyTrackSize,splitTime" directRelations="dfStorage" displayName="AMS PAIR" requiredProbe="AMS" type="dfPair">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,model,capacityInKB,vendor,diskType,diskSize,serialNumber,arrayGroup,row,column,depth,chassis,role,firmwareVersion,rpm,dkuType,denseNumber,densePosition,diskModelSize,encrypted,formFactor" directRelations="dfStorage" displayName="AMS PDEV" requiredProbe="AMS" type="dfPdev">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="dfLU,dfStorage" displayName="AMS Port Group" requiredProbe="AMS" type="dfPortGroup">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="dfStorage,dfPort" displayName="AMS Port Controller" requiredProbe="AMS" type="dfPortController">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,cpuMemorySize,cpuHz,cpuCores,cpuPackages,cpuThreads,numaEnabled,cpuTechnology,htEnabled,osName,osType,osVersion,osBuild,vendor,model,serialNumber,hardwareAcceleratedMove,hardwareAcceleratedInit,hardwareAcceleratedLocking,cpuAllocationLimit,cpuAllocationReservation,memoryAllocationLimit,memoryAllocationReservation,capacity,ipAddress" directRelations="cr,ccr,host" displayName="VMware Host" perfAttributes="cpuUsage,cpuUsagemhz,cpuReservedCapacity,cpuCostop,cpuSwapwait,cpuReady,memActive,memConsumed,memOverhead,memState,memSwapinRate,memSwapoutRate,memUsage,memVmmemctl,memCompressionRate,memDecompressionRate,diskMaxTotalLatency,diskRead,diskUsage,diskWrite,netReceived,netTransmitted,netUsage,netDroppedTx,netDroppedRx,cpuIdle,netPacketsRx,netPacketsTx" requiredProbe="VMWare" type="h">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,provisionedSpace,usedSpace,notSharedSpace,numCPU,memory,configStatus,dnsname,ipAddress,powerState,toolsStatus,cpuAllocationLimit,cpuAllocationReservation,memoryAllocationLimit,memoryAllocationReservation,virtualHardwareVersion,availability,iofeatures,guestFullName,hasCdrom,hasFloppy,guestHostName,uuid,instanceUuid" directRelations="ds,pg,dvpg,h,rp" displayName="VMware Virtual Machine" logicalCategory="virtualMachine" perfAttributes="cpuReady,cpuUsage,cpuUsagemhz,cpuCostop,cpuSwapwait,memActive,memConsumed,memOverhead,memSwapinRate,memSwapoutRate,memUsage,memVmmemctl,memVmmemctltarget,memSwapped,memCompressionRate,memDecompressionRate,diskRead,diskUsage,diskWrite,netReceived,netTransmitted,netUsage,netDroppedRx,netDroppedTx,netPacketsRx,netPacketsTx,cpuIdle,diskMaxTotalLatency" requiredProbe="VMWare" type="vm">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,cpuAllocationLimit,cpuAllocationReservation,memoryAllocationLimit,memoryAllocationReservation" directRelations="cr,ccr,rp" displayName="VMware Resource Pool" requiredProbe="VMWare" type="rp"/>
+<ResourceDef configAttributes="nameAlias,name,driver,model,portWWN,status,device" directRelations="h,disk,hba" displayName="VMware HBA" perfAttributes="storageAdapterCommandsAveraged" requiredProbe="VMWare" type="vmhba">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,capacity,freeSpace,uncommitted,provisionedSpace,type,URL,sioc,capacityGB,freeSpaceGB,usedCapacityGB" directRelations="h,disk,dc,nfsShare" displayName="VMware Datastore" requiredProbe="VMWare" scalarForecastAttributes="usedCapacityGB" type="ds"/>
+<ResourceDef configAttributes="nameAlias,name,type" directRelations="ds,vm" displayName="VMware Datastore Partition" perfAttributes="datastoreWrite,datastoreRead,datastoreTotalReadLatency,datastoreTotalWriteLatency,datastoreNumberReadAveraged,datastoreNumberWriteAveraged" requiredProbe="VMWare" type="dspart">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,data,dataASCII,namespace,namespaceId" directRelations="disk" displayName="VMware Disk SCSI Info" requiredProbe="VMWare" type="diskscsi"/>
+<ResourceDef configAttributes="nameAlias,name,fullName,version,ipAddress" directRelations="" displayName="VMware Virtual Center" requiredProbe="VMWare" type="vc"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="vc" displayName="VMware Data Center" requiredProbe="VMWare" type="dc"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="dc" displayName="VMware Compute Resource" requiredProbe="VMWare" type="cr"/>
+<ResourceDef configAttributes="nameAlias,name,ha,drs,drsLevel,availableFailOverHosts,configuredFailOverHosts,availableSlots,failOverSlots,slotSize,drsFault" directRelations="dc" displayName="VMware Cluster Compute Resource" requiredProbe="VMWare" type="ccr"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="h" displayName="VMware Host CPU" perfAttributes="cpuIdle,cpuUsage" requiredProbe="VMWare" type="cpu">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,owner,canonicalName,mpPolicy,type,model,vendor,uuid,stdInquiry,scsiLevel,blocks,blockSize,vStorageSupport,accessType,storageBoxNum,storageBoxModel,manufacturer,revisionLevel,scsiSerialNum,deviceUnitSNum,logicalLdevNum,deviceUniqueId,capacity" directRelations="h,naLun,raidLdev,dfLU" displayName="VMware Host Disk" perfAttributes="diskBusResets,diskCommandsAborted,diskDeviceLatency,diskDeviceReadLatency,diskDeviceWriteLatency,diskTotalLatency,diskKernelLatency,diskKernelReadLatency,diskKernelWriteLatency,diskQueueLatency,diskQueueReadLatency,diskQueueWriteLatency,diskRead,diskWrite,diskNumberRead,diskNumberWrite" requiredProbe="VMWare" type="disk">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="disk,raidLdev" displayName="VMware Storage LUN" requiredProbe="VMWare" type="lun">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,driver,speed,ipAddress,macAddress" directRelations="h" displayName="VMware Host NIC" perfAttributes="netDroppedRx,netDroppedTx,netPacketsRx,netPacketsTx,netReceived,netTransmitted,netUsage" requiredProbe="VMWare" type="pn">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="vm" displayName="VMware Virtual CPU" perfAttributes="cpuReady,cpuUsagemhz,cpuCostop,cpuIdle,cpuSwapwait" requiredProbe="VMWare" type="vcpu">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,controller,eagerlyScrub,thinProvisioned,mode,capacityInKB,lun" directRelations="disk,ds,vm,dspart" displayName="VMware Virtual Disk" perfAttributes="virtualDiskNumberReadAveraged,virtualDiskNumberWriteAveraged,virtualDiskTotalReadLatency,virtualDiskTotalWriteLatency" requiredProbe="VMWare" type="vdisk">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,mode,capacity" directRelations="vdisk" displayName="VMware Virtual Disk Partition" perfAttributes="diskBusResets,diskCommandsAborted,diskRead,diskWrite,diskNumberRead,diskNumberWrite" requiredProbe="VMWare" type="diskpart">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,type,ipAddress,macAddress" directRelations="pg,dvpg,vm" displayName="VMware Virtual NIC" perfAttributes="netPacketsRx,netPacketsTx,netReceived,netTransmitted,netUsage,netDroppedRx,netDroppedTx" requiredProbe="VMWare" type="vn">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,vlanId,portType" directRelations="h,vs" displayName="VMware Port Group" requiredProbe="VMWare" type="pg"/>
+<ResourceDef configAttributes="nameAlias,name,numPorts" directRelations="h,pn" displayName="VMware Virtual Switch" requiredProbe="VMWare" type="vs"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="dc,pn" displayName="VMware Distributed Virtual Switch" requiredProbe="VMWare" type="dvs"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="dvs" displayName="VMware Distributed Virtual Port Group" requiredProbe="VMWare" type="dvpg"/>
+<ResourceDef configAttributes="nameAlias,name,uuid" directRelations="vm,vdisk" displayName="VMware Base Virtual Disk" requiredProbe="VMWare" type="basevdisk"/>
+<ResourceDef configAttributes="nameAlias,name,wwn" directRelations="hbaPort" displayName="HBA" requiredProbe="VMWare|Windows|Linux" type="hba"/>
+<ResourceDef configAttributes="nameAlias,name,wwpn" directRelations="" displayName="HBA Port" requiredProbe="VMWare|Windows|Linux" type="hbaPort"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="hba" displayName="Host" requiredProbe="VMWare|Windows|Linux" type="host"/>
+<ResourceDef configAttributes="nameAlias,name,id,productModel,volumeCount,deviceCount,hostCount,diskCount,spareDiskCount,unconfiguredDiskCount,microcodeVersion,cacheSize,managementIpAddress,vendorName,usableCapacityInGB" directRelations="" displayName="VMAX Storage" perfAttributes="totalOps,readOps,writeOps,percentReadOps,percentWriteOps,readResponseTime,writeResponseTime,readThroughputInMB,writeThroughputInMB,readHitRate,writeHitRate,percentHit,cacheUtilization,writePendingEvent,writePendingSlots,writePendingLimit,readMissRate,writeMissRate,percentCacheWP,systemMaxWPLimit" requiredProbe="VMAX" type="vmaxStorage">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,type,number,slot,status" directRelations="vmaxStorage" displayName="VMAX FE Director" perfAttributes="port0Ops,port1Ops,totalReadCount,totalWriteCount,percentReadOps,percentWriteOps,readOps,writeOps,port0ReadOps,port0WriteOps,port1ReadOps,port1WriteOps,requestRate,avgQueueDepthRange0,avgQueueDepthRange1,avgQueueDepthRange2,avgQueueDepthRange3,avgQueueDepthRange4,avgQueueDepthRange5,avgQueueDepthRange6,avgQueueDepthRange7,avgQueueDepthRange8,avgQueueDepthRange9,queueDepthCountRange0,queueDepthCountRange1,queueDepthCountRange2,queueDepthCountRange3,queueDepthCountRange4,queueDepthCountRange5,queueDepthCountRange6,queueDepthCountRange7,queueDepthCountRange8,queueDepthCountRange9,queueDepthUtilization,readResponseTime,writeResponseTime,port0ThroughputInMbps,port1ThroughputInMbps,port0ReadThroughputInMbps,port0WriteThroughputInMbps,port1ReadThroughputInMbps,port1WriteThroughputInMbps,port0Utilization,port1Utilization,totalHitRate,readHitRate,writeHitRate,percentReadHit,percentWriteHit,busyRate,hostMBs" requiredProbe="VMAX" type="vmaxFeDirector">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,type,number,slot,status,volumeCount" directRelations="vmaxStorage" displayName="VMAX BE Director" perfAttributes="totalOps,readOps,writeOps,percentReadOps,percentWriteOps,port0Ops,port1Ops,port0ReadOps,port0WriteOps,port1ReadOps,port1WriteOps,requestRate,opsMbps,readThroughputInMB,writeThroughputInMB,port0ThroughputInMbps,port1ThroughputInMbps,port0ReadThroughputInMbps,port0WriteThroughputInMbps,port1ReadThroughputInMbps,port1WriteThroughputInMbps,port0Utilization,port1Utilization,busyRate" requiredProbe="VMAX" type="vmaxBeDirector">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,diskGroupNumber,diskGroupName,speedInRPM,capacityInMB,availableCapacityInMB,ratedSize,hyperCount,director,isSpareDisk,isFailedDisk,state" directRelations="vmaxDiskGroup" displayName="VMAX Disk" perfAttributes="totalOps,readOps,writeOps,opsMbps,busyRate,queueDepth,percentUsedCapacity,responseTime,readResponseTime,writeResponseTime,readThroughputInMB,writeThroughputInMB" requiredProbe="VMAX" type="vmaxDisk">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,groupName,type" directRelations="vmaxStorage" displayName="VMAX Device Group" perfAttributes="totalOps,readOps,writeOps,responseTime,readThroughputInMB,writeThroughputInMB,percentHit,writePendingSlots" requiredProbe="VMAX" type="vmaxDeviceGroup">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,groupName" directRelations="vmaxStorage,vmaxVolume" displayName="VMAX Storage Group" perfAttributes="totalOps,readOps,writeOps,percentReadOps,percentWriteOps,randomReads,randomWrites,sequentialReads,sequentialWrites,hostIOs,hostReads,hostWrites,avgIOSize,avgReadSize,avgWriteSize,responseTime,readResponseTime,writeResponseTime,readThroughputInMB,writeThroughputInMB,hostMBs,hostMBRead,hostMBWritten,percentHit,writePendingSlots,randomReadHits,randomWriteHits,seqReadHits,seqWriteHits,randomReadMisses,randomWriteMisses,seqReadMisses,seqWriteMisses,syn_der_vmaxStorageGroup_totalThroughputInMB" requiredProbe="VMAX" type="vmaxStorageGroup">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,cachePartitionName" directRelations="vmaxStorage" displayName="VMAX Cache Partition" perfAttributes="totalOps,busyRate,cacheUsageInPercent,writePendingSlots,writePendingLimit,writePendingUtilization" requiredProbe="VMAX" type="vmaxCachePartition">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,number,groupName,diskCount,speedInRPM" directRelations="vmaxStorage" displayName="VMAX Disk Group" perfAttributes="totalOps,readOps,writeOps,opsMbps,busyRate,responseTime,readResponseTime,writeResponseTime,readThroughputInMB,writeThroughputInMB,syn_der_vmaxDiskGroup_totalThroughputInMB" requiredProbe="VMAX" type="vmaxDiskGroup">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,poolName,compressionRatio,utilization,type,volumeCount,configuration,state,enabledDevices,enabledCapacity,allocatedCapacityInGB,freeCapacityInGB" directRelations="vmaxStorage,vmaxVolume,vmaxDiskGroup" displayName="VMAX Thin Provisioning Pool" perfAttributes="backendPercentReadOps,backendPercentWriteOps,backendResponseTime,backendRequestTime,backendQueueTime,beAvgResponseTime,beReadResponseTime,beWriteResponseTime" requiredProbe="VMAX" scalarForecastAttributes="allocatedCapacityInGB" type="vmaxThinPool">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,portName,nodeWWN,portWWN,fedName,portSpeed,status" directRelations="vmaxFeDirector,vmaxBeDirector,vmaxPortGroup,sp" displayName="VMAX Port" perfAttributes="totalOps,readOps,writeOps,opsMbps,mbRead,mbWritten,utilization,speedGBs,syn_der_vmaxPort_totalThroughputInMB" requiredProbe="VMAX" type="vmaxPort">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,volName,status,configuration,capacityInMB,usedCapacityInMB" directRelations="vmaxStorage" displayName="VMAX Volume" perfAttributes="readOps,writeOps,readThroughputInMB,writeThroughputInMB,percentReadHit,percentWriteHit,seqReadHit,writePendingSlots" requiredProbe="VMAX" type="vmaxVolume">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,groupName,portCount,viewCount,maxSpeedGBs" directRelations="vmaxStorage" displayName="VMAX Port Group" perfAttributes="readOps,writeOps,mbRead,mbWritten,utilization,speedGBs" requiredProbe="VMAX" type="vmaxPortGroup">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,groupName" directRelations="vmaxStorage" displayName="VMAX Initiator Group" requiredProbe="VMAX" type="vmaxInitiatorGroup">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,viewName" directRelations="vmaxStorage,vmaxInitiatorGroup,vmaxPortGroup,vmaxStorageGroup" displayName="VMAX Masking View" requiredProbe="VMAX" type="vmaxMaskingView">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn,nodeName,portName" directRelations="vmaxStorage,vmaxInitiatorGroup,hbaPort" displayName="VMAX Initiator" requiredProbe="VMAX" type="vmaxInitiator">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,type,version,model,serialNumber,softCapacity,hardCapacity,maxPoolSize,freeHardCapacity,freeSoftCapacity,consumedCapacity,spareModules,spareDisks,targetSpareModules,targetSpareDisks,managementIpAddress,vendorName,usableCapacityInGB" directRelations="" displayName="IBM XIV Storage" requiredProbe="IbmXiv" type="ixStorage">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,type,fcPorts" directRelations="ixStorage" displayName="IBM XIV Host" displayNamePattern=".*\^(.*)" perfAttributes="readIOps,writeIOps,totalIOps,readLatency,writeLatency,totalLatency,readThroughput,writeThroughput,totalThroughput" requiredProbe="IbmXiv" type="ixHost">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,totalCapacityGB,hardCapacity,snapshotCapacity,availableCapacity,usedVolumeCapacity,usedSnapshotCapacity,lockStatus" directRelations="ixStorage" displayName="IBM XIV Pool" displayNamePattern=".*\^(.*)" perfAttributes="syn_rollup_ixVolume_totalIOps,syn_rollup_ixVolume_totalThroughput,syn_rollup_ixVolume_totalLatency" requiredProbe="IbmXiv" scalarForecastAttributes="usedVolumeCapacity" type="ixPool">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,totalCapacityGB,usedCapacityGB" directRelations="ixPool,ixStorage" displayName="IBM XIV Volume" displayNamePattern=".*\^(.*)" perfAttributes="readIOps,writeIOps,totalIOps,readLatency,writeLatency,totalLatency,readThroughput,writeThroughput,totalThroughput" requiredProbe="IbmXiv" type="ixVolume">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,totalCapacityGB,size,model,serialNumber,firmware,status" directRelations="ixStorage" displayName="IBM XIV Disk" displayNamePattern=".*\^(.*)" requiredProbe="IbmXiv" type="ixDisk">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,status,isFunctional,wwpn,id,state,linkType,errorCount,activeFirmware,currentRate" directRelations="ixStorage,sp,ixHostFcPort" displayName="IBM XIV Local FC Port" displayNamePattern=".*\^(.*)" perfAttributes="readIOps,writeIOps,totalIOps,readLatency,writeLatency,totalLatency,readThroughput,writeThroughput,totalThroughput" requiredProbe="IbmXiv" type="ixLocalFcPort">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="ixHost,ixStorage,hbaPort" displayName="IBM XIV Host FC Port" displayNamePattern=".*\^(.*)" perfAttributes="readIOps,writeIOps,totalIOps,readLatency,writeLatency,totalLatency,readThroughput,writeThroughput,totalThroughput" requiredProbe="IbmXiv" type="ixHostFcPort">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,volume,host,size,serialNumber,locked" directRelations="ixHost,ixVolume" displayName="IBM XIV LUN" displayNamePattern=".*\^(.*)" requiredProbe="IbmXiv" type="ixLun">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, id, model, machineType, vendor, serialNumber, memorySize, numProcessors, cpuSerialNumber, cpuMicroCodeVersion, raidArraySupport, snapMirrorAvailable, mode, version,sizeTotal,managementIpAddress,usableCapacity,usedCapacityInGB,unConfiguredCapacity,provisionedCapacity" directRelations="naCluster" displayName="NetApp System" perfAttributes="avg_processor_busy,cpu_busy,nfs_ops,cifs_ops,net_data_recv,net_data_sent,disk_data_read,disk_data_written" requiredProbe="NetApp" type="naSystem">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, node, uuid, type, raidSize, raidStatus, diskCount, volumeCount, plexCount, sizeTotal, sizeUsed, sizeAvailable, state, blockType" directRelations="naSystem" displayName="NetApp Aggregate" perfAttributes="user_read_blocks,user_reads,user_write_blocks,user_writes,total_transfers" requiredProbe="NetApp" type="naAggregate">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, uuid, type, raidSize, raidStatus, capacity, usedCapacity, freeCapacity, state, quotaStatus, isRootVolume, cacheRemoteLocation, cloneParentVolumeName, cloneParentSnapshotName, options, sisState, sisStatus, sisType, sisLastOpBeginTimestamp, sisLastOpEndTimestamp, sisLastOpSize, sisSchedule, snaplockType, style, qosPolicyName, isClone, isDataCompactionEnabled, isCompressionEnabled, isInlineCompressionEnabled, isInlineDedupeEnabled" directRelations="naAggregate" displayName="NetApp Volume" perfAttributes="total_ops,read_ops,write_ops,read_write_ratio,read_blocks,write_blocks,read_latency,write_latency,avg_latency" requiredProbe="NetApp" scalarForecastAttributes="usedCapacity" type="naVolume">
+
+	</ResourceDef>
+<ResourceDef alias="true" configAttributes="nameAlias,name, path, type, uuid, serialNumber, blockSize, protocolType, size, usedSize, onlineStatus, initiator" directRelations="naSystem,naVolume,naInitiatorGroup,naQtree,naAggregate" displayName="NetApp LUN" perfAttributes="read_ops,total_ops,write_ops,queue_full,avg_latency,avg_read_latency,avg_write_latency" requiredProbe="NetApp" type="naLun">
+
+	</ResourceDef>
+<ResourceDef alias="true" configAttributes="nameAlias,name, uuid, pool, serialNumber, vendor, model, raidState, raidGroup, shelf, type, physicalSpace" directRelations="naSystem,naAggregate,naPlex" displayName="NetApp Disk" perfAttributes="user_read_blocks,user_write_blocks,disk_busy,total_transfers,user_reads,user_writes,user_read_latency,user_write_latency,syn_der_naDisk_totalLatency,syn_der_naDisk_totalIOPS" requiredProbe="NetApp" type="naDisk">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, actualPathName, readWriteAccess, readOnlyAccess, root" directRelations="naVFiler" displayName="NetApp NFS Share" requiredProbe="NetApp" type="naNfsShare">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, actualPathName, readWriteAccess, readOnlyAccess, root, storageType" directRelations="naVolume,naQtree,naAggregate" displayName="NFS Share" requiredProbe="NetApp" type="nfsShare">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, mountPoint, sharePermission" directRelations="naVFiler" displayName="NetApp CIFS Share" requiredProbe="NetApp" type="naCifsShare">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="naAggregate" displayName="NetApp Plex" requiredProbe="NetApp" type="naPlex">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, status, securityStyle, opLocks, fileCount, diskUsed, avgFileSize" directRelations="naVolume" displayName="NetApp QTree" perfAttributes="cifs_ops,nfs_ops" requiredProbe="NetApp" type="naQtree">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, type, fileLimit, fileUsed, diskLimit, diskUsed, userId, groupId, qtree" directRelations="naVolume,naQtree" displayName="NetApp Quota" requiredProbe="NetApp" type="naQuota">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="naSystem" displayName="NetApp Processor" perfAttributes="processor_busy" requiredProbe="NetApp" type="naProcessor">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="naSystem" displayName="NetApp NFSv3" perfAttributes="nfsv3_read_ops,nfsv3_write_ops,nfsv3_read_latency,nfsv3_write_latency,nfsv3_ops" requiredProbe="NetApp" type="naNfsv3">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,ipv4PrimAddrFamily,ipv4PrimAddress,ipv4PrimNetmask,ipv4PrimBroadcast,ipv4PrimCreator,ipv6PrimAddrFamily,ipv6PrimAddress,ipv6PrimNetmask,ipv6PrimBroadcast,ipv6PrimCreator,aliasAddrFamily, aliasAddress, aliasNetmask, aliasBroadcast, aliasCreator, macAddr, mtuSize, flowControl, isTrusted, isWinsEnabled, isNfoEnabled, isEnabled,node,role" directRelations="naSystem" displayName="NetApp Network Interface" perfAttributes="recv_packets,recv_errors,recv_mcasts,send_packets,send_errors,send_mcasts,collisions" requiredProbe="NetApp" type="naIfnet">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="naSystem" displayName="NetApp CIFS" perfAttributes="cifs_read_ops,cifs_write_ops,cifs_read_latency,cifs_write_latency,cifs_ops,cifs_latency" requiredProbe="NetApp" type="naCifs">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,type,ipSpace,allowedProtocol,maxVolume,state,rootVolume,quotaPolicy,snapshotPolicy,cluster" directRelations="naCluster" displayName="NetApp Virtual Server" perfAttributes="read_blocks,write_blocks,cifs_ops,cifs_read_ops,cifs_write_ops,read_ops,write_ops,nfsv3_read_ops,nfsv3_write_ops,nfsv3_ops,total_ops,cifs_latency,read_latency,write_latency,cifs_read_latency,cifs_write_latency,nfsv3_read_latency,nfsv3_write_latency" requiredProbe="NetApp" type="naVserver">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,licenseName" directRelations="naSystem" displayName="NetApp License" requiredProbe="NetApp" type="naLicense">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, ipSpace, uuid, vStorePath, vStoreStatus, vStoreIsEtc, adminHost, netbiosServerName, netbiosDomainName, ipAddress, fileCount" directRelations="naSystem" displayName="NetApp vFiler" requiredProbe="NetApp" type="naVFiler">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, rid, group" directRelations="naSystem,naGroup" displayName="NetApp User" requiredProbe="NetApp" type="naUser">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, rid, roles" directRelations="naSystem" displayName="NetApp Group" requiredProbe="NetApp" type="naGroup">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, usedBlockCumuPct, usedBlockPct, totalBlockCumuPct, totalBlockPct, accessTime, blockCount" directRelations="naVolume" displayName="NetApp Snapshot" requiredProbe="NetApp" type="naSnapshot">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, sourceLocation, destinationLocation, lagTime, mirrorTimeStamp, contents, status, state, baseSnapshot, lastTransferSize, lastTransferDuration, schedule" directRelations="naSystem" displayName="NetApp Snap Mirror" requiredProbe="NetApp" type="naSnapMirror">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, sourceLocation, destinationLocation, lagTime, snapshotName, status, state, schedule, retention" directRelations="naSystem" displayName="NetApp SnapVault" requiredProbe="NetApp" type="naSnapVault">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, osType, type,initiatorCount" directRelations="naInitiator,naSystem,naVserver" displayName="NetApp Initiator Group" requiredProbe="NetApp" type="naInitiatorGroup">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,type" directRelations="hbaPort" displayName="NetApp Initiator" requiredProbe="NetApp" type="naInitiator">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn,nodeName" directRelations="naSystem,sp" displayName="NetApp Port" requiredProbe="NetApp" type="naPort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,address,currentNode,currentPort,homeNode,homePort,role,uuid" directRelations="naVserver" displayName="NetApp Logical Interface" perfAttributes="recv_data,recv_errors,recv_packet,sent_data,sent_errors,sent_packet,up_time" requiredProbe="NetApp" type="naLif">
+
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,ipAddress,usableCapacity,usedCapacityInGB,unConfiguredCapacity,provisionedCapacity" directRelations="" displayName="NetApp Cluster" requiredProbe="NetApp" type="naCluster">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,objectID,name,description,logicalPath,resourceType,specificationType,capacityInKB,numOfHosts,numOfLus,lastRefreshed,statusOfRefreshing,numOfLusWithDuplication" directRelations="hdvmHost,hdvmHostLU" displayName="HDVM Logical Group" requiredProbe="HDvM" type="hdvmLG">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,objectID,name,hostID,ipAddress,ipv6Address,hostType,capacityInKB,sysplexID,statusOfDBUpdating,virtualizationServerVersion,cluster,fileServerType,numOfLus" directRelations="" displayName="HDVM Host" requiredProbe="HDvM" type="hdvmHost">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn,nickname" directRelations="hdvmHost" displayName="World Wide Name" requiredProbe="HDvM" type="hdvmWWN">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,objectID,name,devNum,capacityInKB,emulation,raidType,devType,chassis,arrayGroup,isComposite,path,dpType,dpPoolID,threshold,externalTierRank" directRelations="hdvmHost" displayName="HDVM Host Logical Unit" requiredProbe="HDvM" type="hdvmHostLU">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,ip,fbName" directRelations="" displayName="Brocade Fabric Network" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocade">   
+  </ResourceDef>
+<ResourceDef configAttributes="name" directRelations="" displayName="Brocade Fabric Data Center" requiredProbe="BrocadeSANSwitch" type="fabBrocadeDataCenter">	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,virtualFabricId,fabricName" directRelations="fabBrocade" displayName="Brocade Fabrics" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocadeFCFabric">
+  </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,ip,firmwareVersion,wwn,serialNumber,vendor,model,portCapacity,installedPortsCount,activePortsCount,assignedPortsCount,consumedPortsPercent,subscriptionRate,agMode,destinationSwitchWwn,destinationPortWwn,physicalSwitchWwn,domainId,virtualFabricId,manufacturer,status,type,id,domain,portCount" directRelations="fabBrocade,fabBrocadeFCFabric,fabBrocadeDataCenter" displayName="Brocade Fabric Switch" perfAttributes="fabSwitchCPUUtil,fabSwitchMemoryUtil,fabSwitchMemoryTotalInGB,fabSwitchMemoryUsedInGB" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocadeSwitch">
+  </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,portNumber,wwn,serialNumber,vendor,portType,speedInGB,remotePortWwn,remoteNodeWwn,status,npivEnabled,npivCapable,slotNumber,userPortNumber,id,index,maxSpeedInGB,bufferAllocated,licensed,state" directRelations="fabBrocadeSwitch,fabBrocadeSwitchPort,fabBrocadeTrunk,fabBrocadeZoneMember,zoneMember,sp,hbaPort,switchPort" displayName="Brocade Fabric Switch Port" perfAttributes="fabPortRX,fabPortTX,fabPortRXUtil,fabPortTXUtil,fabPortCrcErrors,fabPortSignalLosses,fabPortSyncLosses,fabPortLinkFailures,fabPortLinkResets,fabPortSequenceErrors,fabPortDroppedPackets,fabPortOLSCount,fabPortOpticalTXPower,fabPortOpticalRXPower" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocadeSwitchPort">
+  </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,memberPortList,masterPortWwn" directRelations="fabBrocadeTrunk,fabBrocadeSwitch,trunk" displayName="Brocade Fabric Trunk" perfAttributes="fabPortRX,fabPortTX,fabPortRXUtil,fabPortTXUtil" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocadeTrunk">
+  </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="zoneMember,sp,hbaPort,npvSp,npvHbaPort" displayName="Trunk" requiredProbe="BFA|BrocadeSANSwitch" type="trunk"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="fabBrocadeFCFabric" displayName="Brocade Fabric Zone Set" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocadeZoneSet"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="fabBrocadeZoneSet,zone,fabBrocadeDataCenter" displayName="Brocade Fabric Zone" perfAttributes="syn_fabTX,syn_fabRX,syn_fabTXUtil,syn_fabRXUtil" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocadeZone">   
+  </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn" directRelations="fabBrocade,fabBrocadeZone,zoneMember" displayName="Brocade Fabric Zone Member" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocadeZoneMember">   
+  </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,deviceWwn,type,deviceType,logical,symbolicName,vendor" directRelations="fabBrocadeSwitch,fabBrocadeSwitchPort,fabBrocadeZoneMember,sp,hbaPort" displayName="Brocade Fabric Switch End Port" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocadeSwitchEndPort">
+  </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,deviceWwn,type,deviceType,logical,symbolicName,vendor" directRelations="fabBrocadeSwitch,fabBrocadeSwitchPort,fabBrocadeZoneMember,npvSp,npvHbaPort" displayName="Brocade Fabric Switch NPV End Port" requiredProbe="BFA|BrocadeSANSwitch" type="fabBrocadeSwitchNpvEndPort">
+  </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="zoneMember,sp,hbaPort,npvSp,npvHbaPort" displayName="Switch Port" requiredProbe="CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch" type="switchPort"/>
+<ResourceDef configAttributes="nameAlias,name,type" directRelations="zone,sp,hbaPort,npvSp,npvHbaPort" displayName="Zone Member" requiredProbe="CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch" type="zoneMember"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="" displayName="Zone" requiredProbe="CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch" type="zone"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sp,hbaPort" displayName="NPV Storage Port" requiredProbe="CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch" type="npvSp"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sp,hbaPort" displayName="NPV HBA Port" requiredProbe="CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch" type="npvHbaPort"/>
+<ResourceDef configAttributes="nameAlias,name,ipAddress,version" directRelations="" displayName="Cisco DCNM" requiredProbe="CFA" type="fabCisco">		
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="" displayName="Cisco Fabric Data Center" requiredProbe="CiscoSANSwitch" type="fabCiscoDataCenter">		
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,vsanId,wwn,status" directRelations="fabCisco,fabCiscoDataCenter" displayName="Cisco Fabric Vsan" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoVsan">		
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn,vsanId" directRelations="fabCiscoVsan" displayName="Cisco Fabric ZoneSet" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoZoneSet">		
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,zonesetName,vsanId" directRelations="fabCiscoZoneSet,zone" displayName="Cisco Fabric Zone" perfAttributes="syn_txKbps,syn_rxKbps,syn_txUtil,syn_rxUtil" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoZone">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,vsanId" directRelations="fabCiscoZone,zoneMember" displayName="Cisco Fabric Zone Member" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoZoneMember">		
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,ipAddress,wwn,vsanId,ieName,npvStatus,manufacturer,model,serialNumber,status,vendor,version,type,assetId,cleiCode" directRelations="fabCisco,fabCiscoDataCenter,fabCiscoVsan" displayName="Cisco Fabric Switch" perfAttributes="cpuUtil,memoryUtil,userCpu,kernalCpu,idleCpu,memoryTotalInGB,memoryUsedInGB" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoSwitch">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="zoneMember,sp,hbaPort,npvSp,npvHbaPort" displayName="Switch Port" requiredProbe="CFA|BFA|CiscoSANSwitch" type="switchPort"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="zoneMember,sp,hbaPort,npvSp,npvHbaPort" displayName="Port Channel" requiredProbe="CFA|CiscoSANSwitch" type="portChannel"/>
+<ResourceDef configAttributes="nameAlias,name,type" directRelations="zone,sp,hbaPort,npvSp,npvHbaPort" displayName="Zone Member" requiredProbe="CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch" type="zoneMember"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="" displayName="Zone" requiredProbe="CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch" type="zone"/>
+<ResourceDef configAttributes="nameAlias,name,switchName,portNumber,portType,wwn,endPointWwn,status,speedInGbps,fcId,vsanId,portChannelName,peerPortWwn,peerPortName,peerSwitchIp,profileId,profileInterface,peerPortIpAddress,peerTcpPort,portIpAddress" directRelations="fabCiscoSwitch,fabCiscoZoneMember,switchPort,fabCiscoSwitchPort,fabCiscoPortChannel,fabCiscoVsan" displayName="Cisco Fabric Switch Port" perfAttributes="txKbps,rxKbps,txUtil,rxUtil,discardedFramesCount,invalidCrcCount,linkFailureCount,lipCount,nosCount,olsCount,lrrCount,portErrorCount,temprature,voltage,current,opticalTxPower,opticalRxPower" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoSwitchPort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sp,hbaPort" displayName="NPV Storage Port" requiredProbe="CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch" type="npvSp"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sp,hbaPort" displayName="NPV HBA Port" requiredProbe="CFA|BFA|CiscoSANSwitch|BrocadeSANSwitch" type="npvHbaPort"/>
+<ResourceDef configAttributes="nameAlias,name,portChannelId,switchName,portType,wwn,status,speedInGbps,peerPortChannelId,peerSwitchIp,vsanId,peerPortWwn" directRelations="fabCiscoSwitch,fabCiscoPortChannel,fabCiscoVsan,portChannel" displayName="Cisco Fabric Switch Port Channel" perfAttributes="txKbps,rxKbps,txUtil,rxUtil" requiredProbe="CiscoSANSwitch" type="fabCiscoPortChannel">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,enclosure,fcId,wwn,fcPortName,fcWwn,portName,portType,speedInGbps,nodeName,nodeWwn,switchIP,switchName,vsanId,vendor,fc4TypesFeatures" directRelations="fabCiscoSwitch,fabCiscoSwitchPort,fabCiscoZoneMember,fabCiscoPortChannel,sp,hbaPort" displayName="Cisco Fabric Switch End Port" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoSwitchEndPort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,enclosure,fcId,wwn,fcPortName,fcWwn,portName,portType,speedInGbps,nodeName,nodeWwn,switchIP,switchName,vsanId,vendor,fc4TypesFeatures" directRelations="fabCiscoSwitch,fabCiscoSwitchPort,fabCiscoZoneMember,fabCiscoPortChannel,npvSp,npvHbaPort,fabCiscoSwitchEndPort" displayName="Cisco Fabric Switch NPV End Port" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoSwitchNpvEndPort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,serialNumber,status,model,assetId,hardwareType,hardwareRevision,softwareRevision" directRelations="fabCiscoSwitch" displayName="Cisco Fabric Switch Card" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoSwitchNWCard">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,serialNumber,status,assetId,model,hardwareType,hardwareRevision,softwareRevision" directRelations="fabCiscoSwitch" displayName="Cisco Fabric Switch Fan" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoSwitchFan">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,serialNumber,status,assetId,model,hardwareType,hardwareRevision,powerUnit,softwareRevision" directRelations="fabCiscoSwitch" displayName="Cisco Fabric Switch Power Supply" requiredProbe="CFA|CiscoSANSwitch" type="fabCiscoSwitchPowerSupply">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,ipAddress,type,serialNumber,version,hostName,productName,usableCapacityInGB" displayName="VNX File System" requiredProbe="VNXFile" type="vnxFileSystem">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,poolName,totalCapacityInGB,usedCapacityInGB,freeCapacityInGB,diskType,description,inUse,isThinProvisioned,isDynamic,isUserDefined,capacityUtilization" directRelations="vnxFileSystem,vnxFileStorageSystem" displayName="VNX File Storage Pool" requiredProbe="VNXFile" scalarForecastAttributes="usedCapacityInGB" type="vnxFileStoragePool">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,fsName,id,inUse,totalCapacityInGB,usedCapacityInGB,freeCapacityInGB,deduplicationFlag,highWaterMark,isThinProvisioned,maxCapacity,type,mountPermission,movers,capacityUtilization,dedupeState,dedupeStatus,lastScanTime,noOfFilesScanned,noOfFileDedupe,saveSpacedGB,originalDataSizeGB,savvolTotalGB,savvolAvailableGB,savvolUsedGB,savvolUtilization" directRelations="vnxFileStoragePool,vnxFileDisk,vnxFileVolume,vnxFileDataMover,vnxFileSystem" displayName="VNX File File System" perfAttributes="readRequest,writeRequest,readThroughput,writeThroughput,readIOps,writeIOps,avgCallTime,syn_der_vnxFileFileSystem_totalThroughput,syn_der_vnxFileFileSystem_totalIOps" requiredProbe="VNXFile" type="vnxFileFileSystem">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,inUse,type,isMetaInUse,totalCapacityInGB,usedCapacityInGB,freeCapacityInGB" directRelations="vnxFileDisk,vnxFileStoragePool" displayName="VNX File Volume" perfAttributes="syn_rollup_vnxFileFileSystem_totalThroughput,syn_rollup_vnxFileFileSystem_totalIOps" requiredProbe="VNXFile" type="vnxFileVolume">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,dmName,id,status,model,version,type,cpuSpeed,memory,isCifsStarted,standby,standbyFor,uptime" directRelations="vnxFileSystem" displayName="VNX File Data Mover" perfAttributes="cpuUtilization,memUtilization,dirCacheHitRate,openFileCacheHitRate,bufferCacheHitRate,netReceiveThroughput,netSendThroughput,diskReadThroughput,diskWriteThroughput,cifsReadThroughput,cifsWriteThroughput,nfsReadThroughput,nfsWriteThroughput,cifsTotalIOps,cifsReadIOps,cifsWriteIOps,nfsTotalIOps,nfsReadIOps,nfsWriteIOps,cifsConnectionCount,cifsOpenFileCount,syn_cifsAvgCallTime,syn_nfsAvgCallTime,syn_fsAvgCallTime" requiredProbe="VNXFile" type="vnxFileDataMover">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,displayName,serialNumber,writeCacheSize,type,model,modelType,deviceCount,diskCount,apiVersion,flareVersion,navisphereVersion" directRelations="vnxFileSystem" displayName="VNX File Storage System" requiredProbe="VNXFile" type="vnxFileStorageSystem">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,path,type" directRelations="vnxFileSystem,vnxFileDataMover,vnxFileFileSystem" displayName="VNX File CIFS Share" requiredProbe="VNXFile" type="vnxFileCifsShare">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,netbiosName,domain,broadcast,ipAddress,vdmName,dmName" directRelations="vnxFileSystem,vnxFileDataMover" displayName="VNX File CIFS Server" requiredProbe="VNXFile" type="vnxFileCifsServer">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,path" directRelations="vnxFileDataMover,vnxFileSystem,vnxFileFileSystem" displayName="VNX File NFS Export" requiredProbe="VNXFile" type="vnxFileNfsExport">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,inUse,sizeInGB,type" directRelations="vnxFileStorageSystem,vnxFileSystem" displayName="VNX File Disk" perfAttributes="readThroughput,writeThroughput,totalIOps,readIOps,writeIOps,queueDepthCount,utilization,syn_der_vnxFileDisk_totalThroughput" requiredProbe="VNXFile" type="vnxFileDisk">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,interfaceName,ipAddress,netmask,broadcast,macAddress,status" directRelations="vnxFileSystem,vnxFileDataMover" displayName="VNX File Network Device" perfAttributes="receiveThroughput,sendThroughput,receiveError,sendError" requiredProbe="VNXFile" type="vnxFileNetworkDevice">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,vdmName,id,status,interfaceName,interfaceIP,dmName" directRelations="vnxFileSystem,vnxFileDataMover" displayName="VNX File Virtual Data Mover" requiredProbe="VNXFile" type="vnxFileVirtualDataMover">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,replicationName,id,role,type,peer,lastSyncTime,maxOutOfSyncTime,replicationTransferRate,replicationWriteRate,replicationReadRate,networkStatus,sourceDataMover,sourceFileSystem,sourceInterface,sourceStatus,destinationDataMover,destinationFileSystem,destinationInterface,destinationStatus" directRelations="vnxFileSystem,vnxFileFileSystem,vnxFileDataMover" displayName="VNX File Replicate" requiredProbe="VNXFile" type="vnxFileReplicate">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,cavaName,state,dmName,ipAddress" directRelations="vnxFileSystem,vnxFileDataMover" displayName="VNX File CAVA" requiredProbe="VNXFile" type="vnxFileCava">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,checkpointName,id,type,creationTime,associateFileSystem,baselineCkpt,contentSizeMB,usedOnSavvol,savvolTotalGB,savvolAvailableGB,savvolUsedGB,savvolUtilization" directRelations="vnxFileSystem,vnxFileFileSystem" displayName="VNX File Checkpoint" requiredProbe="VNXFile" type="vnxFileCheckpoint">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,quotaName,type,associateFileSystem,associateFileSystemID,path,blockHardLimit,blockSoftLimit,blockUsage,blockGracePeriodInSec,inodeHardLimit,inodeSoftLimit,inodeUsage,inodeGracePeriodInSec" directRelations="vnxFileSystem,vnxFileFileSystem" displayName="VNX File Quota" requiredProbe="VNXFile" type="vnxFileQuota">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,cifsUserName,dmName,systemName" directRelations="vnxFileSystem,vnxFileDataMover" displayName="VNX File CIFS User" perfAttributes="totalThroughput,readThroughput,writeThroughput,avgLatencyInms,totalIOps,readIOps,writeIOps" requiredProbe="VNXFile" type="vnxFileCifsUser">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,cifsClientName,dmName,systemName" directRelations="vnxFileSystem,vnxFileDataMover" displayName="VNX File CIFS Client" perfAttributes="totalThroughput,readThroughput,writeThroughput,avgLatencyInms,totalIOps,readIOps,writeIOps" requiredProbe="VNXFile" type="vnxFileCifsClient">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,nfsClientName,dmName,systemName" directRelations="vnxFileSystem,vnxFileDataMover" displayName="VNX File NFS Client" perfAttributes="totalThroughput,readThroughput,writeThroughput,avgLatencyInms,totalIOps,readIOps,writeIOps" requiredProbe="VNXFile" type="vnxFileNfsClient">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,agentRevision,model,modelType,promRevision,cabinet,revision,usableCapacityInGB" displayName="VNX Block System" perfAttributes="syn_blockLun_responseTime,syn_blockLun_totalIOps" requiredProbe="VNXBlock" type="vnxBlockSystem">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,ipAddress,subnetMask,gatewayAddress,linkStatus,capableSpeed,readCacheState,writeCacheState,systemBuffer,physicalMemSize,readCacheSize,writeCacheSizeInMB" directRelations="vnxBlockSystem" displayName="VNX Block Processor" perfAttributes="utilization,responseTime,serviceTime,readThroughputInMB,writeThroughputInMB,totalThroughputInMB,readIOps,writeIOps,totalIOps,avgReadIOSize,avgWriteIOSize,avgIOSize,avgBusyQueueLength,queueLength,percentageDirty" requiredProbe="VNXBlock" type="vnxBlockProcessor">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,raidType,fullThreshold,diskType,status,state,totalRawCapacityInGB,totalUserCapacity,totalUsedCapacity,totalFreeCapacity,totalSubscribedCapacity" directRelations="vnxBlockDisk,vnxBlockLun,vnxBlockSystem" displayName="VNX Block Pool" requiredProbe="VNXBlock" scalarForecastAttributes="totalUsedCapacity" type="vnxBlockPool">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,type,state,maxDiskCount,maxLunCount,totalRawCapacityInGB,totalLogicalCapacity,totalFreeCapacity" directRelations="vnxBlockDisk,vnxBlockLun,vnxBlockSystem" displayName="VNX Block RAID Group" requiredProbe="VNXBlock" type="vnxBlockRaidGroup">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,vendorId,productId,type,state,hotSpare,serialNumber,capacityInGB,driveType,currentSpeed" directRelations="vnxBlockSystem" displayName="VNX Block Disk" perfAttributes="utilization,responseTime,serviceTime,readThroughputInMB,writeThroughputInMB,totalThroughputInMB,readIOps,writeIOps,totalIOps,avgReadIOSize,avgWriteIOSize,avgIOSize,hardReadError,hardWriteError,softReadError,softWriteError,queueLength" requiredProbe="VNXBlock" type="vnxBlockDisk">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,raidType,state,capacityInGB,owner,isThinLUN,usedCapacityInGB" directRelations="vnxBlockSystem" displayName="VNX Block LUN" perfAttributes="utilization,responseTime,serviceTime,readThroughputInMB,writeThroughputInMB,totalThroughputInMB,readIOps,writeIOps,totalIOps,avgReadIOSize,avgWriteIOSize,avgIOSize,avgBusyQueueLength,queueLength,readHitRate,writeHitRate,totalRequestSPA,totalRequestSPB,totalRequests,totalOutstandingRequests" requiredProbe="VNXBlock" type="vnxBlockLun">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,moduleId,role,usage,type,state,subState,isPersisted" directRelations="vnxBlockSystem,vnxBlockProcessor,sp" displayName="VNX Block Port" perfAttributes="readThroughputInMB,writeThroughputInMB,totalThroughputInMB,readIOps,writeIOps,totalIOps,portQueueFullCount" requiredProbe="VNXBlock" type="vnxBlockPort">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="vnxBlockSystem,vnxBlockPort" displayName="VNX Block Port WWN" requiredProbe="VNXBlock" type="vnxBlockPortWwn">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwnHostCount,lunCount,spPort,capacityInGB,id" directRelations="vnxBlockSystem,vnxBlockPort,vnxBlockHostWwn,vnxBlockLun" displayName="VNX Block Storage Group" perfAttributes="syn_blockPort_totalThroughputInMB,syn_blockPort_totalIOps" requiredProbe="VNXBlock" type="vnxBlockSg">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,serverName,serverIpAddr,os,protocol" directRelations="vnxBlockSystem,vnxBlockPort,vnxBlockLun,hbaPort" displayName="VNX Block Host WWN" requiredProbe="VNXBlock" type="vnxBlockHostWwn">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn,spPort,protocol,loggedIn" directRelations="vnxBlockSystem,vnxBlockHostWwn" displayName="VNX Block HBA Port" requiredProbe="VNXBlock" type="vnxBlockHbaPort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,serverIpAddr,os,protocol" directRelations="vnxBlockSystem,vnxBlockHostWwn,vnxBlockSg,vnxBlockLun" displayName="VNX Block Host" perfAttributes="syn_blockLun_responseTime,syn_blockLun_totalIOps" requiredProbe="VNXBlock" type="vnxBlockHost">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hvState,hvCreateTime,hvUpTime,hvHostName,hvMemory,osName" directRelations="hvVHD,hvVirtualIDEController,hvVirtualSCSIController,hvVirtualProcessor,hvVirtualNetworkAdapter,guestOS" displayName="HyperV Virtual Machine" perfAttributes="1GGPAPages,2MGPAPages,DepositedPages,PhysicalPagesAllocated,RemotePhysicalPages" requiredProbe="Windows" type="hvVM">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hvPath,hvVhdType,hvMaxSize,hvCurrentSize" directRelations="WLogicalDisk" displayName="Hyper-V Virtual Storage Device" perfAttributes="ReadKBytesPerSec,WriteKBytesPerSec,ReadOperationsPerSec,WriteOperationsPerSec,ErrorCount,TotalTransfersPerSec" requiredProbe="Windows" type="hvVHD">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hvMaxNumberControlled,deviceId" directRelations="" displayName="Hyper-V Virtual IDE Controller" perfAttributes="ReadKBytesPerSec,WriteKBytesPerSec" requiredProbe="Windows" type="hvVirtualIDEController">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hvMaxNumberControlled,deviceId" directRelations="" displayName="Hyper-V Virtual SCSI Controller" requiredProbe="Windows" type="hvVirtualSCSIController">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hvDeviceId" directRelations="hvLogicalProcessor,hvNumaNode" displayName="Hyper-V Hypervisor Virtual Processor" perfAttributes="PercentGuestRunTime,PercentHypervisorRunTime,PercentTotalRunTime" requiredProbe="Windows" type="hvVirtualProcessor">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wprocessormanufacturer" directRelations="hvNumaNode" displayName="Hyper-V Hypervisor Logical Processor" perfAttributes="PercentGuestRunTime,PercentHypervisorRunTime,PercentTotalRunTime,PercentIdleTime,TotalInterruptsPerSec" requiredProbe="Windows" type="hvLogicalProcessor">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wnamacAddress,ipAddress" directRelations="hvVirtualNetworkSwitch" displayName="Hyper-V Virtual Network Adapter" perfAttributes="KBytesSentPerSec,KBytesReceivedPerSec,PacketsSentPerSec,PacketsReceivedPerSec,FramesSentPerSec,FramesReceivedPerSec,DroppedPacketsIncomingPerSec,DroppedPacketsOutgoingPerSec" requiredProbe="Windows" type="hvVirtualNetworkAdapter">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,hvInternalName,name" directRelations="" displayName="Hyper-V Virtual Network Switch" perfAttributes="KBytesSentPerSec,KBytesReceivedPerSec,PacketsSentPerSec,PacketsReceivedPerSec" requiredProbe="Windows" type="hvVirtualNetworkSwitch">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hvMaxNumberControlled" directRelations="" displayName="Hyper-V IDE Controller" requiredProbe="Windows" type="hvIDEController">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hvMaxNumberControlled" directRelations="" displayName="Hyper-V SCSI Controller" requiredProbe="Windows" type="hvSCSIController">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="" displayName="Hyper-V NUMA Node" requiredProbe="Windows" type="hvNumaNode">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wos,wvirtualMemory,wosVersion,wtotalPhysicalMemory,isHyperV,dnsname,hostName,ipAddress" directRelations="hvVM,hvVirtualNetworkSwitch,WLogicalDisk,WPhysicalDisk,WProcessor,WNetworkAdapter,WTerminalServices,hvLogicalProcessor,WIDEController,WSCSIController,hvIDEController,hvSCSIController,WHBA,host,hba,hvNumaNode,guestOS" displayName="Windows Host" logicalCategory="physicalServer" perfAttributes="PageReadsPersec,PageFaultsPersec,PageWritesPersec,TransitionFaultsPersec,WriteCopiesPersec,PercentCommittedBytesInUse,AvailableMBytes,PagesPerSec,ProcessorQueueLength,ContextSwitchesPerSec,FreeSysTableEntries,PercentProcessorTime,InterruptsPerSec,PercentPrivilegedTime,DiskTransfersPerSec,PageFileUsage,LogicalProcessors,VirtualProcessors,HealthCritical,HealthOk" requiredProbe="Windows" type="WHost">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wlddescription,wldfileSystem,wldsize,wldfreeSpace,wldvolumeSerialNumber" directRelations="" displayName="Windows Logical Disk" perfAttributes="PercentIdleTime,PercentDiskTime,DiskReadPerSec,DiskWritePerSec,AvgDiskMilliSecPerRead,AvgDiskMilliSecPerWrite,DiskReadKBytesPerSec,DiskWriteKBytesPerSec,PercentUsedSpace" requiredProbe="Windows" type="WLogicalDisk">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wpdinterfaceType,wpdsize,wpdindex,wpdmodel,wpdmediaType,wpdnumberOfPartitions,wpdscsiPort,wpdscsiTargetId,wpdpnpDeviceId,lunId,arraySerialNum,busId,targetId" directRelations="WLogicalDisk,WHBA,raidLdev,dfLU,vmaxVolume,vdisk,lun" displayName="Windows Host Disk" perfAttributes="PercentDiskReadTime,PercentDiskWriteTime,PercentIdleTime,AvgDiskKBytesPerRead,AvgDiskKBytesPerWrite,AvgDiskMilliSecPerRead,AvgDiskMilliSecPerWrite,DiskReadKBytesPerSec,DiskWriteKBytesPerSec,DiskReadPerSec,DiskWritePerSec,DiskTransfersPerSec,AvgDiskQueueLength,CurrentDiskQueueLength" requiredProbe="Windows" type="WPhysicalDisk">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wprocessormanufacturer,wprocessormaxclockspeed,wprocessornormcpuspeed,wprocessorstatus,wprocessorversion" directRelations="" displayName="Windows Processor" perfAttributes="PercentIdleTime,PercentProcessorTime,InterruptsPerSec,PercentPrivilegedTime" requiredProbe="Windows" type="WProcessor">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wnamacAddress,wnamanufacturer,wnaproductName,wnaserviceName,wnastatus,wnamaxSpeed,wnaspeed,ipAddress" directRelations="hvVirtualNetworkSwitch" displayName="Windows Network Interface" perfAttributes="KBytesReceivedPerSec,KBytesSentPerSec,KBytesTotalPerSec,CurrentBandwidth,PacketsReceivedDiscarded,PacketsReceivedErrors,PacketsReceivedPersec,PacketsSentPersec,PacketsPersec,OutputQueueLength,PercentNetworkUtilization" requiredProbe="Windows" type="WNetworkAdapter">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wmachine,wprocessName,wpid,wowner" directRelations="WHost,WUser" displayName="Windows Process" perfAttributes="PercentUserTime,PercentProcessorTime,IOReadKBytesPerSec,IOWriteKBytesPerSec,PageFaultsPersec,IODataKBytesPerSec,IODataOperationsPerSec,IOWriteOperationsPerSec,IOReadOperationsPerSec,IOOtherOperationsPerSec,WorkingSetPrivate" requiredProbe="Windows" type="WProcess">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="WHost" displayName="Windows User" requiredProbe="Windows" type="WUser">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="" displayName="Windows Terminal Services" perfAttributes="PercentProcessorTime,InputErrors,InputFrames,OutputErrors,OutputFrames,OutputTransportErrors,PageFaultsPersec,ThreadCount,TotalErrors,TotalFrames,WorkingSet" requiredProbe="Windows" type="WTerminalServices">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hvMaxNumberControlled" directRelations="" displayName="Windows IDE Controller" requiredProbe="Windows" type="WIDEController">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hvMaxNumberControlled" directRelations="" displayName="Windows SCSI Controller" requiredProbe="Windows" type="WSCSIController">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn,portWWN" directRelations="WHBAPort,hba" displayName="Windows HBA" requiredProbe="Windows" type="WHBA"/>
+<ResourceDef configAttributes="nameAlias,name,wwpn" directRelations="hbaPort" displayName="Windows HBA Port" requiredProbe="Windows" type="WHBAPort"/>
+<ResourceDef configAttributes="nameAlias,name,wwn" directRelations="hbaPort" displayName="HBA" requiredProbe="VMWare|Windows|Linux" type="hba"/>
+<ResourceDef configAttributes="nameAlias,name,wwpn" directRelations="" displayName="HBA Port" requiredProbe="VMWare|Windows|Linux" type="hbaPort"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="hba" displayName="Host" requiredProbe="VMWare|Windows|Linux" type="host"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="lHost,vdisk" displayName="Guest OS" requiredProbe="VMWare|Windows|Linux" type="guestOS"/>
+<ResourceDef configAttributes="nameAlias,name,uuid,clusterSize,mode,sever_lc,warning_lc,timezone,dls,usableCapacityInGB" displayName="HNAS System" requiredProbe="HNAS" type="hnasSystem">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,serialNumber,model,ipAddress,hardware,softwareVersion" directRelations="hnasSystem" displayName="HNAS Node" perfAttributes="total_ops,eth_rx,eth_tx,disk_read_latency,disk_write_latency,disk_stripe_write_latency,nvram_waited_alocs,running_bossock_fibres,smb_ops,smb_operation,hnas_nfs_ops,hssi_c1_rx,hssi_c1_tx,hssi_c2_rx,hssi_c2_tx,ftp_ops,ftp_operation,mmb_load,mfb_load,storage_ops,obj_replication_tx,hssi_c0_rx,hssi_c0_tx,hssi_c3_rx,hssi_c3_tx,hssi_c4_rx,hssi_c4_tx,pi_tcp_sockets_receive_fibers,pi_tcp_sockets_control_fibers,smb2_ops,smb2_operation,nibrx_busy,nibtx_busy,nibtcp_busy,nicc_busy,fdp_busy,tdp_busy,fsa_busy,mbi_busy,wdir_busy,wfile_busy,wlog_busy,obj_busy,si_busy,si_sha256_busy,storage_rx,storage_tx" requiredProbe="HNAS" type="hnasNode">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="hnasNode" displayName="HNAS FC Port" perfAttributes="fcport_rx,fcport_tx" requiredProbe="HNAS" type="hnasFCPort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="hnasNode" displayName="HNAS Ethernet Port" perfAttributes="ethport_rx,ethport_tx" requiredProbe="HNAS" type="hnasEthernetPort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,Type,ipAddresses" directRelations="hnasNode" displayName="HNAS EVS" requiredProbe="HNAS" type="hnasEVS">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,permanent_id,capacityInGB,used_capacity,block_size,confinedInGB,snapshot_size,state,flag,volNo,snapshotsSumInGB,logicalCapacityInGB,dedupeSpaceInGB,dedupe,dedupeEnabled,thinProvisioningEnabled,freeCapacityInGB" directRelations="hnasEVS,hnasStoragePool" displayName="HNAS FS" perfAttributes="fs_data_read,fs_data_written,fs_operations,syn_der_hnasFS_totalThroughput" requiredProbe="HNAS" type="hnasFS">
+
+	<ResourceDef configAttributes="nameAlias,name,freeCapacityInGB,serialNumber" directRelations="hnasStoragePool" displayName="HNAS HDP Pool" requiredProbe="HNAS" type="hnasHDPPool"/>
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,path,type,fs_label,fs_size,fs_free_size,formatted,mounted,failed,access_snapshots,display_snapshots,tx_setting" directRelations="hnasSystem,hnasFS" displayName="HNAS Share" requiredProbe="HNAS" type="hnasShare"/>
+<ResourceDef configAttributes="nameAlias,name,email,root,usage_bytes,file_count,fsName,quotaEnabled" directRelations="hnasFS" displayName="HNAS Virtual Volumes" requiredProbe="HNAS" type="hnasVV"/>
+<ResourceDef configAttributes="nameAlias,name,viVol,group,user,type,usage,usage_limit,usage_warn,usage_critical,usage_reset,file_count,file_count_limit,file_count_warning,file_count_critical,file_count_reset" directRelations="hnasVV,hnasFS" displayName="HNAS Quota" requiredProbe="HNAS" type="hnasQuota"/>
+<ResourceDef configAttributes="nameAlias,name,free_pct,capacityInGB,used_capacity" directRelations="hnasSystem,hnasSystemDevice" displayName="HNAS Storage Pool" requiredProbe="HNAS" type="hnasStoragePool">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,device_id,preferred_host_port,preferred_controller,preferred_target_path,capacityInGB,sd_label,rack,superflush,lun,current_host_port,pool_owner,role,serial_num,luid,blocksize,used_in_span,tier,ctrlr_port,dev_name,sub_model,type_make,type_model,type_rev,hdp_pool" directRelations="hnasSystem,dfLU" displayName="HNAS System Drives" numSortOptions="10" requiredProbe="HNAS" type="hnasSystemDevice">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="hnasSystem,hnasNode,hnasSystemDevice" displayName="HNAS System Node Drives" numSortOptions="10" perfAttributes="queuedDiskSHAReads,queuedDiskReads,queuedDiskWrites,ScanQueuedTimeAvg,ScanQueuedTimeCnt,TotalScanTimeIncludingQueuedTimeAvg,TotalScanTimeIncludingQueuedTimeCnt" requiredProbe="HNAS" type="hnasNodeSystemDevice">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, version, serialNumber, totalCapacityInGB, protectedVolumeCapacity, storageActiveLicensedCapacity, objectCount, indexedObjectCount, storageType, replicationEnabled, searchEnabled, currentMQEIndexSize, spindownStorageCapacity, indexedVolumeCapacity, indexingTotalIndexVolumesCapacity, sharedVolumeCapacity, networkManagementEnabled" directRelations="" displayName="HCP System" requiredProbe="HCP" type="hcpSystem">		
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, ipAddress, totalCapacityInGB, usedCapacityInGB, unusedCapacityInGB, status, type, hardwareType, sanStatus, restartValue, shutdownValue, dateTime, nicDegradedStatus, nicFailureStatus, bootTime, timeSource" directRelations="hcpSystem" displayName="HCP Node" requiredProbe="HCP" type="hcpNode">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, nodeNumber, totalCapacityInGB, volumeLabel, status, flagsEnabled, usedCapacityInGB, unusedCapacityInGB " directRelations="hcpSystem,hcpNode" displayName="HCP Storage Volume" requiredProbe="HCP" type="hcpStorageVolume">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, poolName, poolType, poolStatus" directRelations="hcpSystem" displayName="HCP Storage Pool" requiredProbe="HCP" type="hcpStoragePool">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, allowSearch, allowVersioning, allowRetentionModeSelection, allowReplication, hardQuotaLimit, softQuotaLimit, allocatedQuota, namespaceQuota, description, physicalBytesUsed, dataNetwork, addressCountry, contactFirstName,        addressZipPostalCode, managementNetwork, authentication, contactLastName, phone, addressLineOne, phoneExtension, addressCity, addressLineTwo, emailAddress, addressStateProvince, logicalBytesUsed, indexedObjectCount, objectCount, nonReplicatedDpl1Namespace" directRelations="hcpSystem" displayName="HCP Tenant" requiredProbe="HCP" type="hcpTenant">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,fullName,isActive,roles,allowNamespaceManagement" directRelations="hcpTenant" displayName="HCP Tenant User" requiredProbe="HCP" type="hcpTenantUser">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, allowSearch, allowIndexing, allowReplication, hardQuotaLimit, softQuotaLimit, storageUsedCapacity, freeCapacityInGB" directRelations="hcpTenant" displayName="HCP Namespace" perfAttributes="objCount, storageCapacityUsed, totalBytesIn, totalBytesOut, totalObjectDeleted, ingestedVolumeSize, totalMetadataBytes, metaDataObjectsCount, totalReads, totalWrites, tieredBytes, tieredObjectsCount" requiredProbe="HCP" type="hcpNamespace">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, type, ipAddress, status" directRelations="hcpSystem" displayName="HCP Switch" requiredProbe="HCP" type="hcpSwitch">		
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, status, description, type" directRelations="hcpSystem" displayName="HCP Host Device" perfAttributes="busyRate" requiredProbe="HCP" type="hcpHostDevice">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, description, allocatedSize, usedSize, type" directRelations="hcpSystem" displayName="HCP Storage" requiredProbe="HCP" type="hcpStorage">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name, ifPhysAddress, ifType, ifOperStatus, ifDescr, speedInGbps" directRelations="hcpSystem" displayName="HCP Network Interface" perfAttributes="ifInOctets, ifInUcastPkts, ifInNUcastPkts, ifInDiscards, ifInErrors, ifOutOctets, ifOutUcastPkts, ifOutNUcastPkts, ifOutDiscards, ifOutErrors" requiredProbe="HCP" type="hcpNetworkInterface">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,purityRevision,purityVersion,totalCapacityInGB,volumeCapacity,snapshotCapacity,sharedSpace,systemSpace,usedCapacityInGB,capacityUsage,dataReductionRatio,totalReductionRatio,thinProvisioningRatio,model" directRelations="" displayName="Pure Storage" perfAttributes="readBandwidth,writeBandwidth,totalBandwidth,readIOps,writeIOps,totalIOps,avgReadLatency,avgWriteLatency,avgLatency,queueDepth,averageReadIOSize,averageWriteIOSize,averageTotalIOSize" requiredProbe="PureStorage" type="psStorage">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,mode,model,purityVersion,status" directRelations="psStorage" displayName="Pure Storage Controller" requiredProbe="PureStorage" type="psController">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,purityVersion,virtualAddress,raplicationAddress,connectionType,connectionStatus" directRelations="psStorage" displayName="Pure Storage Connected Array" requiredProbe="PureStorage" type="psConnectedArray">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,serialNumber,creationTime,source,totalCapacityInGB,volumeCapacity,snapshotCapacity,sharedSpace,systemSpace,usedCapacityInGB,capacityUsage,dataReductionRatio,totalReductionRatio,thinProvisioningRatio" directRelations="psStorage" displayName="Pure Storage Volume" perfAttributes="readBandwidth,writeBandwidth,totalBandwidth,readIOps,writeIOps,totalIOps,avgReadLatency,avgWriteLatency,avgLatency,averageReadIOSize,averageWriteIOSize,averageTotalIOSize" requiredProbe="PureStorage" type="psVolume">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hgroup,source,totalCapacityInGB,volumeCapacity,snapshotCapacity,usedCapacityInGB,capacityUsage,dataReductionRatio,totalReductionRatio,thinProvisioningRatio" directRelations="psHostGroup,psVolume,psStorage" displayName="Pure Storage Host" perfAttributes="readBandwidth,writeBandwidth,totalBandwidth,readIOps,writeIOps,totalIOps,avgReadLatency,avgWriteLatency,avgLatency,averageReadIOSize,averageWriteIOSize,averageTotalIOSize" requiredProbe="PureStorage" type="psHost">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,totalCapacityInGB,volumeCapacity,snapshotCapacity,usedCapacityInGB,capacityUsage,dataReductionRatio,totalReductionRatio,thinProvisioningRatio" directRelations="psVolume,psStorage" displayName="Pure Storage HostGroup" perfAttributes="readBandwidth,writeBandwidth,totalBandwidth,readIOps,writeIOps,totalIOps,avgReadLatency,avgWriteLatency,avgLatency,averageReadIOSize,averageWriteIOSize,averageTotalIOSize" requiredProbe="PureStorage" type="psHostGroup">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,lunNumber" directRelations="psVolume,psHost,psHostGroup,psHostPort,psStoragePort,psStorage" displayName="Pure Storage Lun" requiredProbe="PureStorage" type="psLun">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn" directRelations="psHost,hbaPort,psStorage" displayName="Pure Storage Host Port" requiredProbe="PureStorage" type="psHostPort">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn,slotNumber,speedInGB,status" directRelations="psHostPort,psStorage,sp" displayName="Pure Storage Port" requiredProbe="PureStorage" type="psStoragePort">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,replicateEnabled,replicateFrequency,usedCapacityInGB" directRelations="psHostGroup,psHost,psVolume,psStorage" displayName="Pure Storage Data Protection Group" requiredProbe="PureStorage" type="psPG">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,totalCapacityInGB,type,status,lastFailureTime,degraded" directRelations="psStorage" displayName="Pure Storage Drive" requiredProbe="PureStorage" type="psDrive">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,enabled,gateway,hwaddr,maxTransmissionUnit,speedInGB" directRelations="psStorage" displayName="Pure Storage Network" requiredProbe="PureStorage" type="psNetwork">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,index,totalPhysicalCapacity,usedCapacityInGB,usedLogicalSpace,thinProvisioningRatio,dedupRatio, dataReductionRatio,compressionFactor,noOfSSDs,noOfVols,noOfBricks,noOfNodes,noOfIBSwitches,sysSWVersion  ,sysHealthState,noOfDPGS,noOfTargets,noOfTargetGroups,noOfXenvs,noOfInitiators" directRelations="" displayName="XtremIO Cluster" perfAttributes="accNumOfRead,accNumOfWrite,accSizeRead,accSizeWrite,avgLatency,avgLatency4kb,readBandwidth,readBandwidth128kb,readBandwidth16kb,readBandwidth1kb,readBandwidth1mb,readBandwidth256kb,readBandwidth2kb,readBandwidth32kb,readBandwidth4kb,readBandwidth512b,readBandwidth512kb,readBandwidth64kb,readBandwidth8kb,readBandwidthByBlock,readIOps,readIOps128kb,readIOps16kb,readIOps1kb,readIOps1mb,readIOps256kb,readIOps2kb,readIOps32kb,readIOps4kb,readIOps512b,readIOps512kb,readIOps64kb,readIOps8kb,readIOpsByBlock,avgReadLatency,readLatency128kb,readLatency16kb,readLatency1kb,readLatency1mb,readLatency256kb,readLatency2kb,readLatency32kb,readLatency4kb,readLatency512b,readLatency512kb,readLatency64kb,readLatency8kb,totalBandwidth,totalIOps,writeBandwidth,writeBandwidth128kb,writeBandwidth16kb,writeBandwidth1kb,writeBandwidth1mb,writeBandwidth256kb,writeBandwidth2kb,writeBandwidth32kb,writeBandwidth4kb,writeBandwidth512b,writeBandwidth512kb,writeBandwidth64kb,writeBandwidth8kb,writeBandwidthByBlock,writeIOps,writeIOps128kb,writeIOps16kb,writeIOps1kb,writeIOps1mb,writeIOps256kb,writeIOps2kb,writeIOps32kb,writeIOps4kb,writeIOps512b,writeIOps512kb,writeIOps64kb,writeIOps8kb,writeIOpsByBlock,avgWriteLatency,writeLatency128kb,writeLatency16kb,writeLatency1kb,writeLatency1mb,writeLatency256kb,writeLatency2kb,writeLatency32kb,writeLatency4kb,writeLatency512b,writeLatency512kb,writeLatency64kb,writeLatency8kb" requiredProbe="XtremIO" type="xtremIOCluster">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,state,noOfNodes,noOfSSDs" directRelations="xtremIOCluster" displayName="XtremIO X-Brick" perfAttributes="" requiredProbe="XtremIO" type="xtremIOXbrick">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,osVersion,nodeMgrAddr,biosFWVersion,serialNumber,state" directRelations="xtremIOXbrick" displayName="XtremIO Storage Controller" perfAttributes="" requiredProbe="XtremIO" type="xtremIOStorageController">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,noOfNodes,noOfSSDs,protectionState,userDataSSDSpace,usedUserDataSSDSpace" directRelations="xtremIOXbrick" displayName="XtremIO Data Protection Group" perfAttributes="readBandwidth,readIOps,writeBandwidth,writeIOps" requiredProbe="XtremIO" type="xtremIODataProtectionGroup">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,creationTime,usedLogicalSpace,logicalBlockSize,noOfLUNMapped,volSize,volType,volAccess" directRelations="xtremIOCluster" displayName="XtremIO Volume" perfAttributes="totalIOps,readIOps,writeIOps,totalBandwidth,readBandwidth,writeBandwidth,avgLatency,avgReadLatency,avgWriteLatency" requiredProbe="XtremIO" type="xtremIOVolume">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,portAddress,portType,os,noOfTargets,connectionState" directRelations="xtremIOInitiatorGroup,hbaPort" displayName="XtremIO Initiator" perfAttributes="totalIOps,readIOps,writeIOps,totalBandwidth,readBandwidth,writeBandwidth,avgLatency,avgReadLatency,avgWriteLatency" requiredProbe="XtremIO" type="xtremIOInitiator">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,noOfinitiators,noOfVols" directRelations="xtremIOCluster,xtremIOVolume" displayName="XtremIO Initiator Group" perfAttributes="totalIOps,readIOps,writeIOps,totalBandwidth,readBandwidth,writeBandwidth" requiredProbe="XtremIO" type="xtremIOInitiatorGroup">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,ssdUsedSpace,ssdSize,slotNum,ssdFailureReason,model,noOfBadSectors,firmwareVersion,percentEnduranceRemaining" directRelations="xtremIOXbrick" displayName="XtremIO SSD" perfAttributes="totalIOps,readIOps,writeIOps,totalBandwidth,readBandwidth,writeBandwidth" requiredProbe="XtremIO" type="xtremIOSSD">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,model,fan1RPM,fan2RPM,fan3RPM,fan4RPM,fwVersion,serialNumber,noOfPorts" directRelations="xtremIOCluster" displayName="XtremIO InfiniBandSwitch" perfAttributes="" requiredProbe="XtremIO" type="xtremIOInfiniBandSwitch">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,portAddress,portSpeed,portState,portType,firmwareVersion,mtu" directRelations="xtremIOStorageController,xtremIOTargetGroup,sp" displayName="XtremIO Target" perfAttributes="totalIOps,readIOps,writeIOps,totalBandwidth,readBandwidth,writeBandwidth,avgLatency,avgReadLatency,avgWriteLatency,ethKbytesRx,ethKbytesTx,ethPktRx,ethPkttTx,ethPktTxError,ethPktRxCRCError,ethPktRxNoBufferError,fcDumpedFrames,fcInvalidCRCCount,fcLinkFailureCount,fcLossOfSignalCount,fcPrimSeqProtErrCount,fcSeqRetxReqCount" requiredProbe="XtremIO" type="xtremIOTarget">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,objSeverity,tgID" directRelations="xtremIOCluster" displayName="XtremIO Target Group" perfAttributes="" requiredProbe="XtremIO" type="xtremIOTargetGroup">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,objSeverity,numOfMdls,xenvState" directRelations="xtremIOStorageController" displayName="XtremIO Environment" perfAttributes="cpuUsage" requiredProbe="XtremIO" type="xtremIOXenv">
+</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,osVersion,ipAddress,osName,osKernel,linuxMemoryInGB,diskCount,diskSizeInGB" directRelations="" displayName="Linux Host" logicalCategory="physicalServer" perfAttributes="l_user,l_nice,l_sys,l_iowait,l_irq,l_soft,l_steal,l_idle,l_intrps,l_r,l_b,l_swpd,l_free,l_buff,l_cache,l_inact,l_active,l_si,l_so,l_bi,l_bo,l_cs,l_rps,l_wps,l_tps,l_mbps,l_rmbps,l_wmbps,l_txpckps,l_rxpckps,l_xmbps,l_txmbps,l_rxmbps,l_pckps,l_cpuLoad,l_diskTransferAvg,l_memUsed,l_freeSpace" requiredProbe="Linux" type="lHost">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,vendorId,cpuFamily,modelType,modelName,stepping,cpuMHz,cacheSize,physicalId, siblings, coreId, cpuCores, apicId, microcode, initialApicid,fpu,fpuException,cpuIdLevel,wp,flags,bogomips,clflushSize,cacheAlignment,addressSizes,powerManagement" directRelations="lHost" displayName="Linux Host CPU" perfAttributes="l_user,l_nice,l_sys,l_iowait,l_irq,l_soft,l_steal,l_idle,l_intrps" requiredProbe="Linux" type="lHostCPU">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,model,vendor,diskSizeInGB,wwid,logicalLdevNumber,sectorsRead,sectorsWrite" directRelations="lHost,lHostHbaPort" displayName="Linux Host Disk" perfAttributes="l_rps,l_wps,l_rkbps,l_wkbps,l_avgrq-sz,l_avgqu-sz,l_await,l_svctm,l_util,l_diskTransferAvg,l_avgReadSectors,l_avgWriteSectors,l_deviceReadTicks,l_deviceWriteTicks" requiredProbe="Linux" type="lHostDisk">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,inetAddr,hwAddr,inet6Addr,scope,mtu,metric,status,aliasInetAddress,aliasInet6Address" directRelations="lHost" displayName="Linux Host Network Interface" perfAttributes="l_rxkbps,l_rxpckps,l_rxerrps,l_rxdropps,l_rxfifops,l_rxframeps,l_rxcmpps,l_rxmcstps,l_txkbps,l_txpckps,l_txerrps,l_txdropps,l_txfifops,l_txcollsps,l_txcmpps,l_txcarrps" requiredProbe="Linux" type="lHostIfc">	
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,fsType,fsPath,statFsTotalBlocks,statFsTotalAvailable,statFsBlockSize" directRelations="lHost" displayName="Linux Host FileSystem Device" perfAttributes="usedpercent,freepercent" requiredProbe="Linux" type="lHostFileSystemDevice">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,vgStatus,vgAccess,vgSize,maxLv,openLv,curLv,maxPv,actPv,curPv,allocPE,freePE,totalPE,peSize,allocPeSize,freePeSize,uuid" directRelations="lHost" displayName="Linux Host Volume Group" requiredProbe="Linux" type="lHostVolumeGroup">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,volumeGroup,logicalVolumeStatus,physicalVolume,logicalExtentTo,logicalExtentFrom,logicalVolumeWriteAccess,logicalVolumeSize,logicalVolumeUuid" directRelations="lHostVolumeGroup" displayName="Linux Host Logical Volume" requiredProbe="Linux" type="lHostLogicalVolume">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,size,free,uuid,volumeGroup" directRelations="lHostVolumeGroup" displayName="Linux Host physical Volume" requiredProbe="Linux" type="lHostPhysicalVolume">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,serialNum,modelDesc,modelName,fwVersion,driverVersion,manufacturer,isNpivEnabled" directRelations="lHost,hba" displayName="Linux Host Bus Adapter" requiredProbe="Linux" type="lHostHba">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,alias,portWwn,nodeWwn,portSpeed" directRelations="lHost,lHostHba,hbaPort" displayName="Linux Host Bus Adapter Port" perfAttributes="l_fcHbaRxFrame,l_fcHbaTxFrame" requiredProbe="Linux" type="lHostHbaPort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn" directRelations="hbaPort" displayName="HBA" requiredProbe="VMWare|Windows|Linux" type="hba"/>
+<ResourceDef configAttributes="nameAlias,name,wwpn" directRelations="" displayName="HBA Port" requiredProbe="VMWare|Windows|Linux" type="hbaPort"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="hba" displayName="Host" requiredProbe="VMWare|Windows|Linux" type="host"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="lHost,vdisk" displayName="Guest OS" requiredProbe="VMWare|Windows|Linux" type="guestOS"/>
+<ResourceDef configAttributes="__name,__resType, __datacenter, __location, __custattr01, __custattr02" directRelations="" displayName="System Probe" perfAttributes="__transferredPerfData,__processedPerfData,__transferredConfData,__processedConfData,__transferredAPIData,__processedAPIData" requiredProbe="" type="__probe"/>
+<ResourceDef configAttributes="nameAlias,name,id" directRelations="dfStorage,raidStorage,ldevGroup,poolGroup,ownerGroup,portGroup" displayName="Model" requiredProbe="AMS|HitachiEnterpriseStorage" type="model">    
+    </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id" directRelations="dfStorage,raidStorage,dfHDP,raidPool" displayName="Pool Group" requiredProbe="AMS|HitachiEnterpriseStorage" type="poolGroup">    
+    </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id" directRelations="dfStorage,raidStorage,raidLdev,dfLU" displayName="LDEV Group" requiredProbe="AMS|HitachiEnterpriseStorage" type="ldevGroup">    
+    </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id" directRelations="dfStorage,raidStorage,dfOwner,raidOwner" displayName="Owner Group" requiredProbe="AMS|HitachiEnterpriseStorage" type="ownerGroup">    
+    </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id" directRelations="dfStorage,raidStorage,raidPort,dfPort" displayName="Port Group" requiredProbe="AMS|HitachiEnterpriseStorage" type="portGroup">    
+    </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id" directRelations="dataCenter" displayName="Region" requiredProbe="AMS|HitachiEnterpriseStorage" type="region">
+    </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id" directRelations="raidStorage,dfStorage" displayName="DataCenter" requiredProbe="AMS|HitachiEnterpriseStorage" type="dataCenter">
+    </ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,ipAddress,sid,clientId" displayName="SAP Instance" perfAttributes="totalConcurrentUser" requiredProbe="SAPNetWeaver" type="sapInstance"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sapInstance" displayName="SAP Application Server" perfAttributes="bgWpCount,bgWpErrors,bgWpErrorsFreq,bgWpEnded,bgWpUtilization,diaWpUtilization,diaWpCount,diaResponseTime,diaWpErrors,diaWpQueueLength,diaWpErrorFreq,diaEndedWp,diaWpQueueTime,diaDbRequestTime,spoWpUtilization,spoWpCount,spoWpErrors,spoWpErrorsFreq,spoEndedWp,spoWpDeviceCacheUsed,spoWpDeviceCacheFixed,spoQueueLength,extendedMemoryUsage,extendedTotalSize,extendedPeakUsage,heapAreaUsage,heapTotalSize,heapPeakUsage,r3PagingUsage,r3PagingUsedSize,r3RollUsage,r3RollUsedSize,ud1WpResponseTime,ud1WpQueueTime,ud1WpUtilization,ud1WpCount,ud1WpTotalErrors,ud1WpErrorsFreq,ud1WpEndedCount,ud2WpResponseTime,ud2WpQueueTime,ud2WpUtilization,ud2WpCount,ud2WpTotalErrors,ud2WpErrorsFreq,ud2WpEndedCount" requiredProbe="SAPNetWeaver" type="sapAppServer"/>
+<ResourceDef configAttributes="nameAlias,name,totalCpu,totalLogicalCpu,sapTotalMemory,totalSwapMemory" directRelations="sapInstance,sapAppServer" displayName="SAP Host" perfAttributes="freePhysicalMemory,freeSwapMemory,pageIn,pageOut,cpuUtilization,contextSwitches,systemUtilization,userUtilization,cpuIOWait,interrupts,packetsIn,packetsOut,totalCollisions,errorsIn,errorsOut,dataTransferIn,dataTransferOut,commitFreeCharge" requiredProbe="SAPNetWeaver" type="sapHost"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sapInstance" displayName="SAP Database" perfAttributes="sapReads,sqlBatches,sapCpuUsed,dataHitRatio,procedureHitRatio,diskIo,networkPacket,freeFileSpace" requiredProbe="SAPNetWeaver" type="sapDatabase"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sapInstance,sapAppServer" displayName="SAP FileSystem" perfAttributes="sapFreeSpace,sapUsage" requiredProbe="SAPNetWeaver" type="sapFileSystem"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sapInstance,sapAppServer" displayName="SAP Buffer" perfAttributes="sapBufferDirectoryUsed,sapBufferSpaceUsed,sapBufferHitRatio,sapBufferSwapMemUsage" requiredProbe="SAPNetWeaver" type="sapBuffer"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sapInstance" displayName="SAP Background Job" perfAttributes="bgJobRuntime,bgJobDelay,bgJobTotalTime" requiredProbe="SAPNetWeaver" type="sapBgJob"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="sapInstance" displayName="SAP Named Users" perfAttributes="totalDialogUser,totalSystemUser,totalCommunicationUser,totalReferenceUser,totalServiceUser" requiredProbe="SAPNetWeaver" type="sapNamedUsers"/>
+<ResourceDef configAttributes="nameAlias,name,hanaDbName, hanaVersion, hanaInstanceID, hanaInstanceNumber" directRelations="" displayName="HANA Instance" perfAttributes="hanaConnectionCount, hanaConnectionMemorySize, hanaAvgExecutionMemorySize, hanaExecutionMemorySize" requiredProbe="SAPHANA" type="hanaInstance">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hanaHostName,hanaHostNames,hanaHwManufacturer,hanaMemPhysical, hanaMemSwap,hanaMemTopology, hanaAllocationLimit, hanaCpuCores, hanaPublicName, hanaDomainName, hanaIpAddresses, hanaCpuClock, hanaCpuModel, hanaCpuManufacturer, hanaCpuThreads, hanaOsName, hanaPlatform, hanaOsKernalVersion, hanaTimeZone, hanaOsUser" directRelations="hanaInstance" displayName="HANA Host" perfAttributes="hanaPhysicalMemoryUtilization, hanaSwapMemoryUtilization, hanaUsedPhysicalMemory, hanaFreePhysicalMemory, hanaUsedSwapMemory, hanaFreeSwapMemory, hanaOsUsedMemory, hanaQueryMemoryUsedSize, hanaPersistenceMgrUsedSize, hanaStatisticsUsedSize, hanaMemMgmtUsedSize,hanaCpuUserTime,hanaCpuSystemTime,hanaCpuIdleTime,hanaCpuIoWait,hanaNwRecv,hanaNwSend,hanaColumnTableTotalMemory, hanaColumnTableMainMemory, hanaColumnTableDeltaMemory, hanaColumnTableSystemMemory, hanaColumnTableUserMemory, hanaColumnTableCount, hanaColumnTableUsedDiskSize, hanaColumnTableReadSize, hanaColumnTableWriteSize, hanaColumnTableAppendSize, hanaColumnTablePageCount,hanaRowTableAllocatedFixedSize, hanaRowTableUsedFixedPartSize, hanaRowTableFreeFixedPartSize, hanaRowTableAllocatedVariablePartSize, hanaRowTableUsedVariablePartSize, hanaRowTableUsedDiskSize, hanaRowTableCount, hanaRowTablePageCount, hanaRowTableReadSize, hanaRowTableWriteSize, hanaRowTableAppendSize, hanaRowTableSystemMemory, hanaRowTableUserMemory" requiredProbe="SAPHANA" type="hanaHost">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hanaDiskID, hanaDiskType, hanaDiskSize, hanaFsType, hanaDiskPath" directRelations="hanaHost,hanaInstance" displayName="HANA Disk" perfAttributes="hanaDiskUtilization, hanaTotalUsedSize, hanaTotalIOTime, hanaTotalReads, hanaTotalWrites, hanaTotalReadSize, hanaTotalWriteSize, hanaAvgReadSize, hanaAvgWriteSize, hanaTotalReadTime, hanaTotalWriteTime, hanaAvgReadTime,hanaAvgWriteTime, hanaTotalActiveReads, hanaTotalActiveWrites" requiredProbe="SAPHANA" type="hanaDisk">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,hanaServiceName, hanaServicePort, hanaServiceSqlPort, hanaServiceProcessId, hanaServiceCoordinatorType, hanaServiceActiveStatus, hanaServiceStartTime" directRelations="hanaHost,hanaInstance" displayName="HANA Service" perfAttributes="hanaCacheUsedSize, hanaCacheTotalSize, hanaCacheInvalidateCount, hanaCacheHitCount, hanaCacheMissCount, hanaSentMessageSize, hanaReceivedMessageSize, hanaRequestPerSec, hanaResponseTime, hanaFinishedRequestCount, hanaActiveRequestCount, hanaPendingRequestCount, hanaOpenFileCount,hanaTotalLogicalMemory, hanaTotalPhysicalMemory, hanaTotalCodeSize, hanaTotalStackSize, hanaUsedHeapMemory, hanaAllocatedHeapMemory, hanaAllocatedSharedMemory, hanaUsedSharedMemory, hanaMemAllocationLimit, hanaMemEffectiveAllocationLimit, hanaTotalUsedMemory,hanaActiveThreadCount, hanaTotalThreadCount, hanaProcessCpuTime" requiredProbe="SAPHANA" type="hanaService">
+
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,dbID, name, version,isRacSystem" displayName="Oracle Database" requiredProbe="Oracle" type="oracleDB"/>
+<ResourceDef configAttributes="nameAlias,name, instanceID, version, status, hostName, instanceRole, totalCpuCount,isRacSystem" directRelations="oracleDB" displayName="Oracle Instance" perfAttributes="aggPGATargetParam, aggPGAAutoTarget, globalMemoryBound, totalPGAInUse, totalFreePGAMemory, pgaProcessCount, maxProcessCount, usedPGAAWA, maxPGAAWA, usedPGAMW, maxPGAMW, pgaTotalRecomputeCount,totalPGAAllocated,maxPGAAllocated,pgaMemoryUtilization,dbCpuIdleTime, cpuBusyTime, cpuUserTime, cpuSystemTime, avgCpuIdleTime, avgCpuBusyTime, avgCpuUserTime, avgCpuSysTime, dbCpuWaitTime, pageInSize, pageOutSize,totalCpuUtilization,rmanTotalReads, rmanTotalWrites, rmanReadSize, rmanWriteSize, rmanReadLatency, rmanWriteLatency, plsqlTotalReads, plsqlTotalWrites, plsqlReadSize, plsqlWriteSize, plsqlReadLatency, plsqlWriteLatency,sharedPoolFreeSpace, sharedPoolUsedSpace, totalSharedPoolRequest, sharedPoolRequestFailure, sharedPoolAvgFreeSize, sharedPoolFreeCount, sharedPoolMaxFreeSize, sharedPoolAvgUsedSize, sharedPoolUsedCount, sharedPoolMaxUsedSize, sharedPoolRequestMisses,sharedPoolLastMissSize, sharedPoolMaxMissSize, sharedPoolLastFailureSize, sharedPoolAbortedRequestSize, sharedPoolAbortedRequestCount, sharedPoolLastAbortedSize,totalSharedPoolSize,activeSessionCount, inactiveSessionCount, killedSessionCount,snipedSessionCount, cachedSessionCount, othersSessionCount,activeSessionWaitTime,inActiveSessionWaitTime,killedSessionWaitTime, cachedSessionWaitTime,snipedSessionWaitTime,othersSessionWaitTime,noHolderSessionCount,notInWaitSessionCount,eventDiagIdleWaitCount,eventJobqSlaveWaitCount,eventPmonTimerCount,eventRdbmsIpcMessageCount,eventSmonTimerCount,eventSlaveIdleWaitCount,eventSqlNetMsgFromClientCount,eventSqlNetDataToClientCount,eventQmnIdleWaitCount,eventQmnSlaveIdleWaitCount,eventWaitTimeTaskCount,eventVKTMLogicalIdleWaitCount,waitingStateCount,waitedShortTimeStateCount,idleWaitClassCount,networkWaitClassCount,totalProcessCount, totalTransactionCount,totalActiveTransactionCount,sharedPoolFreeMemory, largePoolFreeMemory,javaPoolFreeMemory,streamPoolFreeMemory,sgaFixedSize,sgaVariableSize,sgaDatabaseBuffers,sgaRedoBuffers,totalSGASize,totalSGAFreeSize,totalSGAMemoryUtilization" requiredProbe="Oracle" type="oracleInstance"/>
+<ResourceDef configAttributes="nameAlias,name, poolID, bufferBlockSize, currentBuffersCount" directRelations="oracleInstance" displayName="Oracle Buffer Pool" perfAttributes="freeBufferWait, writeCompleteWait, bufferBusyWait, freeBufferInspected, dirtyBufferInspected, dbBlockChange, dbBlockGets, consistentGets, totalPhysicalReads, totalPhysicalWrites, bufferHitRatio" requiredProbe="Oracle" type="oracleBufferPool"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="oracleInstance" displayName="Oracle Library Cache" perfAttributes="lockRequestCount, totalHits,  getHitRatio, pinsRequests, pinsHits, pinHitRatio, totalReloads, invalidationCount, dlmLockRequests, dlmPinRequests, dlmPinReleases, dlmInvalidationRequests, totalDlmInvalidations" requiredProbe="Oracle" type="oracleLibraryCache"/>
+<ResourceDef configAttributes="nameAlias,name, eventID" directRelations="oracleInstance" displayName="Oracle System Event" perfAttributes="totalWaits, totalTimeOuts, eventWaitTime, avgWaitTime, FGTotalWaits, FGTotalTimeOut, FGWaitTime, FGAvgWaitTime" requiredProbe="Oracle" type="oracleSystemEvent"/>
+<ResourceDef configAttributes="nameAlias,name, paramHash, type, value,displayValue, isDefault, isSESModifiable, isSYSModifiable, isInstanceModifiable, isModified, isAdjusted, isDeprecated, isBasic, paramNum,updateComment" directRelations="oracleInstance" displayName="Oracle System Parameter" requiredProbe="Oracle" type="oracleSystemParameter"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="oracleInstance" displayName="Oracle Wait Statistics" perfAttributes="waitCount,waitTime" requiredProbe="Oracle" type="oracleWaitStats"/>
+<ResourceDef configAttributes="nameAlias,name,fileID, fileSize, dbFileBlockSize" directRelations="oracleInstance" displayName="Oracle Data File" perfAttributes="physicalReads, physicalWrites, physicalBlkReads, physicalBlkWrites, totalReadTime, totalWriteTime, avgIOTime, maxReadTime, maxWriteTime" requiredProbe="Oracle" type="oracleDataFile"/>
+<ResourceDef configAttributes="nameAlias,name, lockType, lockMode" directRelations="oracleInstance" displayName="Oracle DB Lock" perfAttributes="lockCount, avgCtime" requiredProbe="Oracle" type="oracleDBLock"/>
+<ResourceDef configAttributes="nameAlias,name" directRelations="oracleInstance" displayName="Oracle DB Latch" perfAttributes="totalLatchGets,totalLatchMisses,totalLatchSleeps,totalLatchImmediateGets,totalLatchImmediateMisses,waitTime" requiredProbe="Oracle" type="oracleDBLatch"/>
+<ResourceDef configAttributes="nameAlias,name,statisticName,objectName,object#,statistic#" directRelations="oracleInstance" displayName="Oracle Segment Statistics" perfAttributes="segmentValue" requiredProbe="Oracle" type="oracleSegmentStatistics"/>
+<ResourceDef configAttributes="nameAlias,name,eventID,sessionSID,serial" directRelations="oracleInstance" displayName="Oracle Session Event" perfAttributes="totalEventWaits,totalEventTimeouts,eventAvgWaitTime,eventMaxWaitTime,sessionEventWaitTime" requiredProbe="Oracle" type="oracleSessionEvent"/>
+<ResourceDef configAttributes="nameAlias,name,sessionSID,serial,userName,command,lockWait,status,machineName,programName,sessionType,sqlAddress,sqlHashValue,sqlExecStartDate,sqlExecID,blockingSessionStatus,blockingInstance,blockingSession,seqID,eventID,eventName,p1ParameterText,p1Parameter,p2ParameterText,p2Parameter,p3ParameterText,p3Parameter,waitClass,sessionState" directRelations="oracleInstance" displayName="Oracle Session" perfAttributes="waitTime" requiredProbe="Oracle" type="oracleSession"/>
+<ResourceDef configAttributes="nameAlias,name,id,modelName,serialNumber,totalNodes,masterNode,onlineNodes,totalCapacityInGB,allocatedCapacityInGB,freeCapacityInGB,failedCapacityInGB,chunkletSize,osVersion,allocatedVVCapacityInGB,allocatedSystemCapacityInGB,allocatedTotalCPGCapacityInGB,allocatedCPGUserCapacityInGB,allocatedCPGSnapshotCapacityInGB,allocatedCPGAdminCapacityInGB,allocatedTotalNonCPGCapacityInGB,allocatedNonCPGUserCapacityInGB,allocatedNonCPGSnapshotCapacityInGB,allocatedNonCPGAdminCapacityInGB,allocatedSysSpareTotalCapacityInGB,allocatedSysSpareUsedCapacityInGB,allocatedSysInternalCapacityInGB,freeInitializedCapacityInGB,fcTotalCapacityInGB,nlTotalCapacityInGB,ssdTotalCapacityInGB,rawSpaceAlertFC,rawSpaceAlertNL,rawSpaceAlertSSD,timezone,compaction,deduplication" directRelations="" displayName="HPE 3PAR Storage" perfAttributes="readHitRate,writeHitRate,readIOps,writeIOps,cacheTotalIOps,readHit,writeHit,userCpu,sysCpu,cpuIdleTime,totalIOps,totalBandwidth,totalIOSize,responseTime" requiredProbe="HPE3PAR" type="hp3parStorage">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,status,isMaster,isClustered,controlMemoryInGB,dataMemoryInGB,cacheAvailable" directRelations="hp3parStorage" displayName="HPE 3PAR Controller" perfAttributes="readHitRate,writeHitRate,readIOps,writeIOps,cacheTotalIOps,readHit,writeHit,userCpu,sysCpu,cpuIdleTime,interrupt,contextSwitch" requiredProbe="HPE3PAR" type="hp3parController">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,id,type,status,modelName,serialNumber,protocol,rpm,wwn,totalCapacityInGB,freeCapacityInGB,usedVolumeCapacity,spareCapacityInGB,unavailableCapacityInGB,failedCapacityInGB,capacityInGB,totalChunklet,primaryPath0,secondaryPath0,primaryPath1,secondaryPath1,prefferedNodeOrder" directRelations="hp3parStorage" displayName="HPE 3PAR Physical Drive" perfAttributes="writeIOps,readIOps,totalIOps,readBandwidth,writeBandwidth,totalBandwidth,readResponseTime,writeResponseTime,responseTime,readIOSize,writeIOSize,totalIOSize,queueLength,busyRate" requiredProbe="HPE3PAR" type="hp3parPhysicalDrive">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,id,name,raidType,ownerNode,backupNode,totalSizeInGB,usedSizeInGB,isMappedVV,status,totalRawSizeInGB,rowSize,stepSizeInKB,setSize,keepPreserved,devType,rpm" directRelations="hp3parStorage,hp3parCPG" displayName="HPE 3PAR Logical Drive" perfAttributes="writeIOps,readIOps,totalIOps,readBandwidth,writeBandwidth,totalBandwidth,readResponseTime,writeResponseTime,responseTime,readIOSize,writeIOSize,totalIOSize,queueLength,busyRate" requiredProbe="HPE3PAR" type="hp3parLogicalDrive">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,id,name,totalVV,thinlyProvisionedVV,thinlyDedupedVV,warningThreshold,totalUserSpaceInGB,usedUserSpaceInGB,totalRawUserSpaceInGB,usedRawUserSpaceInGB,totalSnapshotSpaceInGB,usedSnapshotSpaceInGB,totalRawSnapshotSpaceInGB,usedRawSnapshotSpaceInGB,totalAdminSpaceInGB,usedAdminSpaceInGB,totalRawAdminSpaceInGB,usedRawAdminSpaceInGB,compaction,deduplication,dataReduce,overprovision,snapshotDataWarningGB,snapshotDataLimitGB,snapshotDataIncrementGB,snapshotAdminWarningGB,snapshotAdminLimitGB,snapshotAdminIncrementGB,sharedSpaceInGB,freeSpaceInGB,totalSpaceInGB,totalRawSpaceInGB,freeRawSpaceInGB" directRelations="hp3parStorage" displayName="HPE 3PAR CPG" perfAttributes="writeIOps,readIOps,totalIOps,readBandwidth,writeBandwidth,totalBandwidth,readResponseTime,writeResponseTime,responseTime,readIOSize,writeIOSize,totalIOSize,queueLength,busyRate" requiredProbe="HPE3PAR" type="hp3parCPG">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,id,udid,name,wwn,provisioningType,copyType,copyOfVV,physicalParentId,parentId,baseVVId,snapshotCPG,userCPG,readOnlyAccess,domain,status,reservedSnapshotSpaceInGB,rawReservedSnapshotSpaceInGB,usedSnapshotSpaceInGB,freeSnapshotSpaceInGB,reservedUserSpaceInGB,rawReservedUserSpaceInGB,usedUserSpaceInGB,freeUserSpaceInGB,reservedAdminSpaceInGB,rawReservedAdminSpaceInGB,usedAdminSpaceInGB,freeAdminSpaceInGB,virtualSizeInGB,totalReservedSpaceInGB,totalUsedSizeinGB,staleSSPolicy,oneHostPolicy,zeroDetectPolicy,systemPolicy,cachingPolicy,snapshotSpaceAllocLimit,snapshotSpaceAllocWarning,usrSpaceAllocLimit,usrSpaceAllocWarning,compaction,deduplication,compression,hostWrtSpaceInGB" directRelations="hp3parStorage,hp3parCPG" displayName="HPE 3PAR Virtual Volume" perfAttributes="writeIOps,readIOps,totalIOps,readBandwidth,writeBandwidth,totalBandwidth,readResponseTime,writeResponseTime,responseTime,readIOSize,writeIOSize,totalIOSize,queueLength,busyRate" requiredProbe="HPE3PAR" type="hp3parVolume">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,id,name" directRelations="hp3parStorage,hp3parVolume" displayName="HPE 3PAR Volume Set" perfAttributes="" requiredProbe="HPE3PAR" type="hp3parVolumeSet">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,id,name" directRelations="hp3parStorage,hp3parHost,hp3parVolume,hp3parVolumeSet" displayName="HPE 3PAR Host Set" perfAttributes="" requiredProbe="HPE3PAR" type="hp3parHostSet">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,lun,targetGroupID,type,status" directRelations="hp3parStorage,hp3parHost,hp3parStoragePort,hp3parHostPort,hp3parVolume" displayName="HPE 3PAR Virtual Lun" perfAttributes="" requiredProbe="HPE3PAR" type="hp3parVLun">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name" directRelations="hp3parStorage,hp3parHost,hp3parStoragePort,hp3parHostPort,hp3parVolume,hp3parVLun" displayName="HPE 3PAR Virtual Lun Path" perfAttributes="writeIOps,readIOps,totalIOps,readBandwidth,writeBandwidth,totalBandwidth,readResponseTime,writeResponseTime,responseTime,readIOSize,writeIOSize,totalIOSize,queueLength,busyRate" requiredProbe="HPE3PAR" type="hp3parVLunPath">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn" directRelations="hp3parStorage,hp3parHost,hp3parStoragePort,hbaPort" displayName="HPE 3PAR Host Port" perfAttributes="" requiredProbe="HPE3PAR" type="hp3parHostPort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,id,name,ipAddress,os,modelName,personaName,personaID" directRelations="hp3parStorage" displayName="HPE 3PAR Host" perfAttributes="writeIOps,readIOps,totalIOps,readBandwidth,writeBandwidth,totalBandwidth,readResponseTime,writeResponseTime,responseTime,readIOSize,writeIOSize,totalIOSize,queueLength,busyRate" requiredProbe="HPE3PAR" type="hp3parHost">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,label,mode,linkstate,nodeWWN,wwn,connectionType,protocolType,cfgRate,maxRate,rate" directRelations="hp3parStorage,hp3parController,sp" displayName="HPE 3PAR Storage Port" perfAttributes="writeIOps,readIOps,totalIOps,readBandwidth,writeBandwidth,totalBandwidth,readResponseTime,writeResponseTime,responseTime,readIOSize,writeIOSize,totalIOSize,queueLength,busyRate" requiredProbe="HPE3PAR" type="hp3parStoragePort">
+	</ResourceDef>
+<ResourceDef configAttributes="nameAlias,name,wwn" directRelations="hbaPort" displayName="Storage Port" requiredProbe="AMS|NetApp|VNXBlock|IbmXiv|VMAX|HitachiEnterpriseStorage|HPEnterpriseStorage|XtremIO|PureStorage|HPE3PAR" type="sp">
+	</ResourceDef>
+<ResourceDef configAttributes="name" directRelations="" displayName="VFP Cluster" requiredProbe="VFP" type="vfpCluster">
+    </ResourceDef>
+<ResourceDef configAttributes="name,fosversion,sysName" directRelations="vfpCluster" displayName="VFP Node" perfAttributes="hostMemory,memTotalSwap,memAvailSwap,memTotalReal,memAvailReal,memBuffer,memCached,memUsedReal,memUsedSwap,loadAverageFloat,cpuSystemUsage,cpuUserUsage,cpuIdlePercent,cpuSystemUsageTime,cpuUserUsageTime,cpuIdleTimePerSec,cpuNice,cpuWaitTime,cpuKernelTime,cpuInterruptTime,cpuSoftInterruptTime,cpuTotalUsage,cpuIoWait,nfsCalls,interfaceCount,sessionCount" requiredProbe="VFP" type="vfpNode">
+ 
+    </ResourceDef>
+<ResourceDef configAttributes="name,ifnetNumber,ifName" directRelations="vfpCluster,vfpNode" displayName="VFP Interface" perfAttributes="inOctets,outOctets" requiredProbe="VFP" type="vfpInterface">
+        
+    </ResourceDef>
+<ResourceDef configAttributes="name,hostStorageIndex,logicalAreaName,bKSize" directRelations="vfpCluster,vfpNode" displayName="VFP Host Storage" perfAttributes="logicalAreaCapacity,logicalAreaUsed" requiredProbe="VFP" type="vfpHostStorage">
+        
+    </ResourceDef>
+<ResourceDef configAttributes="name,dskIndex,dskPath,dskDevice,minimumErrCapacity,minimumErrCapacityPercent" directRelations="vfpCluster,vfpNode" displayName="VFP Disk" perfAttributes="diskTotalCapacity,availableCapacityInMB,diskUsedMB,diskUsedRate,inodeUsedRate" requiredProbe="VFP" type="vfpDisk">
+        
+    </ResourceDef>
+<ResourceDef configAttributes="name,diskIODevice" directRelations="vfpCluster,vfpNode" displayName="VFP IO Device" perfAttributes="readIOByteCount,writeIOByteCount,readAccessCount,writeAccessCount" requiredProbe="VFP" type="vfpIODevice">
+       
+    </ResourceDef>
+<ResourceDef configAttributes="name,fileSysName" directRelations="vfpCluster,vfpNode" displayName="VFP File System" perfAttributes="fsTotalCapacity,blockCapacity,fsUsedCapacity,fsAvailableCapacity,utilization" requiredProbe="VFP" type="vfpFileSystem">
+        
+    </ResourceDef>
+<ResourceDef configAttributes="name,fileSysName,deviceInfo,luSerial,dataPool,fileSystemLUInfoDevice" directRelations="vfpCluster,vfpNode,vfpFileSystem" displayName="VFP LU" requiredProbe="VFP" type="vfpLu">
+    </ResourceDef>
+<ResourceDef configAttributes="name,hostDeviceName" directRelations="vfpCluster,vfpNode,vfpFileSystem" displayName="VFP Host Device" perfAttributes="diskCapacity" requiredProbe="VFP" type="vfpHostDevice">
+		
+    </ResourceDef>
+<ResourceDef configAttributes="name,syncFileSystem" directRelations="vfpCluster,vfpNode" displayName="VFP Snapshot" perfAttributes="totalCapacityInMB,usedCapacityMB,usedCapacityRate" requiredProbe="VFP" type="vfpSnapshot">
+        
+    </ResourceDef>
+<ResourceDef configAttributes="name,pairedVolName,localOrRemote,tID,mu,primaryOrSecondary,pairLdev,extConnectionMode,extSerial,extLdev,groupName,fence,volStatus,mode,ctGroupId,activePaths,copyMode,lun,serial,ldev,jnlId,ldevFormat" directRelations="raidStorage,raidPort,raidLU,raidLdev,raidURJnl" displayName="PAIR" perfAttributes="copyPairSyncRatio,pstatus,copyStatus,pairStatus,psusStatus,psueStatus,pfulStatus,pfusStatus,rcpyStatus,sswsStatus,otherStatus" requiredProbe="HitachiReplication" type="pair">
+
+    </ResourceDef>
+</ResourceDefList>
