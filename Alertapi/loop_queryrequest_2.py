@@ -16,7 +16,7 @@ def loop_query():
             print(payload)
 
 
-            url = "https://192.168.20.93:8443/dbapi.do?action=query&dataset=defaultDs"
+            url = "https://192.168.20.162:8443/dbapi.do?action=query&dataset=defaultDs"
 
             headers = {
         "Content-Type": "application/json",

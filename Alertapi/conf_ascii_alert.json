@@ -1900,4 +1900,761 @@
             "Suspend"
         ]
     }
+][
+    {
+        "name": "_",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "`",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "a",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "b",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "c",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "d",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "e",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    }
+][
+    {
+        "name": "[",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "\\",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "]",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "^",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    },
+    {
+        "name": "_",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ]
+    }
+][
+    {
+        "name": " ",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "!",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "\"",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "#",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "$",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "%",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "&",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "'",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "(",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": ")",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "*",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "+",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": ",",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": "-",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    },
+    {
+        "name": ".",
+        "metric": "storageAdapterCommandsAveraged",
+        "resource_type": "vmhba",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            0.0
+        ],
+        "criteria": {
+            "type": "m/n",
+            "m": 1,
+            "n": 5,
+            "n_unit": "minutes"
+        },
+        "monitoring_window": {
+            "from": "00:00",
+            "to": "23:59"
+        }
+    }
+][
+    {
+        "name": "#",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "*",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "#",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "\"",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "!",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "\"",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "+",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": " ",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": ",",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    }
+][
+    {
+        "name": "Y",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "Y",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "X",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "W",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "X",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "X",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "W",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "X",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "V",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    }
+][
+    {
+        "name": "[_1",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "\\_1",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "]_1",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "^_1",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "__1",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "`_1",
+        "metric": "fabCiscoPortChannel",
+        "resource_type": "speedInGbps",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    }
+][
+    {
+        "name": "[_1",
+        "metric": "speedInGbps",
+        "resource_type": "fabCiscoPortChannel",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "\\_1",
+        "metric": "speedInGbps",
+        "resource_type": "fabCiscoPortChannel",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "]_1",
+        "metric": "speedInGbps",
+        "resource_type": "fabCiscoPortChannel",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "^_1",
+        "metric": "speedInGbps",
+        "resource_type": "fabCiscoPortChannel",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "__1",
+        "metric": "speedInGbps",
+        "resource_type": "fabCiscoPortChannel",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    },
+    {
+        "name": "`_1",
+        "metric": "speedInGbps",
+        "resource_type": "fabCiscoPortChannel",
+        "severity": "critical",
+        "condition": "lt",
+        "default_threshold": [
+            0.0
+        ],
+        "resource_mql": "fabCiscoPortChannel[=speedInGbps rx .*]"
+    }
 ]

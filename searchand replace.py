@@ -18,4 +18,4 @@ for file in sourcepath:
         file.write(filedata)
     print ('Total words replaced %d'  % freq)
 
-~
+
