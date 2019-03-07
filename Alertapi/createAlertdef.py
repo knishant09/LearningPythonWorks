@@ -3,7 +3,7 @@ import random
 
 class CreateAlertDef:
     def __init__(self, probe_name):
-        self.loc = "D:\\MARS_WORK\\python work\\Alertapi\\ConfigurationAlertMetrics_v1.1_Final.xlsx"
+        self.loc = "D:\\MARS_WORK\\python work\\Alertapi\\ConfigurationAlertMetrics_v1.5.xlsx"
         self.wb = xlrd.open_workbook(self.loc)
         self.sheet = self.wb.sheet_by_index(0)
         self.probe_name = probe_name

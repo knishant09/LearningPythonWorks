@@ -5,7 +5,7 @@
     "preDefinedValues" : [ "Normal", "Warning", "Blocked", "Early Alert Over", "Depletion Alert Over", "Capacity Depleted" ]
   }, {
     "attrId" : "dataSaving",
-    "preDefinedValues" : [ "Disabled", "Compression", "Compression and Deduplication" ]
+    "preDefinedValues" : [ "Disabled", "Compression", "Compression and Deduplication", "Deduplication not available" ]
   } ]
 }, {
   "resType" : "raidPG",
@@ -26,6 +26,42 @@
     "preDefinedValues" : [ "PSUE", "PSUS", "PFUS", "PFUL", "RCPY", "COPY", "PAIR" ]
   } ]
 }, {
+  "resType" : "dfLU",
+  "attrList" : [ {
+    "attrId" : "LuCategory",
+    "preDefinedValues" : [ "Virtual" ]
+  }, {
+    "attrId" : "status",
+    "preDefinedValues" : [ "Normal" ]
+  } ]
+}, {
+  "resType" : "dfStorage",
+  "attrList" : [ {
+    "attrId" : "microProgramRevision",
+    "preDefinedValues" : [ "08B5/B-X" ]
+  } ]
+}, {
+  "resType" : "dfPort",
+  "attrList" : [ {
+    "attrId" : "setSpeed",
+    "preDefinedValues" : [ "Auto" ]
+  } ]
+}, {
+  "resType" : "dfDrv",
+  "attrList" : [ {
+    "attrId" : "revision",
+    "preDefinedValues" : [ "5C05", "D02A", "D02W" ]
+  } ]
+}, {
+  "resType" : "dfHDP",
+  "attrList" : [ {
+    "attrId" : "overProvisioningAlertNotice",
+    "preDefinedValues" : [ "Not Notify" ]
+  }, {
+    "attrId" : "poolStatus",
+    "preDefinedValues" : [ "Normal" ]
+  } ]
+}, {
   "resType" : "h",
   "attrList" : [ {
     "attrId" : "numaEnabled",
@@ -39,6 +75,36 @@
   "attrList" : [ {
     "attrId" : "thinProvisioned",
     "preDefinedValues" : [ "true", "false" ]
+  } ]
+}, {
+  "resType" : "vm",
+  "attrList" : [ {
+    "attrId" : "configStatus",
+    "preDefinedValues" : [ "GREEN", "RED" ]
+  }, {
+    "attrId" : "powerState",
+    "preDefinedValues" : [ "POWERED_OFF", "POWERED_ON" ]
+  }, {
+    "attrId" : "toolsStatus",
+    "preDefinedValues" : [ "TOOLS_NOT_RUNNING", "TOOLS_OK", "TOOLS_NOT_INSTALLED", "TOOLS_OLD", "unknown" ]
+  } ]
+}, {
+  "resType" : "vmhba",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "online" ]
+  } ]
+}, {
+  "resType" : "ds",
+  "attrList" : [ {
+    "attrId" : "sioc",
+    "preDefinedValues" : [ "disabled" ]
+  } ]
+}, {
+  "resType" : "pn",
+  "attrList" : [ {
+    "attrId" : "driver",
+    "preDefinedValues" : [ "ixgbe" ]
   } ]
 }, {
   "resType" : "vmaxFeDirector",
@@ -59,6 +125,57 @@
     "preDefinedValues" : [ "Enabled", "Disabled" ]
   } ]
 }, {
+  "resType" : "vmaxDisk",
+  "attrList" : [ {
+    "attrId" : "isFailedDisk",
+    "preDefinedValues" : [ "False" ]
+  }, {
+    "attrId" : "state",
+    "preDefinedValues" : [ "Normal" ]
+  } ]
+}, {
+  "resType" : "vmaxPort",
+  "attrList" : [ {
+    "attrId" : "portSpeed",
+    "preDefinedValues" : [ "16", "8" ]
+  }, {
+    "attrId" : "status",
+    "preDefinedValues" : [ "Online", "PendOn" ]
+  } ]
+}, {
+  "resType" : "vmaxVolume",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "Ready", "Write Disabled" ]
+  } ]
+}, {
+  "resType" : "ixPool",
+  "attrList" : [ {
+    "attrId" : "lockStatus",
+    "preDefinedValues" : [ "no" ]
+  } ]
+}, {
+  "resType" : "ixDisk",
+  "attrList" : [ {
+    "attrId" : "firmware",
+    "preDefinedValues" : [ "GKAOAB0A" ]
+  }, {
+    "attrId" : "status",
+    "preDefinedValues" : [ "OK" ]
+  } ]
+}, {
+  "resType" : "ixLocalFcPort",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "OK" ]
+  }, {
+    "attrId" : "isFunctional",
+    "preDefinedValues" : [ "yes" ]
+  }, {
+    "attrId" : "state",
+    "preDefinedValues" : [ "Online", "Offline" ]
+  } ]
+}, {
   "resType" : "naVolume",
   "attrList" : [ {
     "attrId" : "isDataCompactionEnabled",
@@ -72,12 +189,39 @@
   }, {
     "attrId" : "isInlineDedupeEnabled",
     "preDefinedValues" : [ "true", "false" ]
+  }, {
+    "attrId" : "state",
+    "preDefinedValues" : [ "online" ]
+  } ]
+}, {
+  "resType" : "naAggregate",
+  "attrList" : [ {
+    "attrId" : "state",
+    "preDefinedValues" : [ "online" ]
+  } ]
+}, {
+  "resType" : "naLun",
+  "attrList" : [ {
+    "attrId" : "onlineStatus",
+    "preDefinedValues" : [ "true" ]
+  } ]
+}, {
+  "resType" : "naQtree",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "normal" ]
+  } ]
+}, {
+  "resType" : "naVserver",
+  "attrList" : [ {
+    "attrId" : "state",
+    "preDefinedValues" : [ "running" ]
   } ]
 }, {
   "resType" : "fabBrocadeSwitchPort",
   "attrList" : [ {
     "attrId" : "status",
-    "preDefinedValues" : [ "Enabled", "Disabled" ]
+    "preDefinedValues" : [ "Enabled", "Disabled", "Offline", "Online", "NO_LIGHT", "UNKNOWN" ]
   }, {
     "attrId" : "npivEnabled",
     "preDefinedValues" : [ "True", "False" ]
@@ -87,5 +231,290 @@
   }, {
     "attrId" : "state",
     "preDefinedValues" : [ "Online", "Offline" ]
+  } ]
+}, {
+  "resType" : "fabBrocadeSwitch",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "Online" ]
+  } ]
+}, {
+  "resType" : "fabCiscoSwitch",
+  "attrList" : [ {
+    "attrId" : "npvStatus",
+    "preDefinedValues" : [ "disabled" ]
+  } ]
+}, {
+  "resType" : "fabCiscoSwitchPort",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "down", "up", "sfpNotPresent", "ok", "linkFailure", "unknown" ]
+  } ]
+}, {
+  "resType" : "fabCiscoSwitchNWCard",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "ok" ]
+  } ]
+}, {
+  "resType" : "fabCiscoSwitchFan",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "ok" ]
+  } ]
+}, {
+  "resType" : "fabCiscoSwitchPowerSupply",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "ok", "offEnvPower", "fail/shutdown" ]
+  }, {
+    "attrId" : "powerUnit",
+    "preDefinedValues" : [ "300.00W 110v/220v AC", "Amps @ 12V" ]
+  } ]
+}, {
+  "resType" : "fabCiscoVsan",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "active" ]
+  } ]
+}, {
+  "resType" : "vnxFileStoragePool",
+  "attrList" : [ {
+    "attrId" : "inUse",
+    "preDefinedValues" : [ "True", "False" ]
+  }, {
+    "attrId" : "isThinProvisioned",
+    "preDefinedValues" : [ "False" ]
+  }, {
+    "attrId" : "isDynamic",
+    "preDefinedValues" : [ "True" ]
+  }, {
+    "attrId" : "isUserDefined",
+    "preDefinedValues" : [ "False", "True" ]
+  } ]
+}, {
+  "resType" : "vnxFileFileSystem",
+  "attrList" : [ {
+    "attrId" : "inUse",
+    "preDefinedValues" : [ "False", "True" ]
+  }, {
+    "attrId" : "isThinProvisioned",
+    "preDefinedValues" : [ "no", "yes" ]
+  }, {
+    "attrId" : "mountPermission",
+    "preDefinedValues" : [ "Read-Write", "Read-Only" ]
+  }, {
+    "attrId" : "dedupeState",
+    "preDefinedValues" : [ "Off", "On", "Suspended" ]
+  }, {
+    "attrId" : "dedupeStatus",
+    "preDefinedValues" : [ "Idle" ]
+  } ]
+}, {
+  "resType" : "vnxFileVolume",
+  "attrList" : [ {
+    "attrId" : "inUse",
+    "preDefinedValues" : [ "True", "False" ]
+  }, {
+    "attrId" : "isMetaInUse",
+    "preDefinedValues" : [ "False", "True" ]
+  } ]
+}, {
+  "resType" : "vnxFileDataMover",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "online, active", "online, ready" ]
+  }, {
+    "attrId" : "isCifsStarted",
+    "preDefinedValues" : [ "True", "False" ]
+  } ]
+}, {
+  "resType" : "vnxFileDisk",
+  "attrList" : [ {
+    "attrId" : "inUse",
+    "preDefinedValues" : [ "True" ]
+  } ]
+}, {
+  "resType" : "vnxFileNetworkDevice",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "UP" ]
+  } ]
+}, {
+  "resType" : "vnxFileVirtualDataMover",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "loaded, active", "loaded, ready" ]
+  } ]
+}, {
+  "resType" : "vnxFileReplicate",
+  "attrList" : [ {
+    "attrId" : "networkStatus",
+    "preDefinedValues" : [ "OK" ]
+  }, {
+    "attrId" : "sourceStatus",
+    "preDefinedValues" : [ "Stopped" ]
+  } ]
+}, {
+  "resType" : "vnxBlockProcessor",
+  "attrList" : [ {
+    "attrId" : "linkStatus",
+    "preDefinedValues" : [ "Link-Up" ]
+  }, {
+    "attrId" : "capableSpeed",
+    "preDefinedValues" : [ "1000Mbps/full duplex" ]
+  } ]
+}, {
+  "resType" : "vnxBlockPool",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "OK" ]
+  }, {
+    "attrId" : "state",
+    "preDefinedValues" : [ "Ready" ]
+  } ]
+}, {
+  "resType" : "vnxBlockRaidGroup",
+  "attrList" : [ {
+    "attrId" : "state",
+    "preDefinedValues" : [ "Valid_luns" ]
+  } ]
+}, {
+  "resType" : "vnxBlockDisk",
+  "attrList" : [ {
+    "attrId" : "state",
+    "preDefinedValues" : [ "Enabled", "Empty", "Unbound" ]
+  } ]
+}, {
+  "resType" : "vnxBlockLun",
+  "attrList" : [ {
+    "attrId" : "state",
+    "preDefinedValues" : [ "Bound" ]
+  }, {
+    "attrId" : "isThinLUN",
+    "preDefinedValues" : [ "NO", "YES" ]
+  } ]
+}, {
+  "resType" : "vnxBlockPort",
+  "attrList" : [ {
+    "attrId" : "usage",
+    "preDefinedValues" : [ "Normal", "Special" ]
+  }, {
+    "attrId" : "state",
+    "preDefinedValues" : [ "Enabled" ]
+  }, {
+    "attrId" : "subState",
+    "preDefinedValues" : [ "Good" ]
+  }, {
+    "attrId" : "isPersisted",
+    "preDefinedValues" : [ "Yes" ]
+  } ]
+}, {
+  "resType" : "vnxBlockHbaPort",
+  "attrList" : [ {
+    "attrId" : "loggedIn",
+    "preDefinedValues" : [ "YES", "NO" ]
+  } ]
+}, {
+  "resType" : "hnasFS",
+  "attrList" : [ {
+    "attrId" : "state",
+    "preDefinedValues" : [ "MOUNTED", "NOT_MOUNTED" ]
+  }, {
+    "attrId" : "dedupeEnabled",
+    "preDefinedValues" : [ "false", "true" ]
+  } ]
+}, {
+  "resType" : "hnasShare",
+  "attrList" : [ {
+    "attrId" : "tx_setting",
+    "preDefinedValues" : [ "USE_FS_DEFAULT" ]
+  } ]
+}, {
+  "resType" : "hnasVV",
+  "attrList" : [ {
+    "attrId" : "quotaEnabled",
+    "preDefinedValues" : [ "No", "Yes" ]
+  } ]
+}, {
+  "resType" : "xtremIOCluster",
+  "attrList" : [ {
+    "attrId" : "sysHealthState",
+    "preDefinedValues" : [ "healthy" ]
+  } ]
+}, {
+  "resType" : "xtremIOXbrick",
+  "attrList" : [ {
+    "attrId" : "state",
+    "preDefinedValues" : [ "in_sys" ]
+  } ]
+}, {
+  "resType" : "xtremIOStorageController",
+  "attrList" : [ {
+    "attrId" : "state",
+    "preDefinedValues" : [ "healthy" ]
+  } ]
+}, {
+  "resType" : "xtremIODataProtectionGroup",
+  "attrList" : [ {
+    "attrId" : "protectionState",
+    "preDefinedValues" : [ "normal" ]
+  } ]
+}, {
+  "resType" : "xtremIOInitiator",
+  "attrList" : [ {
+    "attrId" : "os",
+    "preDefinedValues" : [ "other" ]
+  }, {
+    "attrId" : "connectionState",
+    "preDefinedValues" : [ "connected" ]
+  } ]
+}, {
+  "resType" : "xtremIOSSD",
+  "attrList" : [ {
+    "attrId" : "ssdFailureReason",
+    "preDefinedValues" : [ "none" ]
+  } ]
+}, {
+  "resType" : "xtremIOTarget",
+  "attrList" : [ {
+    "attrId" : "portSpeed",
+    "preDefinedValues" : [ "8GFC" ]
+  }, {
+    "attrId" : "portState",
+    "preDefinedValues" : [ "up" ]
+  } ]
+}, {
+  "resType" : "xtremIOTargetGroup",
+  "attrList" : [ {
+    "attrId" : "objSeverity",
+    "preDefinedValues" : [ "information" ]
+  } ]
+}, {
+  "resType" : "xtremIOXenv",
+  "attrList" : [ {
+    "attrId" : "objSeverity",
+    "preDefinedValues" : [ "information" ]
+  }, {
+    "attrId" : "xenvState",
+    "preDefinedValues" : [ "active" ]
+  } ]
+}, {
+  "resType" : "lHostIfc",
+  "attrList" : [ {
+    "attrId" : "status",
+    "preDefinedValues" : [ "UP" ]
+  } ]
+}, {
+  "resType" : "lHostVolumeGroup",
+  "attrList" : [ {
+    "attrId" : "vgStatus",
+    "preDefinedValues" : [ "resizable" ]
+  } ]
+}, {
+  "resType" : "lHostLogicalVolume",
+  "attrList" : [ {
+    "attrId" : "logicalVolumeStatus",
+    "preDefinedValues" : [ "available" ]
   } ]
 } ]

@@ -1507,4 +1507,5341 @@
             }
         }
     }
+][
+    {
+        "name": "raidPool_poolStatus_Normal_0",
+        "metric": "poolStatus",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=poolStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Normal"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPool_poolStatus_Warning_0",
+        "metric": "poolStatus",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=poolStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Warning"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPool_poolStatus_Blocked_0",
+        "metric": "poolStatus",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=poolStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Blocked"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPool_poolStatus_Early_Alert_Over_0",
+        "metric": "poolStatus",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=poolStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Early Alert Over"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPool_poolStatus_Depletion_Alert_Over_0",
+        "metric": "poolStatus",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=poolStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Depletion Alert Over"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPool_poolStatus_Capacity_Depleted_0",
+        "metric": "poolStatus",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=poolStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Capacity Depleted"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPool_dataSaving_Disabled_1",
+        "metric": "dataSaving",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=dataSaving rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Disabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPool_dataSaving_Compression_1",
+        "metric": "dataSaving",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=dataSaving rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Compression"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPool_dataSaving_Compression_and_Deduplication_1",
+        "metric": "dataSaving",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=dataSaving rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Compression and Deduplication"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPool_dataSaving_Deduplication_not_available_1",
+        "metric": "dataSaving",
+        "resource_type": "raidPool",
+        "resource_mql": "raidPool[=dataSaving rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Deduplication not available"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPG_driveStatus_Bad_Condition_0",
+        "metric": "driveStatus",
+        "resource_type": "raidPG",
+        "resource_mql": "raidPG[=driveStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Bad Condition"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPG_driveStatus_Copying_0",
+        "metric": "driveStatus",
+        "resource_type": "raidPG",
+        "resource_mql": "raidPG[=driveStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Copying"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPG_driveStatus_Using_Spare_0",
+        "metric": "driveStatus",
+        "resource_type": "raidPG",
+        "resource_mql": "raidPG[=driveStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Using Spare"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPG_driveStatus_Normal_0",
+        "metric": "driveStatus",
+        "resource_type": "raidPG",
+        "resource_mql": "raidPG[=driveStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Normal"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPG_driveStatus_Unknown_0",
+        "metric": "driveStatus",
+        "resource_type": "raidPG",
+        "resource_mql": "raidPG[=driveStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Unknown"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidLdev_migrationStatus_Simplex_0",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "resource_mql": "raidLdev[=migrationStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Simplex"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidLdev_migrationStatus_Suspend_0",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "resource_mql": "raidLdev[=migrationStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Suspend"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidLdev_migrationStatus_Run_0",
+        "metric": "migrationStatus",
+        "resource_type": "raidLdev",
+        "resource_mql": "raidLdev[=migrationStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Run"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPair_status_PSUE_0",
+        "metric": "status",
+        "resource_type": "raidPair",
+        "resource_mql": "raidPair[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "PSUE"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPair_status_PSUS_0",
+        "metric": "status",
+        "resource_type": "raidPair",
+        "resource_mql": "raidPair[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "PSUS"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPair_status_PFUS_0",
+        "metric": "status",
+        "resource_type": "raidPair",
+        "resource_mql": "raidPair[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "PFUS"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPair_status_PFUL_0",
+        "metric": "status",
+        "resource_type": "raidPair",
+        "resource_mql": "raidPair[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "PFUL"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPair_status_RCPY_0",
+        "metric": "status",
+        "resource_type": "raidPair",
+        "resource_mql": "raidPair[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "RCPY"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPair_status_COPY_0",
+        "metric": "status",
+        "resource_type": "raidPair",
+        "resource_mql": "raidPair[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "COPY"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "raidPair_status_PAIR_0",
+        "metric": "status",
+        "resource_type": "raidPair",
+        "resource_mql": "raidPair[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "PAIR"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dfLU_LuCategory_Virtual_0",
+        "metric": "LuCategory",
+        "resource_type": "dfLU",
+        "resource_mql": "dfLU[=LuCategory rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Virtual"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dfLU_status_Normal_1",
+        "metric": "status",
+        "resource_type": "dfLU",
+        "resource_mql": "dfLU[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Normal"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dfStorage_microProgramRevision_08B5/B-X_0",
+        "metric": "microProgramRevision",
+        "resource_type": "dfStorage",
+        "resource_mql": "dfStorage[=microProgramRevision rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "08B5/B-X"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dfPort_setSpeed_Auto_0",
+        "metric": "setSpeed",
+        "resource_type": "dfPort",
+        "resource_mql": "dfPort[=setSpeed rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Auto"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dfDrv_revision_5C05_0",
+        "metric": "revision",
+        "resource_type": "dfDrv",
+        "resource_mql": "dfDrv[=revision rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "5C05"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dfDrv_revision_D02A_0",
+        "metric": "revision",
+        "resource_type": "dfDrv",
+        "resource_mql": "dfDrv[=revision rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "D02A"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dfDrv_revision_D02W_0",
+        "metric": "revision",
+        "resource_type": "dfDrv",
+        "resource_mql": "dfDrv[=revision rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "D02W"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dfHDP_overProvisioningAlertNotice_Not_Notify_0",
+        "metric": "overProvisioningAlertNotice",
+        "resource_type": "dfHDP",
+        "resource_mql": "dfHDP[=overProvisioningAlertNotice rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Not Notify"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dfHDP_poolStatus_Normal_1",
+        "metric": "poolStatus",
+        "resource_type": "dfHDP",
+        "resource_mql": "dfHDP[=poolStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Normal"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "h_numaEnabled_true_0",
+        "metric": "numaEnabled",
+        "resource_type": "h",
+        "resource_mql": "h[=numaEnabled rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "true"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "h_numaEnabled_false_0",
+        "metric": "numaEnabled",
+        "resource_type": "h",
+        "resource_mql": "h[=numaEnabled rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "false"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "h_htEnabled_true_1",
+        "metric": "htEnabled",
+        "resource_type": "h",
+        "resource_mql": "h[=htEnabled rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "true"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "h_htEnabled_false_1",
+        "metric": "htEnabled",
+        "resource_type": "h",
+        "resource_mql": "h[=htEnabled rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "false"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vdisk_thinProvisioned_true_0",
+        "metric": "thinProvisioned",
+        "resource_type": "vdisk",
+        "resource_mql": "vdisk[=thinProvisioned rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "true"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vdisk_thinProvisioned_false_0",
+        "metric": "thinProvisioned",
+        "resource_type": "vdisk",
+        "resource_mql": "vdisk[=thinProvisioned rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "false"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vm_configStatus_GREEN_0",
+        "metric": "configStatus",
+        "resource_type": "vm",
+        "resource_mql": "vm[=configStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "GREEN"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vm_configStatus_RED_0",
+        "metric": "configStatus",
+        "resource_type": "vm",
+        "resource_mql": "vm[=configStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "RED"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vm_powerState_POWERED_OFF_1",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "resource_mql": "vm[=powerState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_OFF"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vm_powerState_POWERED_ON_1",
+        "metric": "powerState",
+        "resource_type": "vm",
+        "resource_mql": "vm[=powerState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "POWERED_ON"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vm_toolsStatus_TOOLS_NOT_RUNNING_2",
+        "metric": "toolsStatus",
+        "resource_type": "vm",
+        "resource_mql": "vm[=toolsStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "TOOLS_NOT_RUNNING"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vm_toolsStatus_TOOLS_OK_2",
+        "metric": "toolsStatus",
+        "resource_type": "vm",
+        "resource_mql": "vm[=toolsStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "TOOLS_OK"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vm_toolsStatus_TOOLS_NOT_INSTALLED_2",
+        "metric": "toolsStatus",
+        "resource_type": "vm",
+        "resource_mql": "vm[=toolsStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "TOOLS_NOT_INSTALLED"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vm_toolsStatus_TOOLS_OLD_2",
+        "metric": "toolsStatus",
+        "resource_type": "vm",
+        "resource_mql": "vm[=toolsStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "TOOLS_OLD"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vm_toolsStatus_unknown_2",
+        "metric": "toolsStatus",
+        "resource_type": "vm",
+        "resource_mql": "vm[=toolsStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "unknown"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmhba_status_online_0",
+        "metric": "status",
+        "resource_type": "vmhba",
+        "resource_mql": "vmhba[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "ds_sioc_disabled_0",
+        "metric": "sioc",
+        "resource_type": "ds",
+        "resource_mql": "ds[=sioc rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "disabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "pn_driver_ixgbe_0",
+        "metric": "driver",
+        "resource_type": "pn",
+        "resource_mql": "pn[=driver rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "ixgbe"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxFeDirector_status_Online_0",
+        "metric": "status",
+        "resource_type": "vmaxFeDirector",
+        "resource_mql": "vmaxFeDirector[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxFeDirector_status_Offline_0",
+        "metric": "status",
+        "resource_type": "vmaxFeDirector",
+        "resource_mql": "vmaxFeDirector[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Offline"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxBeDirector_status_Online_0",
+        "metric": "status",
+        "resource_type": "vmaxBeDirector",
+        "resource_mql": "vmaxBeDirector[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxBeDirector_status_Offline_0",
+        "metric": "status",
+        "resource_type": "vmaxBeDirector",
+        "resource_mql": "vmaxBeDirector[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Offline"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxThinPool_state_Enabled_0",
+        "metric": "state",
+        "resource_type": "vmaxThinPool",
+        "resource_mql": "vmaxThinPool[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Enabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxThinPool_state_Disabled_0",
+        "metric": "state",
+        "resource_type": "vmaxThinPool",
+        "resource_mql": "vmaxThinPool[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Disabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxDisk_isFailedDisk_False_0",
+        "metric": "isFailedDisk",
+        "resource_type": "vmaxDisk",
+        "resource_mql": "vmaxDisk[=isFailedDisk rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxDisk_state_Normal_1",
+        "metric": "state",
+        "resource_type": "vmaxDisk",
+        "resource_mql": "vmaxDisk[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Normal"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxPort_portSpeed_16_0",
+        "metric": "portSpeed",
+        "resource_type": "vmaxPort",
+        "resource_mql": "vmaxPort[=portSpeed rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "16"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxPort_portSpeed_8_0",
+        "metric": "portSpeed",
+        "resource_type": "vmaxPort",
+        "resource_mql": "vmaxPort[=portSpeed rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "8"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxPort_status_Online_1",
+        "metric": "status",
+        "resource_type": "vmaxPort",
+        "resource_mql": "vmaxPort[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxPort_status_PendOn_1",
+        "metric": "status",
+        "resource_type": "vmaxPort",
+        "resource_mql": "vmaxPort[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "PendOn"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxVolume_status_Ready_0",
+        "metric": "status",
+        "resource_type": "vmaxVolume",
+        "resource_mql": "vmaxVolume[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Ready"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vmaxVolume_status_Write_Disabled_0",
+        "metric": "status",
+        "resource_type": "vmaxVolume",
+        "resource_mql": "vmaxVolume[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Write Disabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "ixPool_lockStatus_no_0",
+        "metric": "lockStatus",
+        "resource_type": "ixPool",
+        "resource_mql": "ixPool[=lockStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "no"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "ixDisk_firmware_GKAOAB0A_0",
+        "metric": "firmware",
+        "resource_type": "ixDisk",
+        "resource_mql": "ixDisk[=firmware rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "GKAOAB0A"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "ixDisk_status_OK_1",
+        "metric": "status",
+        "resource_type": "ixDisk",
+        "resource_mql": "ixDisk[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "OK"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "ixLocalFcPort_status_OK_0",
+        "metric": "status",
+        "resource_type": "ixLocalFcPort",
+        "resource_mql": "ixLocalFcPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "OK"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "ixLocalFcPort_isFunctional_yes_1",
+        "metric": "isFunctional",
+        "resource_type": "ixLocalFcPort",
+        "resource_mql": "ixLocalFcPort[=isFunctional rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "yes"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "ixLocalFcPort_state_Online_2",
+        "metric": "state",
+        "resource_type": "ixLocalFcPort",
+        "resource_mql": "ixLocalFcPort[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "ixLocalFcPort_state_Offline_2",
+        "metric": "state",
+        "resource_type": "ixLocalFcPort",
+        "resource_mql": "ixLocalFcPort[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Offline"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVolume_isDataCompactionEnabled_true_0",
+        "metric": "isDataCompactionEnabled",
+        "resource_type": "naVolume",
+        "resource_mql": "naVolume[=isDataCompactionEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "true"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVolume_isDataCompactionEnabled_false_0",
+        "metric": "isDataCompactionEnabled",
+        "resource_type": "naVolume",
+        "resource_mql": "naVolume[=isDataCompactionEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "false"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVolume_isCompressionEnabled_true_1",
+        "metric": "isCompressionEnabled",
+        "resource_type": "naVolume",
+        "resource_mql": "naVolume[=isCompressionEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "true"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVolume_isCompressionEnabled_false_1",
+        "metric": "isCompressionEnabled",
+        "resource_type": "naVolume",
+        "resource_mql": "naVolume[=isCompressionEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "false"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVolume_isInlineCompressionEnabled_true_2",
+        "metric": "isInlineCompressionEnabled",
+        "resource_type": "naVolume",
+        "resource_mql": "naVolume[=isInlineCompressionEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "true"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVolume_isInlineCompressionEnabled_false_2",
+        "metric": "isInlineCompressionEnabled",
+        "resource_type": "naVolume",
+        "resource_mql": "naVolume[=isInlineCompressionEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "false"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVolume_isInlineDedupeEnabled_true_3",
+        "metric": "isInlineDedupeEnabled",
+        "resource_type": "naVolume",
+        "resource_mql": "naVolume[=isInlineDedupeEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "true"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVolume_isInlineDedupeEnabled_false_3",
+        "metric": "isInlineDedupeEnabled",
+        "resource_type": "naVolume",
+        "resource_mql": "naVolume[=isInlineDedupeEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "false"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVolume_state_online_4",
+        "metric": "state",
+        "resource_type": "naVolume",
+        "resource_mql": "naVolume[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naAggregate_state_online_0",
+        "metric": "state",
+        "resource_type": "naAggregate",
+        "resource_mql": "naAggregate[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naLun_onlineStatus_true_0",
+        "metric": "onlineStatus",
+        "resource_type": "naLun",
+        "resource_mql": "naLun[=onlineStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "true"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naQtree_status_normal_0",
+        "metric": "status",
+        "resource_type": "naQtree",
+        "resource_mql": "naQtree[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "normal"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "naVserver_state_running_0",
+        "metric": "state",
+        "resource_type": "naVserver",
+        "resource_mql": "naVserver[=state rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "running"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_status_Enabled_0",
+        "metric": "status",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Enabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_status_Disabled_0",
+        "metric": "status",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Disabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_status_Offline_0",
+        "metric": "status",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Offline"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_status_Online_0",
+        "metric": "status",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_status_NO_LIGHT_0",
+        "metric": "status",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "NO_LIGHT"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_status_UNKNOWN_0",
+        "metric": "status",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "UNKNOWN"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_npivEnabled_True_1",
+        "metric": "npivEnabled",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=npivEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_npivEnabled_False_1",
+        "metric": "npivEnabled",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=npivEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_npivCapable_True_2",
+        "metric": "npivCapable",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=npivCapable rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_npivCapable_False_2",
+        "metric": "npivCapable",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=npivCapable rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_state_Online_3",
+        "metric": "state",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitchPort_state_Offline_3",
+        "metric": "state",
+        "resource_type": "fabBrocadeSwitchPort",
+        "resource_mql": "fabBrocadeSwitchPort[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Offline"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabBrocadeSwitch_status_Online_0",
+        "metric": "status",
+        "resource_type": "fabBrocadeSwitch",
+        "resource_mql": "fabBrocadeSwitch[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Online"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitch_npvStatus_disabled_0",
+        "metric": "npvStatus",
+        "resource_type": "fabCiscoSwitch",
+        "resource_mql": "fabCiscoSwitch[=npvStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "disabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPort_status_down_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchPort",
+        "resource_mql": "fabCiscoSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "down"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPort_status_up_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchPort",
+        "resource_mql": "fabCiscoSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "up"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPort_status_sfpNotPresent_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchPort",
+        "resource_mql": "fabCiscoSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "sfpNotPresent"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPort_status_ok_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchPort",
+        "resource_mql": "fabCiscoSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "ok"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPort_status_linkFailure_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchPort",
+        "resource_mql": "fabCiscoSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "linkFailure"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPort_status_unknown_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchPort",
+        "resource_mql": "fabCiscoSwitchPort[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "unknown"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchNWCard_status_ok_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchNWCard",
+        "resource_mql": "fabCiscoSwitchNWCard[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "ok"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchFan_status_ok_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchFan",
+        "resource_mql": "fabCiscoSwitchFan[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "ok"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPowerSupply_status_ok_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchPowerSupply",
+        "resource_mql": "fabCiscoSwitchPowerSupply[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "ok"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPowerSupply_status_offEnvPower_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchPowerSupply",
+        "resource_mql": "fabCiscoSwitchPowerSupply[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "offEnvPower"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPowerSupply_status_fail/shutdown_0",
+        "metric": "status",
+        "resource_type": "fabCiscoSwitchPowerSupply",
+        "resource_mql": "fabCiscoSwitchPowerSupply[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "fail/shutdown"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPowerSupply_powerUnit_300.00W_110v/220v_AC_1",
+        "metric": "powerUnit",
+        "resource_type": "fabCiscoSwitchPowerSupply",
+        "resource_mql": "fabCiscoSwitchPowerSupply[=powerUnit rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "300.00W 110v/220v AC"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoSwitchPowerSupply_powerUnit_Amps_@_12V_1",
+        "metric": "powerUnit",
+        "resource_type": "fabCiscoSwitchPowerSupply",
+        "resource_mql": "fabCiscoSwitchPowerSupply[=powerUnit rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Amps @ 12V"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "fabCiscoVsan_status_active_0",
+        "metric": "status",
+        "resource_type": "fabCiscoVsan",
+        "resource_mql": "fabCiscoVsan[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "active"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileStoragePool_inUse_True_0",
+        "metric": "inUse",
+        "resource_type": "vnxFileStoragePool",
+        "resource_mql": "vnxFileStoragePool[=inUse rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileStoragePool_inUse_False_0",
+        "metric": "inUse",
+        "resource_type": "vnxFileStoragePool",
+        "resource_mql": "vnxFileStoragePool[=inUse rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileStoragePool_isThinProvisioned_False_1",
+        "metric": "isThinProvisioned",
+        "resource_type": "vnxFileStoragePool",
+        "resource_mql": "vnxFileStoragePool[=isThinProvisioned rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileStoragePool_isDynamic_True_2",
+        "metric": "isDynamic",
+        "resource_type": "vnxFileStoragePool",
+        "resource_mql": "vnxFileStoragePool[=isDynamic rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileStoragePool_isUserDefined_False_3",
+        "metric": "isUserDefined",
+        "resource_type": "vnxFileStoragePool",
+        "resource_mql": "vnxFileStoragePool[=isUserDefined rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileStoragePool_isUserDefined_True_3",
+        "metric": "isUserDefined",
+        "resource_type": "vnxFileStoragePool",
+        "resource_mql": "vnxFileStoragePool[=isUserDefined rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_inUse_False_0",
+        "metric": "inUse",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=inUse rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_inUse_True_0",
+        "metric": "inUse",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=inUse rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_isThinProvisioned_no_1",
+        "metric": "isThinProvisioned",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=isThinProvisioned rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "no"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_isThinProvisioned_yes_1",
+        "metric": "isThinProvisioned",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=isThinProvisioned rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "yes"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_mountPermission_Read-Write_2",
+        "metric": "mountPermission",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=mountPermission rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Read-Write"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_mountPermission_Read-Only_2",
+        "metric": "mountPermission",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=mountPermission rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Read-Only"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_dedupeState_Off_3",
+        "metric": "dedupeState",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=dedupeState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Off"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_dedupeState_On_3",
+        "metric": "dedupeState",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=dedupeState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "On"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_dedupeState_Suspended_3",
+        "metric": "dedupeState",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=dedupeState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Suspended"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileFileSystem_dedupeStatus_Idle_4",
+        "metric": "dedupeStatus",
+        "resource_type": "vnxFileFileSystem",
+        "resource_mql": "vnxFileFileSystem[=dedupeStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Idle"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileVolume_inUse_True_0",
+        "metric": "inUse",
+        "resource_type": "vnxFileVolume",
+        "resource_mql": "vnxFileVolume[=inUse rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileVolume_inUse_False_0",
+        "metric": "inUse",
+        "resource_type": "vnxFileVolume",
+        "resource_mql": "vnxFileVolume[=inUse rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileVolume_isMetaInUse_False_1",
+        "metric": "isMetaInUse",
+        "resource_type": "vnxFileVolume",
+        "resource_mql": "vnxFileVolume[=isMetaInUse rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileVolume_isMetaInUse_True_1",
+        "metric": "isMetaInUse",
+        "resource_type": "vnxFileVolume",
+        "resource_mql": "vnxFileVolume[=isMetaInUse rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileDataMover_status_online,_active_0",
+        "metric": "status",
+        "resource_type": "vnxFileDataMover",
+        "resource_mql": "vnxFileDataMover[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "online, active"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileDataMover_status_online,_ready_0",
+        "metric": "status",
+        "resource_type": "vnxFileDataMover",
+        "resource_mql": "vnxFileDataMover[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "online, ready"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileDataMover_isCifsStarted_True_1",
+        "metric": "isCifsStarted",
+        "resource_type": "vnxFileDataMover",
+        "resource_mql": "vnxFileDataMover[=isCifsStarted rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileDataMover_isCifsStarted_False_1",
+        "metric": "isCifsStarted",
+        "resource_type": "vnxFileDataMover",
+        "resource_mql": "vnxFileDataMover[=isCifsStarted rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "False"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileDisk_inUse_True_0",
+        "metric": "inUse",
+        "resource_type": "vnxFileDisk",
+        "resource_mql": "vnxFileDisk[=inUse rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "True"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileNetworkDevice_status_UP_0",
+        "metric": "status",
+        "resource_type": "vnxFileNetworkDevice",
+        "resource_mql": "vnxFileNetworkDevice[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "UP"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileVirtualDataMover_status_loaded,_active_0",
+        "metric": "status",
+        "resource_type": "vnxFileVirtualDataMover",
+        "resource_mql": "vnxFileVirtualDataMover[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "loaded, active"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileVirtualDataMover_status_loaded,_ready_0",
+        "metric": "status",
+        "resource_type": "vnxFileVirtualDataMover",
+        "resource_mql": "vnxFileVirtualDataMover[=status rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "loaded, ready"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileReplicate_networkStatus_OK_0",
+        "metric": "networkStatus",
+        "resource_type": "vnxFileReplicate",
+        "resource_mql": "vnxFileReplicate[=networkStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "OK"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxFileReplicate_sourceStatus_Stopped_1",
+        "metric": "sourceStatus",
+        "resource_type": "vnxFileReplicate",
+        "resource_mql": "vnxFileReplicate[=sourceStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Stopped"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockProcessor_linkStatus_Link-Up_0",
+        "metric": "linkStatus",
+        "resource_type": "vnxBlockProcessor",
+        "resource_mql": "vnxBlockProcessor[=linkStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Link-Up"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockProcessor_capableSpeed_1000Mbps/full_duplex_1",
+        "metric": "capableSpeed",
+        "resource_type": "vnxBlockProcessor",
+        "resource_mql": "vnxBlockProcessor[=capableSpeed rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "1000Mbps/full duplex"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockPool_status_OK_0",
+        "metric": "status",
+        "resource_type": "vnxBlockPool",
+        "resource_mql": "vnxBlockPool[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "OK"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockPool_state_Ready_1",
+        "metric": "state",
+        "resource_type": "vnxBlockPool",
+        "resource_mql": "vnxBlockPool[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Ready"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockRaidGroup_state_Valid_luns_0",
+        "metric": "state",
+        "resource_type": "vnxBlockRaidGroup",
+        "resource_mql": "vnxBlockRaidGroup[=state rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "Valid_luns"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockDisk_state_Enabled_0",
+        "metric": "state",
+        "resource_type": "vnxBlockDisk",
+        "resource_mql": "vnxBlockDisk[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Enabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockDisk_state_Empty_0",
+        "metric": "state",
+        "resource_type": "vnxBlockDisk",
+        "resource_mql": "vnxBlockDisk[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Empty"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockDisk_state_Unbound_0",
+        "metric": "state",
+        "resource_type": "vnxBlockDisk",
+        "resource_mql": "vnxBlockDisk[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Unbound"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockLun_state_Bound_0",
+        "metric": "state",
+        "resource_type": "vnxBlockLun",
+        "resource_mql": "vnxBlockLun[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Bound"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockLun_isThinLUN_NO_1",
+        "metric": "isThinLUN",
+        "resource_type": "vnxBlockLun",
+        "resource_mql": "vnxBlockLun[=isThinLUN rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "NO"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockLun_isThinLUN_YES_1",
+        "metric": "isThinLUN",
+        "resource_type": "vnxBlockLun",
+        "resource_mql": "vnxBlockLun[=isThinLUN rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "YES"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockPort_usage_Normal_0",
+        "metric": "usage",
+        "resource_type": "vnxBlockPort",
+        "resource_mql": "vnxBlockPort[=usage rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Normal"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockPort_usage_Special_0",
+        "metric": "usage",
+        "resource_type": "vnxBlockPort",
+        "resource_mql": "vnxBlockPort[=usage rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Special"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockPort_state_Enabled_1",
+        "metric": "state",
+        "resource_type": "vnxBlockPort",
+        "resource_mql": "vnxBlockPort[=state rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Enabled"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockPort_subState_Good_2",
+        "metric": "subState",
+        "resource_type": "vnxBlockPort",
+        "resource_mql": "vnxBlockPort[=subState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Good"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockPort_isPersisted_Yes_3",
+        "metric": "isPersisted",
+        "resource_type": "vnxBlockPort",
+        "resource_mql": "vnxBlockPort[=isPersisted rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Yes"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockHbaPort_loggedIn_YES_0",
+        "metric": "loggedIn",
+        "resource_type": "vnxBlockHbaPort",
+        "resource_mql": "vnxBlockHbaPort[=loggedIn rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "YES"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "vnxBlockHbaPort_loggedIn_NO_0",
+        "metric": "loggedIn",
+        "resource_type": "vnxBlockHbaPort",
+        "resource_mql": "vnxBlockHbaPort[=loggedIn rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "NO"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "hnasFS_state_MOUNTED_0",
+        "metric": "state",
+        "resource_type": "hnasFS",
+        "resource_mql": "hnasFS[=state rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "MOUNTED"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "hnasFS_state_NOT_MOUNTED_0",
+        "metric": "state",
+        "resource_type": "hnasFS",
+        "resource_mql": "hnasFS[=state rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "NOT_MOUNTED"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "hnasFS_dedupeEnabled_false_1",
+        "metric": "dedupeEnabled",
+        "resource_type": "hnasFS",
+        "resource_mql": "hnasFS[=dedupeEnabled rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "false"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "hnasFS_dedupeEnabled_true_1",
+        "metric": "dedupeEnabled",
+        "resource_type": "hnasFS",
+        "resource_mql": "hnasFS[=dedupeEnabled rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "true"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "hnasShare_tx_setting_USE_FS_DEFAULT_0",
+        "metric": "tx_setting",
+        "resource_type": "hnasShare",
+        "resource_mql": "hnasShare[=tx_setting rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "USE_FS_DEFAULT"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "hnasVV_quotaEnabled_No_0",
+        "metric": "quotaEnabled",
+        "resource_type": "hnasVV",
+        "resource_mql": "hnasVV[=quotaEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "No"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "hnasVV_quotaEnabled_Yes_0",
+        "metric": "quotaEnabled",
+        "resource_type": "hnasVV",
+        "resource_mql": "hnasVV[=quotaEnabled rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "Yes"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOCluster_sysHealthState_healthy_0",
+        "metric": "sysHealthState",
+        "resource_type": "xtremIOCluster",
+        "resource_mql": "xtremIOCluster[=sysHealthState rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "healthy"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOXbrick_state_in_sys_0",
+        "metric": "state",
+        "resource_type": "xtremIOXbrick",
+        "resource_mql": "xtremIOXbrick[=state rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "in_sys"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOStorageController_state_healthy_0",
+        "metric": "state",
+        "resource_type": "xtremIOStorageController",
+        "resource_mql": "xtremIOStorageController[=state rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "healthy"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIODataProtectionGroup_protectionState_normal_0",
+        "metric": "protectionState",
+        "resource_type": "xtremIODataProtectionGroup",
+        "resource_mql": "xtremIODataProtectionGroup[=protectionState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "normal"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOInitiator_os_other_0",
+        "metric": "os",
+        "resource_type": "xtremIOInitiator",
+        "resource_mql": "xtremIOInitiator[=os rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "other"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOInitiator_connectionState_connected_1",
+        "metric": "connectionState",
+        "resource_type": "xtremIOInitiator",
+        "resource_mql": "xtremIOInitiator[=connectionState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "connected"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOSSD_ssdFailureReason_none_0",
+        "metric": "ssdFailureReason",
+        "resource_type": "xtremIOSSD",
+        "resource_mql": "xtremIOSSD[=ssdFailureReason rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "none"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOTarget_portSpeed_8GFC_0",
+        "metric": "portSpeed",
+        "resource_type": "xtremIOTarget",
+        "resource_mql": "xtremIOTarget[=portSpeed rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "8GFC"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOTarget_portState_up_1",
+        "metric": "portState",
+        "resource_type": "xtremIOTarget",
+        "resource_mql": "xtremIOTarget[=portState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "up"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOTargetGroup_objSeverity_information_0",
+        "metric": "objSeverity",
+        "resource_type": "xtremIOTargetGroup",
+        "resource_mql": "xtremIOTargetGroup[=objSeverity rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "information"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "hourly_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOXenv_objSeverity_information_0",
+        "metric": "objSeverity",
+        "resource_type": "xtremIOXenv",
+        "resource_mql": "xtremIOXenv[=objSeverity rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "information"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "xtremIOXenv_xenvState_active_1",
+        "metric": "xenvState",
+        "resource_type": "xtremIOXenv",
+        "resource_mql": "xtremIOXenv[=xenvState rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "active"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "state_change"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "lHostIfc_status_UP_0",
+        "metric": "status",
+        "resource_type": "lHostIfc",
+        "resource_mql": "lHostIfc[=status rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "UP"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "daily_gist"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "lHostVolumeGroup_vgStatus_resizable_0",
+        "metric": "vgStatus",
+        "resource_type": "lHostVolumeGroup",
+        "resource_mql": "lHostVolumeGroup[=vgStatus rx .*]",
+        "severity": "critical",
+        "condition": "having",
+        "default_threshold": [
+            "resizable"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    },
+    {
+        "name": "lHostLogicalVolume_logicalVolumeStatus_available_0",
+        "metric": "logicalVolumeStatus",
+        "resource_type": "lHostLogicalVolume",
+        "resource_mql": "lHostLogicalVolume[=logicalVolumeStatus rx .*]",
+        "severity": "warning",
+        "condition": "having",
+        "default_threshold": [
+            "available"
+        ],
+        "subscription": {
+            "email": {
+                "id": [
+                    "nishant@domain1.com"
+                ],
+                "damping": "no_damping"
+            },
+            "syslog": {
+                "server": [
+                    "192.168.34.144:514:TCP"
+                ]
+            },
+            "snmp": {
+                "manager": [
+                    "192.168.33.250"
+                ]
+            }
+        }
+    }
 ]
